@@ -5,4 +5,4 @@ from datetime import datetime
 now = datetime.now()
 
 easyjet = Flights(airline="EZY", airport="LGW")
-easyjet.df.to_csv({now}+"_EZY_LGW.csv")
+easyjet.df.to_csv(now.strftime("%Y-%m-%d_%H-%M-%S") + "_EZY_LGW.csv")
