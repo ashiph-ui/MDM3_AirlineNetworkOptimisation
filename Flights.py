@@ -31,7 +31,9 @@ class Flights(FlightRadar24API):
 
             args = [[param for param in sig.parameters.values()] for sig in [inspect.signature(getattr(flight, method)) for method in self.methods]]
             methods_w_data = [self.methods[i] for i in range(len(self.methods)) if len(args[i]) == 0 and not self.methods[i].startswith("_")]
-            methods_data = [(method, val) for method, val in zip(methods_w_data, [getattr(flight, method)() for method in methods_w_data])]
+            methods_data = [(method, val) for method, val in zip(methods_w_data, [getattr(flight, method, None)() for method in methods_w_data])]
+
+            attr_data = [(attr, val) for attr, val in zip(self.attrs, [getattr(flight, attr, None) for attr in self.attrs])]
             
             ds.append(dict(attr_data+methods_data))
         
