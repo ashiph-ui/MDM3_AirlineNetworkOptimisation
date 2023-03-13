@@ -22,7 +22,7 @@ class Flights(FlightRadar24API):
         self.attrs = [attr for attr in dir(flight0) if (not attr.startswith("_")) and (type(getattr(flight0, attr)).__name__ != "method")]
         self.methods = [method for method in dir(flight0) if (type(getattr(flight0, method)).__name__ == "method")]
         self.others = [other for other in dir(flight0) if (other not in self.attrs) and (other not in self.methods)]
-        self.attr_data = [(attr, val) for attr, val in zip(self.attrs, [getattr(flight0, attr) for attr in self.attrs])]
+        self.attr_data = [(attr, val) for attr, val in zip(self.attrs, [getattr(flight0, attr, None) for attr in self.attrs])]
 
         ds = []
         for flight in self.airline_flights:
