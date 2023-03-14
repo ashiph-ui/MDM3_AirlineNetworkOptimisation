@@ -5,7 +5,7 @@ import airportsdata
 import requests
 import csv
 
-flightstack_key = "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiI0IiwianRpIjoiNThlNzY3NTNkZjQ4Y2I5MzViOGQ3MzQzYzQwMmFmYjNlM2U5M2NmM2NjNGE4MGE4NjNlY2UxMzU5NTM4MTUwOTMyMmI4Nzk5ZTVkODg0MjQiLCJpYXQiOjE2Nzg3MjA1OTEsIm5iZiI6MTY3ODcyMDU5MSwiZXhwIjoxNzEwMzQyOTkxLCJzdWIiOiIyMDQ0OSIsInNjb3BlcyI6W119.QSW0Qh663z_nRnEWK8ocJbVwBq-SW7tlQSxUwRcVdrJYO0UmOQqU_YKaPFXkmJ3m2sHckQ7xKW5Jfw_in9SmoQ"
+
 airports_icao = airportsdata.load('ICAO')
 airports_iata = airportsdata.load('IATA')
 # datetime object containing current date and time
