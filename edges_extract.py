@@ -11,7 +11,7 @@ def create_edges_list(nodes_list):
 
     # Set up the headers for the API request
     headers = {
-        "X-RapidAPI-Key": "791b4d97cemshe431629c33a2f66p124871jsne802b70f9743",
+        "X-RapidAPI-Key": "YOUR_API_KEY",
         "X-RapidAPI-Host": "aerodatabox.p.rapidapi.com" }
 
     # Send a request to the API for each airport and store the responses in a list
