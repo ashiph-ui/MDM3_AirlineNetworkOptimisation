@@ -1,0 +1,32 @@
+icao,iata,name,shortName,municipalityName,location,countryCode,daily_flights
+LFMN,NCE,"Nice-Côte d'Azur, Nice",Côte d'Azur,Nice,"{'lat': 43.6584, 'lon': 7.215869}",FR,9.16
+LIML,LIN,"Linate, Milan",Linate,Milan,"{'lat': 45.4451, 'lon': 9.27674}",IT,9.14
+LIMC,MXP,"Malpensa, Milan",Malpensa,Milan,"{'lat': 45.6306, 'lon': 8.72811}",IT,9.05
+LEBL,BCN,"Barcelona, Barcelona",Barcelona,"{'lat': 41.2971, 'lon': 2.078459}",ES,9.0
+EKCH,CPH,"Copenhagen Kastrup, Copenhagen",Kastrup,Copenhagen,"{'lat': 55.6179, 'lon': 12.656}",DK,8.43
+LEMD,MAD,"Adolfo Suárez Madrid–Barajas, Madrid",Adolfo Suárez –Barajas,Madrid,"{'lat': 40.4936, 'lon': -3.56676}",ES,8.14
+LPPT,LIS,"Lisbon Portela, Lisbon",Portela,Lisbon,"{'lat': 38.7813, 'lon': -9.135919}",PT,7.0
+EDDB,BER,"Berlin Brandenburg, Berlin",Brandenburg,Berlin,"{'lat': 52.35139, 'lon': 13.493889}",DE,6.71
+EGCC,MAN,"Manchester, Manchester",Manchester,"{'lat': 53.3537, 'lon': -2.27495}",GB,6.43
+LIPZ,VCE,"Venice Marco Polo, Venice",Marco Polo,Venice,"{'lat': 45.5053, 'lon': 12.3519}",IT,6.14
+LLBG,TLV,"Ben Gurion, Tel Aviv Yafo",Ben Gurion,Tel Aviv Yafo,"{'lat': 32.0114, 'lon': 34.8867}",IL,4.6
+EGPH,EDI,"Edinburgh, Edinburgh",Edinburgh,"{'lat': 55.95, 'lon': -3.372499}",GB,4.29
+EGKK,LGW,"London Gatwick, London",Gatwick,London,"{'lat': 51.1481, 'lon': -0.190277}",GB,3.43
+LFBZ,BIQ,"Biarritz-Anglet-Bayonne, Biarritz/Anglet/Bayonne",Biarritz-Anglet-Bayonne,Biarritz/Anglet/Bayonne,"{'lat': 43.4684, 'lon': -1.523319}",FR,3.29
+GMMX,RAK,"Menara, Marrakech",Menara,Marrakech,"{'lat': 31.6069, 'lon': -8.036299}",MA,3.25
+LIRN,NAP,"Naples, Nápoli",Naples,Nápoli,"{'lat': 40.886, 'lon': 14.2908}",IT,2.86
+LPPR,OPO,"Francisco de Sá Carneiro, Porto",Francisco de Sá Carneiro,Porto,"{'lat': 41.2481, 'lon': -8.681389}",PT,2.43
+EGGW,LTN,"London Luton, London",Luton,London,"{'lat': 51.8747, 'lon': -0.368333}",GB,2.29
+EGGD,BRS,"Bristol, Bristol",Bristol,"{'lat': 51.3827, 'lon': -2.719089}",GB,1.86
+EPKK,KRK,"John Paul II   Kraków-Balice, Kraków",John Paul II   -Balice,Kraków,"{'lat': 50.0777, 'lon': 19.7848}",PL,1.57
+EGPF,GLA,"Glasgow, Glasgow",Glasgow,"{'lat': 55.8719, 'lon': -4.43306}",GB,1.14
+EGAA,BFS,"Belfast, Belfast",Belfast,"{'lat': 54.6575, 'lon': -6.215829}",GB,0.86
+EGGP,LPL,"Liverpool John Lennon, Liverpool",John Lennon,Liverpool,"{'lat': 53.3336, 'lon': -2.84972}",GB,0.86
+LIME,BGY,"Orio al Serio, Bergamo",Orio al Serio,Bergamo,"{'lat': 45.6739, 'lon': 9.70417}",IT,0.71
+LPFR,FAO,"Faro, Faro",Faro,"{'lat': 37.0144, 'lon': -7.965909}",PT,0.71
+LCLK,LCA,"Larnaca, Larnarca",Larnaca,Larnarca,"{'lat': 34.8751, 'lon': 33.6249}",CY,0.6
+LICC,CTA,"Catania-Fontanarossa, Catania",Fontanarossa,Catania,"{'lat': 37.4668, 'lon': 15.066399}",IT,0.57
+GCRR,ACE,"Lanzarote, Lanzarote Island",Lanzarote,Lanzarote Island,"{'lat': 28.9455, 'lon': -13.605199}",ES,0.43
+GCTS,TFS,"Tenerife South, Tenerife Island",Tenerife South,Tenerife Island,"{'lat': 28.0445, 'lon': -16.5725}",ES,0.43
+GCFV,FUE,"Fuerteventura, Fuerteventura Island",Fuerteventura,Fuerteventura Island,"{'lat': 28.4527, 'lon': -13.8638}",ES,0.29
+LICJ,PMO,"Falcone–Borsellino, Palermo",Falcone–Borsellino,Palermo,"{'lat': 38.176, 'lon': 13.090999}",IT,0.29

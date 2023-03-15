@@ -1,8 +1,22 @@
 import requests
 import json
 import csv
+import pandas as pd
+import os
+import glob
 
-def create_edges_list(nodes_list):
+
+dir = r'C:\Users\ndvll\Desktop'
+node_csv = 'node_list.csv'
+df = pd.read_csv(node_csv, sep=",", header = 0)
+airport_list = df['icao'].tolist()
+
+
+missing_airport_list = r"C:\Users\ndvll\Downloads\missing_airport_list.txt"
+with open(missing_airport_list, 'r') as f:
+    missing_airport_list = f.read().split(",")
+print(len(missing_airport_list))
+def create_edges_list(node):
 
     '''This function takes a list of nodes and returns a list of edges
     that connect the nodes. The edges are in the form of tuples, where
@@ -11,60 +25,95 @@ def create_edges_list(nodes_list):
 
     # Set up the headers for the API request
     headers = {
-        "X-RapidAPI-Key": "YOUR_API_KEY",
+        "X-RapidAPI-Key": "791b4d97cemshe431629c33a2f66p124871jsne802b70f9743",
         "X-RapidAPI-Host": "aerodatabox.p.rapidapi.com" }
 
     # Send a request to the API for each airport and store the responses in a list
     responses = []
-    for node in nodes_list:
-        url = f"https://aerodatabox.p.rapidapi.com/airports/icao/{node}/stats/routes/daily"
 
-        headers = {
-            "X-RapidAPI-Key": "791b4d97cemshe431629c33a2f66p124871jsne802b70f9743",
-            "X-RapidAPI-Host": "aerodatabox.p.rapidapi.com"
-        }
+    url = f"https://aerodatabox.p.rapidapi.com/airports/icao/{node}/stats/routes/daily"
 
-        response = requests.request("GET", url, headers=headers)
+    headers = {
+        "X-RapidAPI-Key": "791b4d97cemshe431629c33a2f66p124871jsne802b70f9743",
+        "X-RapidAPI-Host": "aerodatabox.p.rapidapi.com"
+    }
 
-        # Append the response JSON data to the list
-        responses.append(response.json())
+    response = requests.request("GET", url, headers=headers)
+
+    # Append the response JSON data to the list
+    responses.append(response.json())
+
 
     # Save the list of responses to a JSON file
-    with open('aerodatabox_responses.json', 'w') as json_file:
+    with open(os.path.join(dir,'aerodatabox_responses_'+str(i)+'.json'), 'w') as json_file:
         json.dump(responses, json_file)
 
-def read_json():
+def read_json(path):
     '''This function reads the JSON file created by the create_edges_list function
     and returns a list of edges.'''
 
     # Read the JSON file
-    with open('aerodatabox_responses.json') as json_file:
+    with open(path, mode="r") as json_file:
         data = json.load(json_file)
 
     # Create a list of edges
     edges = []
-
+    daily_flights = []
+    header = list(data[0]['routes'][0]['destination'].keys())
+    header.append('daily_flights')
     for airport in data[0]['routes']:
-        for destination in airport['destination']:
-            print(destination['icao'])
-            edges.append(destination[0])
-    return edges
+        for airline in airport['operators']:
+                if airline['name'] == 'easyJet':
+                    edges.append(list(airport['destination'].values()))
+                    daily_flights.append(airport['averageDailyFlights'])
+    
+    return edges, header, daily_flights
 
-def write_csv(edges_list):
+
+def write_csv(path, edges_list, header_row, daily_flights):
     '''This function takes a list of edges and writes them to a CSV file.'''
 
     # Open a CSV file for writing
-    with open('edges.csv', mode='w', newline='\n') as file:
+    with open(path, mode='w', newline='\n') as file:
 
         # Create a CSV writer object
-        writer = csv.writer(file)
+        writer = csv.writer(file, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
         # Write the header row
-        writer.writerow(['Source', 'Target'])
+        writer.writerow(header_row)
 
+        for i in range(len(daily_flights)):
+            edges_list[i].append(daily_flights[i])
         # Write the data rows
         for edge in edges_list:
             writer.writerow(edge)
 
-a = read_json()
-print(a[0:10])
+
+def concatenat_csv_files(dir_path):
+
+    all_files = glob.glob(os.path.join(dir_path , "*.csv"))
+
+    li = []
+
+    for filename in all_files:
+        df = pd.read_csv(filename, index_col=None, header=0, encoding='cp1252', on_bad_lines='skip')
+        df.insert(0, 'origin_airport', filename[filename.find('s_')+2:filename.find('.')])
+        li.append(df)
+
+    frame = pd.concat(li, axis=0, ignore_index=True)
+    return frame
+
+
+path_to_dir = os.path.join(dir)
+all_files = concatenat_csv_files(path_to_dir)
+
+with open('full_edge_list.csv', 'w', newline='') as file:
+    all_files.to_csv(file, index=False, header = True)
+# for i in airport_list:
+# path_to_files = os.path.join(dir,'aerodatabox_responses_'+str(i))
+#     try:    
+#         #create_edges_list(i)
+#         node_json = read_json(path+'.json')
+#         write_csv(path+ '.csv', node_json[0], node_json[1], node_json[2])
+#     except (TypeError, FileNotFoundError):
+#         pass
