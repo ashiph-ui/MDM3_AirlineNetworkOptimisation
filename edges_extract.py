@@ -2,20 +2,22 @@ import requests
 import json
 import csv
 import pandas as pd
+import airportsdata
 import os
 import glob
 
+airports_icao = airportsdata.load('ICAO')
+airports_iata = airportsdata.load('IATA')
+# dir = r'C:\Users\ndvll\Desktop'
+# node_csv = 'node_list.csv'
+# df = pd.read_csv(node_csv, sep=",", header = 0)
+# airport_list = df['icao'].tolist()
 
-dir = r'C:\Users\ndvll\Desktop'
-node_csv = 'node_list.csv'
-df = pd.read_csv(node_csv, sep=",", header = 0)
-airport_list = df['icao'].tolist()
 
-
-missing_airport_list = r"C:\Users\ndvll\Downloads\missing_airport_list.txt"
-with open(missing_airport_list, 'r') as f:
-    missing_airport_list = f.read().split(",")
-print(len(missing_airport_list))
+# missing_airport_list = r"C:\Users\ndvll\Downloads\missing_airport_list.txt"
+# with open(missing_airport_list, 'r') as f:
+#     missing_airport_list = f.read().split(",")
+# print(len(missing_airport_list))
 def create_edges_list(node):
 
     '''This function takes a list of nodes and returns a list of edges
@@ -103,12 +105,37 @@ def concatenat_csv_files(dir_path):
     frame = pd.concat(li, axis=0, ignore_index=True)
     return frame
 
+def fixing_csv(dir_path):
+    
 
-path_to_dir = os.path.join(dir)
-all_files = concatenat_csv_files(path_to_dir)
+    for index, row in df.iterrows():
+        row_number = index+1
+        if pd.isna(row['destination_airport_icao']):
+            row['destination_airport_icao']=airports_iata[row['destination_airport_iata']]['icao']
+    
+    
+def filling_missing_airports(row):
+    icao = airports_iata[row['destination_airport_iata']]['icao'] if pd.isna(row['destination_airport_icao']) else row['destination_airport_icao']
+    return icao
+df = pd.read_csv("modified_full_edge_list_2.csv", delimiter=';',index_col=None, header=0, encoding='cp1252')
+df = df.apply(lambda row: row.fillna(value = filling_missing_airports(row)), axis=1)
 
-with open('full_edge_list.csv', 'w', newline='') as file:
-    all_files.to_csv(file, index=False, header = True)
+# function to extract airport information from dictionary
+def extract_origin_airport_info(row):
+    origin_dict = airports_icao[row['origin_airport']]
+    return pd.Series([origin_dict['icao'], origin_dict['iata'], origin_dict['name'], origin_dict['city'], origin_dict['subd'], origin_dict['country'], origin_dict['lat'], origin_dict['lon'], origin_dict['tz'], origin_dict['lid']])
+
+
+# apply function to dataframe
+df = df.merge(df.apply(extract_origin_airport_info, axis=1), left_index=True, right_index=True)
+df.to_csv('modified_full_edge_list_3.csv', index=False, header = True, sep=';')
+# path_to_dir = os.path.join(dir)
+# all_files = concatenat_csv_files(path_to_dir)
+
+
+
+# with open('full_edge_list.csv', 'w', newline='') as file:
+#     all_files.to_csv(file, index=False, header = True)
 # for i in airport_list:
 # path_to_files = os.path.join(dir,'aerodatabox_responses_'+str(i))
 #     try:    
