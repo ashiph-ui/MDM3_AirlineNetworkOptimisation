@@ -53,3 +53,8 @@ class Flights(FlightRadar24API):
         
         self.df = pd.DataFrame(ds)
         return self.df
+    
+
+
+
+    
