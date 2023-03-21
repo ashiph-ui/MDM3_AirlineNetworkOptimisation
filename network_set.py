@@ -43,29 +43,18 @@ for airport in nodes:
 
 
 # open a CSV file for writing
-with open('output.csv', mode='w', newline='\n') as file:
+# with open('output.csv', mode='w', newline='\n') as file:
 
-    # create a CSV writer object
-    writer = csv.writer(file)
+#     # create a CSV writer object
+#     writer = csv.writer(file)
 
-    # write the header row
-    writer.writerow(keys)
+#     # write the header row
+#     writer.writerow(keys)
 
-    for value_2 in values_2:
-        writer.writerow(value_2)
+#     for value_2 in values_2:
+#         writer.writerow(value_2)
 
-    # write the data row
-    for value in values:    
-        writer.writerow(value)
+#     # write the data row
+#     for value in values:    
+#         writer.writerow(value)
 
-
-# params = {
-#   'access_key': flightstack_key,
-#   'airline_iata': 'EZY',
-#   'iataCode': 'LGW'
-# }
-
-# api_result = requests.get('https://app.goflightlabs.com/flights', params)
-
-# api_response = api_result.json()
-# print(api_response)
