@@ -117,7 +117,7 @@ def fixing_csv(dir_path):
 def filling_missing_airports(row):
     icao = airports_iata[row['destination_airport_iata']]['icao'] if pd.isna(row['destination_airport_icao']) else row['destination_airport_icao']
     return icao
-df = pd.read_csv("modified_full_edge_list_2.csv", delimiter=';',index_col=None, header=0, encoding='cp1252')
+df = pd.read_csv("MDM3_AirlineNetworkOptimisation/almost_there.csv", delimiter=';',index_col=None, header=0, encoding='cp1252')
 df = df.apply(lambda row: row.fillna(value = filling_missing_airports(row)), axis=1)
 
 # function to extract airport information from dictionary
@@ -125,10 +125,16 @@ def extract_origin_airport_info(row):
     origin_dict = airports_icao[row['origin_airport']]
     return pd.Series([origin_dict['icao'], origin_dict['iata'], origin_dict['name'], origin_dict['city'], origin_dict['subd'], origin_dict['country'], origin_dict['lat'], origin_dict['lon'], origin_dict['tz'], origin_dict['lid']])
 
+# split dictionary string into column, drop the original column and save to csv
+df['destination_airport_location'] = df['destination_airport_location'].apply(lambda x: json.loads(x))
+df = df.join(df['destination_airport_location'].apply(lambda x: pd.Series(x)))
+print(df.head())
+# drop the original column of dictionaries
+df = df.drop(columns=['destination_airport_location'])
 
 # apply function to dataframe
-df = df.merge(df.apply(extract_origin_airport_info, axis=1), left_index=True, right_index=True)
-df.to_csv('modified_full_edge_list_3.csv', index=False, header = True, sep=';')
+# df = df.merge(df.apply(extract_origin_airport_info, axis=1), left_index=True, right_index=True)
+# df.to_csv('modified_full_edge_list_3.csv', index=False, header = True, sep=';')
 # path_to_dir = os.path.join(dir)
 # all_files = concatenat_csv_files(path_to_dir)
 
