@@ -5,33 +5,18 @@ import matplotlib.pyplot as plt
 from matplotlib.pyplot import figure
 from analysis import *
 
-# import csv
-data = pd.read_csv('MDM3_AirlineNetworkOptimisation\edge_list_final.csv', sep=',')
 
 # prepare data for networkx
-def makeNet(data):
+def makeNet(data, plot=False):
     df = data[['origin_airport_icao', 'destination_airport_icao']]
     G = nx.Graph()
     G = nx.from_pandas_edgelist(df, source='origin_airport_icao', target='destination_airport_icao', create_using=nx.DiGraph())
-    figure.figsize=(20,20)
-    nx.draw_shell(G, with_labels=True, font_weight='bold')
-    plt.show()
+    if plot == True:
+        figure.figsize=(20,20)
+        nx.draw_shell(G, with_labels=True, font_weight='bold')
+        plt.show()
     return G
 
-G = makeNet(data)
-
-print('Degree centrality: ', degree_centrality(G))
-print('Closeness centrality: ', closeness_centrality(G))
-print('Betweenness centrality: ', betweenness_centrality(G))
-print('Eigenvector centrality: ', eigenvector_centrality(G))
-
-# Analysis of the graph: Measure of centrality
-
-deg_centrality = degree_centrality(G)
-close_centrality = closeness_centrality(G)
-betw_centrality = betweenness_centrality(G)
-eigen_centrality = eigenvector_centrality(G)
-keys = deg_centrality.keys()
 
 # Plot the centrality measures
 def plot_centrality(deg_centrality, close_centrality, betw_centrality, eigen_centrality):
@@ -55,11 +40,35 @@ def highest_centrality(deg_centrality, close_centrality, betw_centrality, eigen_
 
 # highest_centrality(deg_centrality, close_centrality, betw_centrality, eigen_centrality)
 
-def get_from_and_to(G):
+def get_from_and_to(data):
     from_to = []
-    from_to.append([x for x in G.edges()])
+    origin = data['origin_airport_icao']
+    destination = data['destination_airport_icao']
+    for i in range(len(origin)):
+        from_to.append((origin[i], destination[i]))
     return from_to
 
-from_to = get_from_and_to(G)
 
+if __name__ == '__main__':
+    data = pd.read_csv('MDM3_AirlineNetworkOptimisation\edge_list_final.csv', sep=',')
+
+    G = makeNet(data)
+    # Analysis of the graph: Measure of centrality
+    # print('Degree centrality: ', degree_centrality(G))
+    # print('Closeness centrality: ', closeness_centrality(G))
+    # print('Betweenness centrality: ', betweenness_centrality(G))
+    # print('Eigenvector centrality: ', eigenvector_centrality(G))
+    
+
+    # deg_centrality = degree_centrality(G)
+    # close_centrality = closeness_centrality(G)
+    # betw_centrality = betweenness_centrality(G)
+    # eigen_centrality = eigenvector_centrality(G)
+    # keys = deg_centrality.keys()
+    
+    # plot_centrality(deg_centrality, close_centrality, betw_centrality, eigen_centrality)
+    # highest_centrality(deg_centrality, close_centrality, betw_centrality, eigen_centrality)
+    
+    from_to = get_from_and_to(data)
+    print(from_to)
 
