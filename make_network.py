@@ -6,19 +6,19 @@ from matplotlib.pyplot import figure
 from analysis import *
 
 # import csv
-data = pd.read_csv('MDM3_AirlineNetworkOptimisation\modified_full_edge_list_3.csv', sep=';')
+data = pd.read_csv('MDM3_AirlineNetworkOptimisation\edge_list_final.csv', sep=',')
 
 # prepare data for networkx
-def make_network(data):
-    df = data[['origin_airport', 'destination_airport_icao']]
+def makeNet(data):
+    df = data[['origin_airport_icao', 'destination_airport_icao']]
     G = nx.Graph()
-    G = nx.from_pandas_edgelist(df, source='origin_airport', target='destination_airport_icao', create_using=nx.DiGraph())
+    G = nx.from_pandas_edgelist(df, source='origin_airport_icao', target='destination_airport_icao', create_using=nx.DiGraph())
     figure.figsize=(20,20)
     nx.draw_shell(G, with_labels=True, font_weight='bold')
     plt.show()
     return G
 
-G = make_network(data)
+G = makeNet(data)
 
 print('Degree centrality: ', degree_centrality(G))
 print('Closeness centrality: ', closeness_centrality(G))
@@ -44,7 +44,7 @@ def plot_centrality(deg_centrality, close_centrality, betw_centrality, eigen_cen
     plt.legend()
     plt.show()
 
-plot_centrality(deg_centrality, close_centrality, betw_centrality, eigen_centrality)
+# plot_centrality(deg_centrality, close_centrality, betw_centrality, eigen_centrality)
 
 # highest values for each centrality measure
 def highest_centrality(deg_centrality, close_centrality, betw_centrality, eigen_centrality):
@@ -53,4 +53,13 @@ def highest_centrality(deg_centrality, close_centrality, betw_centrality, eigen_
     print('Highest betweenness centrality: ', max(betw_centrality, key=betw_centrality.get))
     print('Highest eigenvector centrality: ', max(eigen_centrality, key=eigen_centrality.get))
 
-highest_centrality(deg_centrality, close_centrality, betw_centrality, eigen_centrality)
+# highest_centrality(deg_centrality, close_centrality, betw_centrality, eigen_centrality)
+
+def get_from_and_to(G):
+    from_to = []
+    from_to.append([x for x in G.edges()])
+    return from_to
+
+from_to = get_from_and_to(G)
+
+
