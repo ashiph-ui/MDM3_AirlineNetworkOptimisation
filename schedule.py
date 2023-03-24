@@ -38,13 +38,24 @@ for p in all_planes:
     for r in all_routes:
         model.Add(sum(x[p, r, t] for t in all_time_slots) <= 1)
 
-for p in all_planes:
-    for t in all_time_slots:
+for p in all_planes: 
+    for t in all_time_slots: 
         model.Add(sum(x[p, r, t] for r in all_routes) <= 1)
+
 
 for r in all_routes:
     for t in all_time_slots:
         model.Add(sum(x[p, r, t] for p in all_planes) <= 1)
+
+# constraint for max number of routes per plane
+for p in all_planes:
+    model.Add(sum(x[p, r, t] for r in all_routes for t in all_time_slots) <= 2)
+
+# constraint for flight time per plane
+for p in all_planes:
+    model.Add(sum(x[p, r, t] for r in all_routes for t in all_time_slots) <= 2)
+
+
 
 # Solve the model
 solver = cp_model.CpSolver()
