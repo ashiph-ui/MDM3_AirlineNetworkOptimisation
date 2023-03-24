@@ -70,5 +70,3 @@ if __name__ == '__main__':
     # highest_centrality(deg_centrality, close_centrality, betw_centrality, eigen_centrality)
     
     from_to = get_from_and_to(data)
-    print(from_to)
-
