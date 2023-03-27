@@ -77,5 +77,6 @@ ylabel = df.index
 sns.heatmap(df, cmap='Blues')
 plt.show()
 
-
+# total number of flights
+total_number_of_flights = len(df.index)
 

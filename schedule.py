@@ -18,19 +18,22 @@ model = cp_model.CpModel()
 
 # Create the decision variables
 x = {}  # x[p, r, t] is 1 if plane p is used on route r at time t
-for p in all_planes:
-    for r in all_routes:
-        for t in all_time_slots:
-            x[p, r, t] = model.NewBoolVar('x[%i,%i,%i]' % (p, r, t))
+
+
+for p in all_planes: # for each plane p in all_planes 
+    for r in all_routes: # for each route r in all_routes
+        for t in all_time_slots: # for each time slot t in all_time_slots
+            x[p, r, t] = model.NewBoolVar('x[%i,%i,%i]' % (p, r, t)) # create a new boolean variable x[p, r, t]
 
 print(x[0,0,0])
 # Create the objective function
-model.Minimize(sum(x[p, r, t] for p in all_planes for r in all_routes for t in all_time_slots))
+model.Minimize(sum(x[p, r, t] for p in all_planes for r in all_routes for t in all_time_slots)) 
+# minimize the sum of all x[p, r, t] for all planes p, all routes r and all time slots t
 
 # Create the constraints
-for p in all_planes:
-    for t in all_time_slots:
-        model.Add(sum(x[p, r, t] for r in all_routes) <= 1)
+for p in all_planes:    # for each plane p in all_planes
+    for t in all_time_slots:    # for each time slot t in all_time_slots
+        model.Add(sum(x[p, r, t] for r in all_routes) <= 1) # sum of all x[p, r, t] for all routes r must be less than or equal to 1
 
 for r in all_routes:
     model.Add(sum(x[p, r, t] for p in all_planes for t in all_time_slots) == 1)
