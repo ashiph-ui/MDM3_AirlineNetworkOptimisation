@@ -17,12 +17,13 @@ all_time_slots = range(time_slots)
 model = cp_model.CpModel()
 
 # Create the decision variables
-x = {}
+x = {}  # x[p, r, t] is 1 if plane p is used on route r at time t
 for p in all_planes:
     for r in all_routes:
         for t in all_time_slots:
             x[p, r, t] = model.NewBoolVar('x[%i,%i,%i]' % (p, r, t))
 
+print(x[0,0,0])
 # Create the objective function
 model.Minimize(sum(x[p, r, t] for p in all_planes for r in all_routes for t in all_time_slots))
 
@@ -41,7 +42,6 @@ for p in all_planes:
 for p in all_planes: 
     for t in all_time_slots: 
         model.Add(sum(x[p, r, t] for r in all_routes) <= 1)
-
 
 for r in all_routes:
     for t in all_time_slots:
