@@ -1,0 +1,85 @@
+,icao,Total Time Delayed,iata,name,city,subd,country,elevation,lat,lon,tz,lid,Time_delayed_scale
+0,EHAM,207875,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,-11.0,52.3086013794,4.7638897896,Europe/Amsterdam,,5.317802262227576
+1,LFPG,204649,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,392.0,49.0127983093,2.5499999523,Europe/Paris,,5.3110096268432825
+2,LEMD,175979,MAD,Madrid Barajas International Airport,Madrid,Madrid,ES,2001.0,40.4936,-3.56676,Europe/Madrid,,5.245460845494462
+3,LEBL,141727,BCN,Barcelona International Airport,Barcelona,Catalonia,ES,12.0,41.2971000671,2.0784599781,Europe/Madrid,,5.1514525943124
+4,EDDM,141065,MUC,Munich International Airport,Munich,Bayern,DE,1487.0,48.3538017273,11.7861003876,Europe/Berlin,,5.149419273198683
+5,LEPA,110072,PMI,Palma De Mallorca Airport,Palma De Mallorca,Balearic-Islands,ES,27.0,39.551700592,2.7388100624,Europe/Madrid,,5.041676857645526
+6,EGKK,108817,LGW,London Gatwick Airport,London,England,GB,202.0,51.1481018066,-0.1902779937,Europe/London,,5.036696748574064
+7,LIRF,106267,FCO,Leonardo Da Vinci (Fiumicino) International Airport,Rome,Latium,IT,15.0,41.8045005798,12.2508001328,Europe/Rome,,5.026398420281077
+8,LSZH,105557,ZRH,Zurich Airport,Zurich,Zurich,CH,1416.0,47.4646987915,8.5491695404,Europe/Zurich,,5.023487038785982
+9,LGAV,103837,ATH,Eleftherios Venizelos International Airport,Athens,Attica,GR,308.0,37.9364013672,23.9444999695,Europe/Athens,,5.016352132246484
+10,LPPT,101265,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,374.0,38.7812995911,-9.1359195709,Europe/Lisbon,,5.005459367044502
+11,EKCH,101135,CPH,Copenhagen Kastrup Airport,Copenhagen,Capital-Region,DK,17.0,55.6179008484,12.6560001373,Europe/Copenhagen,,5.004901478799332
+12,LFPO,99372,ORY,Paris-Orly Airport,Paris,Ile-de-France,FR,291.0,48.7252998352,2.3594400883,Europe/Paris,,4.997264030689812
+13,LTAI,95386,AYT,Antalya International Airport,Antalya,Antalya,TR,177.0,36.8987007141,30.8005008698,Europe/Istanbul,,4.979484637084379
+14,LIMC,93357,MXP,Malpensa International Airport,Milan,Lombardy,IT,768.0,45.6305999756,8.7281103134,Europe/Rome,,4.970146887334878
+15,EGSS,87973,STN,London Stansted Airport,London,England,GB,348.0,51.8849983215,0.2349999994,Europe/London,,4.9443494022609995
+16,ESSA,85192,ARN,Stockholm-Arlanda Airport,Stockholm,Stockholm,SE,137.0,59.6519012451,17.9186000824,Europe/Stockholm,,4.930398814027489
+17,EDDB,81034,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,156.0,52.362167,13.500667,Europe/Berlin,,4.9086672770787985
+18,EGCC,79268,MAN,Manchester Airport,Manchester,England,GB,257.0,53.3536987305,-2.2749500275,Europe/London,,4.899097900707322
+19,LSGG,77822,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,1411.0,46.2380981445,6.1089501381,Europe/Zurich,,4.891102387837583
+20,LLBG,71851,TLV,Ben Gurion International Airport,Tel Aviv,Central District,IL,135.0,32.0113983154,34.8866996765,Asia/Jerusalem,,4.856432816888612
+21,LEMG,69716,AGP,Malaga Airport,Malaga,Andalusia,ES,53.0,36.6749000549,-4.4991102219,Europe/Madrid,,4.843332461229658
+22,LFMN,67572,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,12.0,43.6584014893,7.2158699036,Europe/Paris,,4.829766773388633
+23,GCLP,58933,LPA,Gran Canaria Airport,Gran Canaria Island,Canary-Islands,ES,78.0,27.9319000244,-15.3865995407,Atlantic/Canary,,4.770358549533692
+24,EGGW,58889,LTN,London Luton Airport,London,England,GB,526.0,51.8746986389,-0.3683330119,Europe/London,,4.770034179584242
+25,EDDH,51535,HAM,Hamburg Airport,Hamburg,Hamburg,DE,53.0,53.6304016113,9.9882297516,Europe/Berlin,,4.712102280382022
+26,LIML,50590,LIN,Linate Airport,Milan,Lombardy,IT,353.0,45.445098877,9.2767400742,Europe/Rome,,4.704064679408567
+27,EGPH,48981,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,135.0,55.9500007629,-3.3724999428,Europe/London,,4.6900276474699645
+28,LKPR,48070,PRG,Ruzyne International Airport,Prague,Praha,CZ,1247.0,50.1007995605,14.2600002289,Europe/Prague,,4.681874122128647
+29,LPPR,46166,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,228.0,41.2481002808,-8.6813898087,Europe/Lisbon,,4.664322247235063
+30,LFML,45816,MRS,Marseille Provence Airport,Marseille,Provence-Alpes-Cote-d'Azur,FR,74.0,43.439271922,5.2214241028,Europe/Paris,,4.661017170105273
+31,LEAL,44885,ALC,Alicante International Airport,Alicante,Valencia,ES,142.0,38.2821998596,-0.5581560135,Europe/Madrid,,4.652101229519464
+32,LIME,44432,BGY,Bergamo / Orio Al Serio Airport,Bergamo,Lombardy,IT,782.0,45.6739006042,9.7041702271,Europe/Rome,,4.647695862406183
+33,LIRN,42771,NAP,Napoli / Capodichino International Airport,Napoli,Campania,IT,294.0,40.8860015869,14.2908000946,Europe/Rome,,4.631149404322859
+34,LFLL,40282,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,821.0,45.726398468,5.0908298492,Europe/Paris,,4.605111025123903
+35,LIPZ,39567,VCE,Venezia / Tessera -  Marco Polo Airport,Venezia,Veneto,IT,7.0,45.5052986145,12.3519001007,Europe/Rome,,4.597333122976736
+36,LICC,36544,CTA,Catania / Fontanarossa Airport,Catania,Sicily,IT,39.0,37.4668006897,15.0663995743,Europe/Rome,,4.562816082229735
+37,GCTS,35482,TFS,Tenerife South Airport,Tenerife Island,Canary-Islands,ES,209.0,28.044500351,-16.5725002289,Atlantic/Canary,,4.550008091556634
+38,LIPE,35335,BLQ,Bologna / Borgo Panigale Airport,Bologna,Emilia Romagna,IT,123.0,44.5354003906,11.2887001038,Europe/Rome,,4.548205095650741
+39,ELLX,34926,LUX,Luxembourg-Findel International Airport,Luxembourg,Luxembourg,LU,1234.0,49.6265983582,6.211520195,Europe/Luxembourg,,4.543148849668524
+40,LFBO,34893,TLS,Toulouse-Blagnac Airport,Toulouse/Blagnac,Occitanie,FR,499.0,43.6291007996,1.3638199568,Europe/Paris,,4.542738310446535
+41,LEVC,34638,VLC,Valencia Airport,Valencia,Valencia,ES,240.0,39.4892997742,-0.4816249907,Europe/Madrid,,4.539552807882274
+42,LFSB,33257,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,885.0,47.5895996094,7.5299100876,Europe/Paris,,4.5218830704334625
+43,LYBE,33048,BEG,Belgrade Nikola Tesla Airport,Belgrad,,RS,335.0,44.8184013367,20.3090991974,Europe/Belgrade,,4.51914518196853
+44,EGPF,31876,GLA,Glasgow International Airport,Glasgow,Scotland,GB,26.0,55.8718986511,-4.4330601692,Europe/London,,4.5034638181532145
+45,GCRR,31288,ACE,Lanzarote Airport,Lanzarote Island,Canary-Islands,ES,46.0,28.9454994202,-13.6051998138,Atlantic/Canary,,4.495377802944074
+46,EGGD,30132,BRS,Bristol International Airport,Bristol,England,GB,622.0,51.3827018738,-2.7190899849,Europe/London,,4.479027958760547
+47,LPFR,29651,FAO,Faro Airport,Faro,Faro,PT,24.0,37.0144004822,-7.9659099579,Europe/Lisbon,,4.47203934482198
+48,EPKK,28708,KRK,John Paul II International Airport Kraków-Balice Airport,Kraków,Lesser-Poland-Voivodeship,PL,791.0,50.0777015686,19.7847995758,Europe/Warsaw,,4.458002937560279
+49,LGIR,28322,HER,Heraklion International Nikos Kazantzakis Airport,Heraklion,Crete,GR,115.0,35.3396987915,25.1802997589,Europe/Athens,,4.452123918449042
+50,LICJ,27808,PMO,Palermo / Punta Raisi Airport,Palermo,Sicily,IT,65.0,38.1759986877,13.0909996033,Europe/Rome,,4.444169754768573
+51,LFBD,27505,BOD,Bordeaux-Merignac (BA 106) Airport,Bordeaux/Merignac,Nouvelle-Aquitaine,FR,162.0,44.8283004761,-0.7155560255,Europe/Paris,,4.439411649285785
+52,LEZL,26563,SVQ,Sevilla Airport,Sevilla,Andalusia,ES,112.0,37.4179992676,-5.8931097984,Europe/Madrid,,4.4242771222724
+53,LBSF,26483,SOF,Sofia Airport,Sofia,Sofia-Capital,BG,1742.0,42.6966934204,23.4114360809,Europe/Sofia,,4.422967180527763
+54,LCLK,24733,LCA,Larnaca International Airport,Larnarca,Larnaka,CY,8.0,34.8750991821,33.6249008179,Asia/Nicosia,,4.393276797494561
+55,LGTS,24706,SKG,Thessaloniki Macedonia International Airport,Thessaloniki,Central Macedonia,GR,22.0,40.5196990967,22.9708995819,Europe/Athens,,4.392802437083664
+56,LMML,24260,MLA,Luqa Airport,Luqa,Luqa,MT,300.0,35.857498,14.4775,Europe/Malta,,4.384890796530554
+57,GCFV,23999,FUE,Fuerteventura Airport,Fuerteventura Island,Canary-Islands,ES,85.0,28.4526996613,-13.8638000488,Atlantic/Canary,,4.380193145731191
+58,LFRS,23333,NTE,Nantes Atlantique Airport,Nantes,Pays-de-la-Loire,FR,90.0,47.1531982422,-1.610730052,Europe/Paris,,4.3679705810433935
+59,EGAA,21543,BFS,Belfast International Airport,Belfast,Northern Ireland,GB,268.0,54.6575012207,-6.2158298492,Europe/London,,4.333306181446832
+60,LGRP,21096,RHO,Diagoras Airport,Rodes Island,South Aegean,GR,17.0,36.4053993225,28.0862007141,Europe/Athens,,4.324200116785378
+61,LEBB,21048,BIO,Bilbao Airport,Bilbao,Basque-Country,ES,138.0,43.3011016846,-2.9106099606,Europe/Madrid,,4.323210835077647
+62,GMMX,20031,RAK,Menara Airport,Marrakech,Marrakesh-Safi,MA,1545.0,31.6068992615,-8.0362997055,Africa/Casablanca,,4.301702630953145
+63,LIRP,19867,PSA,Pisa / San Giusto - Galileo Galilei International Airport,Pisa,Tuscany,IT,6.0,43.6838989258,10.3927001953,Europe/Rome,,4.29813229177961
+64,LIMF,19012,TRN,Torino / Caselle International Airport,Torino,Piedmont,IT,989.0,45.2008018494,7.6496300697,Europe/Rome,,4.279027805622721
+65,EGPD,18434,ABZ,Aberdeen Dyce Airport,Aberdeen,Scotland,GB,215.0,57.2019004822,-2.1977798939,Europe/London,,4.265619583153884
+66,LFOB,15164,BVA,Paris Beauvais Tille Airport,Beauvais/Tille,Hauts-de-France,FR,359.0,49.4543991089,2.1127800941,Europe/Paris,,4.180813775754397
+67,LPMA,14186,FNC,Madeira Airport,Funchal,Madeira,PT,192.0,32.6978988647,-16.7744998932,Europe/Lisbon,,4.151859955512512
+68,LFMT,12983,MPL,Montpellier-Mediterranee Airport,Montpellier/Mediterranee,Occitanie,FR,17.0,43.5761985779,3.9630100727,Europe/Paris,,4.113375057094903
+69,EGAC,12665,BHD,George Best Belfast City Airport,Belfast,Northern Ireland,GB,15.0,54.6180992126,-5.8724999428,Europe/London,,4.102605194126567
+70,LIBR,12257,BDS,Brindisi / Casale Airport,Brindisi,Apulia,IT,47.0,40.6576004028,17.9470005035,Europe/Rome,,4.088384186097703
+71,LGSR,12010,JTR,Santorini Airport,Santorini Island,South Aegean,GR,127.0,36.3992004395,25.4792995453,Europe/Athens,,4.079543007402906
+72,LEST,11939,SCQ,Santiago de Compostela Airport,Santiago de Compostela,Galicia,ES,1213.0,42.8963012695,-8.415140152,Europe/Madrid,,4.0769679521979185
+73,LCPH,11190,PFO,Paphos International Airport,Paphos,Pafos,CY,41.0,34.7179985046,32.4856987,Asia/Nicosia,,4.04883008652835
+74,EGHI,10038,SOU,Southampton Airport,Southampton,England,GB,44.0,50.9502983093,-1.3567999601,Europe/London,,4.001647191346038
+75,LFQQ,9414,LIL,Lille-Lesquin Airport,Lille/Lesquin,Hauts-de-France,FR,157.0,50.5619010925,3.0894401073,Europe/Paris,,3.97377419397058
+76,GMAD,7654,AGA,Al Massira Airport,Agadir,Souss-Massa,MA,250.0,30.3250007629,-9.413069725,Africa/Casablanca,,3.8838884578884807
+77,LFRN,6367,RNS,Rennes-Saint-Jacques Airport,Rennes/Saint-Jacques,Brittany,FR,124.0,48.0694999695,-1.7347899675,Europe/Paris,,3.803934849863842
+78,LFRB,6366,BES,Brest Bretagne Airport,Brest/Guipavas,Brittany,FR,325.0,48.4478988647,-4.4185400009,Europe/Paris,,3.8038666342849843
+79,LFBZ,5911,BIQ,Biarritz-Anglet-Bayonne Airport,Biarritz/Anglet/Bayonne,Nouvelle-Aquitaine,FR,245.0,43.4683990479,-1.5233199596,Europe/Paris,,3.7716609593488872
+80,LFTH,5288,TLN,Toulon-Hyeres Airport,Toulon/Hyeres/Le Palyvestre,Provence-Alpes-Cote-d'Azur,FR,7.0,43.0973014832,6.1460299492,Europe/Paris,,3.723291446477584
+81,LEAM,3752,LEI,Almeria International Airport,Almeria,Andalusia,ES,70.0,36.8438987732,-2.3701000214,Europe/Madrid,,3.5742628297070267
+82,LFLS,3494,GNB,Grenoble-Isere Airport,Grenoble/Saint-Geoirs,Auvergne-Rhone-Alpes,FR,1302.0,45.3628997803,5.3293700218,Europe/Paris,,3.543322900646912
+83,LPPS,1415,PXO,Porto Santo Airport,Vila Baleira,Madeira,PT,341.0,33.0733985901,-16.3500003815,Europe/Lisbon,,3.150756439860309
