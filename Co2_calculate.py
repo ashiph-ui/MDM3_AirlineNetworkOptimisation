@@ -79,14 +79,15 @@ origin_airport_icao: np.ndarray = df_edges["origin_airport_icao"].to_numpy()
 dest_airport_icao: np.ndarray = df_edges["destination_airport_icao"].to_numpy()
 
 # finding the distance between airports
-PASSENGER_AVERAGE_CO2_EMISSIONS_PER_MILE = 89.9  # in grams per passenger per mile
+# PASSENGER_AVERAGE_CO2_EMISSIONS_PER_MILE = 89.9  # in grams per passenger per mile
+PASSENGER_AVERAGE_CO2_EMISSIONS_PER_MILE = 79  # in grams per passenger per km
 
 
 def find_distance(origin: str, destination: str) -> float:
     """Find the distance between two airports in km"""
     origin_coord: tuple = icao_coord[origin]
     dest_coord: tuple = icao_coord[destination]
-    return distance(origin_coord, dest_coord).miles
+    return distance(origin_coord, dest_coord).km
 
 
 # print(orgin_airport_icao)
