@@ -44,7 +44,6 @@ for icao, lat, lon in zip(icaos, lats, lons):
 
 # Read the data for finding the different flights
 df_edges: pd.DataFrame = pd.read_csv("edge_list_final.csv")
-print(df_edges.size)
 origin_airport_icao: np.ndarray = df_edges["origin_airport_icao"].to_numpy()
 dest_airport_icao: np.ndarray = df_edges["destination_airport_icao"].to_numpy()
 
@@ -76,22 +75,33 @@ def remove_unwanted_airports(
 
 
 df_edges = remove_unwanted_airports(df_edges, total_mismatched)
+origin_airport_icao: np.ndarray = df_edges["origin_airport_icao"].to_numpy()
+dest_airport_icao: np.ndarray = df_edges["destination_airport_icao"].to_numpy()
+
+# finding the distance between airports
+PASSENGER_AVERAGE_CO2_EMISSIONS_PER_MILE = 89.9  # in grams per passenger per mile
+
+
+def find_distance(origin: str, destination: str) -> float:
+    """Find the distance between two airports in km"""
+    origin_coord: tuple = icao_coord[origin]
+    dest_coord: tuple = icao_coord[destination]
+    return distance(origin_coord, dest_coord).miles
+
+
+# print(orgin_airport_icao)
+# print(icao_coord)
+co2_array = np.zeros(len(origin_airport_icao))
+for count, (origin, destination) in enumerate(
+    zip(origin_airport_icao, dest_airport_icao)
+):
+    dist = find_distance(origin, destination)
+    co2_array[count] = dist * PASSENGER_AVERAGE_CO2_EMISSIONS_PER_MILE
+
+# add the co2 column to the dataframe
+df_edges["co2"] = co2_array
+print(df_edges.head())
 """
+to create the new csv file for the eurocontrol edges
 df_edges.to_csv("edge_eurocontrol.csv", index=False)
 """
-
-
-# def find_distance(origin: str, destination: str) -> float:
-#     """Find the distance between two airports in km"""
-#     origin_coord: tuple = icao_coord[origin]
-#     dest_coord: tuple = icao_coord[destination]
-#     return distance(origin_coord, dest_coord).miles
-#
-#
-# dist_array = np.zeros(len(origin_airport_icao))
-# for count, (origin, destination) in enumerate(
-#     zip(origin_airport_icao, dest_airport_icao)
-# ):
-#     dist = find_distance(origin, destination)
-#     dist_array[count] = dist
-# print(dist_array)
