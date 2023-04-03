@@ -93,14 +93,17 @@ def find_distance(origin: str, destination: str) -> float:
 # print(orgin_airport_icao)
 # print(icao_coord)
 co2_array = np.zeros(len(origin_airport_icao))
+dist_array = np.copy(co2_array)
 for count, (origin, destination) in enumerate(
     zip(origin_airport_icao, dest_airport_icao)
 ):
     dist = find_distance(origin, destination)
+    dist_array[count] = dist
     co2_array[count] = dist * PASSENGER_AVERAGE_CO2_EMISSIONS_PER_MILE
 
 # add the co2 column to the dataframe
 df_edges["co2"] = co2_array
+df_edges["distance(km)"] = dist_array
 print(df_edges.head())
 """
 to create the new csv file for the eurocontrol edges
