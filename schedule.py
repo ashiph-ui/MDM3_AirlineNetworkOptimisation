@@ -28,21 +28,18 @@ model.Minimize(sum(x[p, r, t] for p in all_planes for r in all_routes for t in a
 # minimize the sum of all x[p, r, t] for all planes p, all routes r and all time slots t
 
 # Create the constraints
-# Each plane can use one route at a time
-for p in all_planes: # for each plane p in all_planes
-    for t in all_time_slots: # for each time slot t in all_time_slots
-        model.Add(sum(x[p, r, t] for r in all_routes) <= 1) # sum of all x[p, r, t] for all routes r must be less than or equal to 1
+# Each plane at each time can use only one route - plane can only be used on one route at a time
+for p in all_planes:
+    for t in all_time_slots:
+        model.Add(sum(x[p, r, t] for r in all_routes) <= 1)
 
-# Each route can be used by one plane at a time
-for r in all_routes: # for each route r in all_routes
-    for t in all_time_slots: # for each time slot t in all_time_slots
-        model.Add(sum(x[p, r, t] for p in all_planes) <= 1) # sum of all x[p, r, t] for all planes p must be less than or equal to 1
+# Each plane must use at least one route and time slot - plane must be used at least once
+for p in all_planes:
+    model.Add(sum(x[p, r, t] for r in all_routes for t in all_time_slots) >= 1)
 
-# Each route can be used at most once per time slot#
-for r in all_routes: # for each route r in all_routes
-    model.Add(sum(x[p, r, t] for p in all_planes for t in all_time_slots) <= 1) # sum of all x[p, r, t] for all planes p and all time slots t must be less than or equal to 1
-
-
+# Each route must be used at least once - route must be used at least once
+for r in all_routes:
+    model.Add(sum(x[p, r, t] for p in all_planes for t in all_time_slots) >= 1)
 
 
 # Solve the model
