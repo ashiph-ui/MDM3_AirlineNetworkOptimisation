@@ -9,7 +9,7 @@ import cvxpy as cp
 import networkx as nx
 
 # import csv
-data = pd.read_csv('MDM3_AirlineNetworkOptimisation\edge_list_final.csv', sep=',')
+data = pd.read_csv('edge_list_final.csv', sep=',')
 # getting the network
 G = makeNet(data)
 
@@ -79,4 +79,5 @@ plt.show()
 
 # total number of flights
 total_number_of_flights = len(df.index)
+print(total_number_of_flights)
 
