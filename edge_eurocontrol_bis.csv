@@ -1,0 +1,843 @@
+origin_airport_icao,origin_airport_iata,origin_airport_name,origin_city,region,country_code,origin_lat,origin_long,timezone,destination_airport_icao,destination_airport_iata,destination_airport_name,destination_airport_shortName,destination_airport_municipalityName,dest_lat,dest_long,destination_airport_countryCode,daily_flights,flight_time,co2
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,LSZH,ZRH,Kloten,Zurich,Kloten,47.4647,8.549169,CH,7.57,01:30:00,51365.898624211644
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,7.29,01:30:00,47020.64458279646
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,6.86,01:50:00,67758.92045916826
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,LEBL,BCN,Barcelona,Barcelona,Barcelona,41.2971,2.078459,ES,4.14,02:35:00,118783.58522165875
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,LEPA,PMI,Palma De Mallorca,Palma De Mallorca,Palma De Mallorca,39.5517,2.73881,ES,4.0,02:45:00,130054.99056240146
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,ESSA,ARN,Stockholm-Arlanda,Stockholm,Arlanda,59.6519,17.9186,SE,3.57,01:35:00,67678.70130237969
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,EKCH,CPH,Copenhagen Kastrup,Copenhagen,Kastrup,55.6179,12.656,DK,3.43,01:05:00,28959.95444902679
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,LFPO,ORY,Paris-Orly,Paris,Orly,48.7253,2.35944,FR,3.0,01:50:00,69995.9617342793
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,LLBG,TLV,Ben Gurion,Tel Aviv Yafo,Ben Gurion,32.0114,34.8867,IL,2.86,04:05:00,224836.69167515115
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,LIML,LIN,Linate,Milan,Linate,45.4451,9.27674,IT,2.43,01:50:00,65479.9499941486
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,2.0,02:05:00,75327.45579479392
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,2.0,02:05:00,84222.66633324907
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,GCTS,TFS,Tenerife South,Tenerife Island,Tenerife South,28.0445,-16.5725,ES,1.95,05:20:00,289947.74612824916
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,1.57,01:45:00,68474.47172629165
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,LIRF,FCO,Leonardo da Vinci?Fiumicino,Rome,Leonardo da Vinci?Fiumicino,41.8045,12.2508,IT,1.57,02:05:00,93022.67811090656
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,LIPZ,VCE,Venice Marco Polo,Venice,Marco Polo,45.5053,12.3519,IT,1.57,01:45:00,60604.39907350005
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,1.43,01:30:00,53846.21111973476
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,LEMG,AGP,M?laga,M?laga,M?laga,36.6749,-4.49911,ES,1.29,03:35:00,177146.99245587792
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,GCLP,LPA,Gran Canaria,Gran Canaria Island,Gran Canaria,27.9319,-15.386599,ES,1.15,05:15:00,285632.5918472312
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,GCFV,FUE,Fuerteventura,Fuerteventura Island,Fuerteventura,28.4527,-13.8638,ES,1.14,05:10:00,275363.7800969103
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,EGPH,EDI,Edinburgh,Edinburgh,Edinburgh,55.95,-3.372499,GB,1.0,02:15:00,92337.2928833815
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,1.0,01:55:00,75055.12713567434
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,GCRR,ACE,Lanzarote,Lanzarote Island,Lanzarote,28.9455,-13.605199,ES,0.86,05:00:00,270656.5526233659
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,LIRN,NAP,Naples,N?poli,Naples,40.886,14.2908,IT,0.86,02:20:00,100894.23083493252
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,LICC,CTA,Catania-Fontanarossa,Catania,Fontanarossa,37.4668,15.066399,IT,0.57,02:50:00,131126.68439842423
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,LPMA,FNC,Madeira,Funchal,Madeira,32.6979,-16.7745,PT,0.57,04:45:00,258131.90887533303
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,0.57,02:10:00,84878.10684065266
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,LEVC,VLC,Valencia,Valencia,Valencia,39.4893,-0.481624,ES,0.57,03:05:00,141311.02698644824
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.29,02:05:00,88481.97435614216
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,EGPF,GLA,Glasgow,Glasgow,Glasgow,55.8719,-4.43306,GB,0.29,02:20:00,97321.04132747633
+EDDB,BER,Berlin Brandenburg Airport,Berlin,Brandenburg,DE,52.362167,13.500667,Europe/Berlin,LCLK,LCA,Larnaca,Larnarca,Larnaca,34.8751,33.6249,CY,0.29,03:45:00,198661.86057217524
+EDDH,HAM,Hamburg Airport,Hamburg,Hamburg,DE,53.63040161,9.988229752,Europe/Berlin,EGCC,MAN,Manchester,Manchester,EGCC,53.3537,-2.27495,GB,0.86,01:40:00,64266.361869428525
+EDDH,HAM,Hamburg Airport,Hamburg,Hamburg,DE,53.63040161,9.988229752,Europe/Berlin,EGPH,EDI,Edinburgh,Edinburgh,EGPH,55.95,-3.372499,GB,0.57,01:50:00,70766.07141238719
+EDDM,MUC,Munich International Airport,Munich,Bayern,DE,48.35380173,11.78610039,Europe/Berlin,EGCC,MAN,Manchester,Manchester,EGCC,53.3537,-2.27495,GB,3.29,02:05:00,89495.98131249133
+EDDM,MUC,Munich International Airport,Munich,Bayern,DE,48.35380173,11.78610039,Europe/Berlin,EGPH,EDI,Edinburgh,Edinburgh,EGPH,55.95,-3.372499,GB,0.29,02:20:00,105326.50259734214
+EGAA,BFS,Belfast International Airport,Belfast,Northern Ireland,GB,54.65750122,-6.215829849,Europe/London,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,4.86,01:25:00,44443.4917366107
+EGAA,BFS,Belfast International Airport,Belfast,Northern Ireland,GB,54.65750122,-6.215829849,Europe/London,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,4.0,01:10:00,39331.27600162571
+EGAA,BFS,Belfast International Airport,Belfast,Northern Ireland,GB,54.65750122,-6.215829849,Europe/London,EGPH,EDI,Edinburgh,Edinburgh,Edinburgh,55.95,-3.372499,GB,3.29,00:55:00,18238.468533247196
+EGAA,BFS,Belfast International Airport,Belfast,Northern Ireland,GB,54.65750122,-6.215829849,Europe/London,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,3.29,00:55:00,23407.134490584172
+EGAA,BFS,Belfast International Airport,Belfast,Northern Ireland,GB,54.65750122,-6.215829849,Europe/London,EGSS,STN,London Stansted,London,Stansted,51.885,0.234999,GB,3.0,01:15:00,41808.045342618876
+EGAA,BFS,Belfast International Airport,Belfast,Northern Ireland,GB,54.65750122,-6.215829849,Europe/London,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,2.71,01:05:00,34232.96436407418
+EGAA,BFS,Belfast International Airport,Belfast,Northern Ireland,GB,54.65750122,-6.215829849,Europe/London,EGPF,GLA,Glasgow,Glasgow,Glasgow,55.8719,-4.43306,GB,2.71,00:45:00,13935.994962097742
+EGAA,BFS,Belfast International Airport,Belfast,Northern Ireland,GB,54.65750122,-6.215829849,Europe/London,GCTS,TFS,Tenerife South,Tenerife Island,Tenerife South,28.0445,-16.5725,ES,1.0,04:40:00,242738.03696549693
+EGAA,BFS,Belfast International Airport,Belfast,Northern Ireland,GB,54.65750122,-6.215829849,Europe/London,LEAL,ALC,Alicante,Alicante,Alicante,38.2822,-0.558156,ES,0.86,03:00:00,147722.99734999667
+EGAA,BFS,Belfast International Airport,Belfast,Northern Ireland,GB,54.65750122,-6.215829849,Europe/London,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,0.86,02:10:00,100991.37702127594
+EGAA,BFS,Belfast International Airport,Belfast,Northern Ireland,GB,54.65750122,-6.215829849,Europe/London,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,0.86,01:50:00,68751.28620118841
+EGAA,BFS,Belfast International Airport,Belfast,Northern Ireland,GB,54.65750122,-6.215829849,Europe/London,GCRR,ACE,Lanzarote,Lanzarote Island,Lanzarote,28.9455,-13.605199,ES,0.71,04:30:00,230472.95757346047
+EGAA,BFS,Belfast International Airport,Belfast,Northern Ireland,GB,54.65750122,-6.215829849,Europe/London,LEMG,AGP,M?laga,M?laga,M?laga,36.6749,-4.49911,ES,0.71,03:08:00,158236.12931955082
+EGAA,BFS,Belfast International Airport,Belfast,Northern Ireland,GB,54.65750122,-6.215829849,Europe/London,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,0.57,01:35:00,61095.94313224981
+EGAA,BFS,Belfast International Airport,Belfast,Northern Ireland,GB,54.65750122,-6.215829849,Europe/London,GCLP,LPA,Gran Canaria,Gran Canaria Island,Gran Canaria,27.9319,-15.386599,ES,0.57,04:35:00,241741.814112546
+EGAA,BFS,Belfast International Airport,Belfast,Northern Ireland,GB,54.65750122,-6.215829849,Europe/London,LPFR,FAO,Faro,Faro,Faro,37.0144,-7.965909,PT,0.43,03:00:00,155278.08464193385
+EGAA,BFS,Belfast International Airport,Belfast,Northern Ireland,GB,54.65750122,-6.215829849,Europe/London,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,0.43,02:05:00,100876.41618895183
+EGAC,BHD,George Best Belfast City Airport,Belfast,Northern Ireland,GB,54.61809921,-5.872499943,Europe/London,EGPF,GLA,Glasgow,Glasgow,Glasgow,55.8719,-4.43306,GB,2.71,00:50:00,13186.789642375858
+EGAC,BHD,George Best Belfast City Airport,Belfast,Northern Ireland,GB,54.61809921,-5.872499943,Europe/London,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,2.0,01:30:00,42913.81565528721
+EGAC,BHD,George Best Belfast City Airport,Belfast,Northern Ireland,GB,54.61809921,-5.872499943,Europe/London,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.29,01:05:00,32989.31302781081
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,7.86,01:20:00,38570.45198938123
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,GCTS,TFS,Tenerife South,Tenerife Island,Tenerife South,28.0445,-16.5725,ES,7.0,04:40:00,240645.35524655605
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,6.43,01:30:00,46515.522010328474
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LEAL,ALC,Alicante,Alicante,Alicante,38.2822,-0.558156,ES,5.0,02:45:00,132746.6971785759
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,4.7,01:55:00,78521.17367963846
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,GCRR,ACE,Lanzarote,Lanzarote Island,Lanzarote,28.9455,-13.605199,ES,4.14,04:30:00,226303.23229486635
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LEBL,BCN,Barcelona,Barcelona,Barcelona,41.2971,2.078459,ES,3.71,02:20:00,108984.62993497678
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,EGAA,BFS,Belfast,Belfast,Belfast,54.6575,-6.215829,GB,3.57,00:55:00,23407.134490584172
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,EKCH,CPH,Copenhagen Kastrup,Copenhagen,Kastrup,55.6179,12.656,DK,3.43,01:50:00,78824.49034328254
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LEMG,AGP,M?laga,M?laga,M?laga,36.6749,-4.49911,ES,3.0,03:00:00,147065.45209910997
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,EDDM,MUC,Munich,Munich,Munich,48.3538,11.7861,DE,3.0,01:55:00,89495.98131249133
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,2.86,02:50:00,134503.20442769743
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,2.57,02:15:00,92372.47155024779
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,GCFV,FUE,Fuerteventura,Fuerteventura Island,Fuerteventura,28.4527,-13.8638,ES,2.14,04:30:00,230997.6358183396
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LKPR,PRG,Ruzyn,Prague,Ruzyn,50.1008,14.26,CZ,2.14,02:05:00,94424.30963306091
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,GCLP,LPA,Gran Canaria,Gran Canaria Island,Gran Canaria,27.9319,-15.386599,ES,2.0,04:40:00,238730.71284860504
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LPFR,FAO,Faro,Faro,Faro,37.0144,-7.965909,PT,1.86,03:00:00,147623.45048358096
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LTAI,AYT,Antalya,Antalya,Antalya,36.8987,30.8005,TR,1.71,04:30:00,247710.83585397454
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,1.71,01:55:00,84222.66633324907
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,EPKK,KRK,John Paul II   Krak?w-Balice,Krak?w,John Paul II   -Balice,50.0777,19.7848,PL,1.71,02:30:00,123296.7342455791
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,GMMX,RAK,Menara,Marrakech,Menara,31.6069,-8.036299,MA,1.43,03:40:00,194321.61958428044
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,GMAD,AGA,Al Massira,Agadir,Al Massira,30.325,-9.413069,MA,1.29,03:50:00,207178.31771841834
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LPMA,FNC,Madeira,Funchal,Madeira,32.6979,-16.7745,PT,1.29,04:00:00,203013.63449779397
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LEPA,PMI,Palma De Mallorca,Palma De Mallorca,Palma De Mallorca,39.5517,2.73881,ES,1.29,02:45:00,124886.81915627004
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LGAV,ATH,Eleftherios Venizelos,Athens,Eleftherios Venizelos,37.9364,23.944498,GR,1.14,03:50:00,208593.75222944855
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LMML,MLA,Malta,Luqa,Malta,35.8575,14.4775,MT,1.14,03:30:00,185074.29413092672
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LCPH,PFO,Paphos,Paphos,Paphos,34.718,32.4857,CY,1.14,04:45:00,269908.856087836
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LBSF,SOF,Sofia,Sofia,Sofia,42.696693,23.411436,BG,1.14,03:20:00,176487.95002289425
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,EDDH,HAM,Hamburg,Hamburg,Hamburg,53.6304,9.988229,DE,0.86,01:40:00,64266.361869428525
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LIPZ,VCE,Venice Marco Polo,Venice,Marco Polo,45.5053,12.3519,IT,0.86,02:25:00,108181.40486521657
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LIMF,TRN,Turin,Torino,Turin,45.2008,7.64963,IT,0.75,02:10:00,91396.4979267188
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LPPR,OPO,Francisco de S? Carneiro,Porto,Francisco de S? Carneiro,41.2481,-8.681389,PT,0.71,02:25:00,112889.2211847401
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.57,01:50:00,74641.8717426751
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LFBD,BOD,Bordeaux-M?rignac,Bordeaux/M?rignac,Bordeaux-M?rignac,44.8283,-0.715556,FR,0.57,01:50:00,75435.00180256828
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LIRP,PSA,Pisa,Pisa,Pisa,43.6839,10.3927,IT,0.57,02:30:00,112276.9158725282
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LLBG,TLV,Ben Gurion,Tel Aviv Yafo,Ben Gurion,32.0114,34.8867,IL,0.43,05:10:00,299383.9763178283
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LEBB,BIO,Bilbao,Bilbao,Bilbao,43.3011,-2.910609,ES,0.29,02:05:00,88384.68609766028
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,0.29,01:58:00,79057.48992407859
+EGCC,MAN,Manchester Airport,Manchester,England,GB,53.35369873,-2.274950028,Europe/London,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,0.29,02:30:00,101410.7096072711
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,4.14,01:20:00,41523.72614616684
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,EGPH,EDI,Edinburgh,Edinburgh,Edinburgh,55.95,-3.372499,GB,4.0,01:15:00,40302.56825249407
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,4.0,01:40:00,68228.08773372912
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,EGPF,GLA,Glasgow,Glasgow,Glasgow,55.8719,-4.43306,GB,3.0,01:15:00,40471.8547334151
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LEAL,ALC,Alicante,Alicante,Alicante,38.2822,-0.558156,ES,2.86,02:25:00,115787.19169280675
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,EGAA,BFS,Belfast,Belfast,Belfast,54.6575,-6.215829,GB,2.71,01:10:00,34232.96436407418
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,GCTS,TFS,Tenerife South,Tenerife Island,Tenerife South,28.0445,-16.5725,ES,2.44,04:10:00,224317.21850583536
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LEMG,AGP,M?laga,M?laga,M?laga,36.6749,-4.49911,ES,2.43,02:40:00,129585.01474748156
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LPFR,FAO,Faro,Faro,Faro,37.0144,-7.965909,PT,2.0,02:35:00,130320.75702357086
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LEBL,BCN,Barcelona,Barcelona,Barcelona,41.2971,2.078459,ES,1.86,02:05:00,93196.96816476899
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,1.86,01:20:00,36276.87771521785
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,GCRR,ACE,Lanzarote,Lanzarote Island,Lanzarote,28.9455,-13.605199,ES,1.72,04:00:00,209481.62461082637
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LFPO,ORY,Paris-Orly,Paris,Orly,48.7253,2.35944,FR,1.57,01:25:00,37009.75113121089
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,EPKK,KRK,John Paul II   Krak?w-Balice,Krak?w,John Paul II   -Balice,50.0777,19.7848,PL,1.29,02:30:00,125544.31771747526
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LEMD,MAD,Adolfo Su?rez Madrid?Barajas,Madrid,Adolfo Su?rez ?Barajas,40.4936,-3.56676,ES,1.29,02:15:00,95754.7290847709
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,1.14,02:30:00,117500.06266389813
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LEPA,PMI,Palma De Mallorca,Palma De Mallorca,Palma De Mallorca,39.5517,2.73881,ES,0.86,02:20:00,109135.23442105713
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LIRF,FCO,Leonardo da Vinci?Fiumicino,Rome,Leonardo da Vinci?Fiumicino,41.8045,12.2508,IT,0.86,02:35:00,123206.97101123437
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,GCLP,LPA,Gran Canaria,Gran Canaria Island,Gran Canaria,27.9319,-15.386599,ES,0.83,04:10:00,222162.11294661555
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.57,01:40:00,67384.80814175401
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,GCFV,FUE,Fuerteventura,Fuerteventura Island,Fuerteventura,28.4527,-13.8638,ES,0.57,04:00:00,214191.82224833567
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LPMA,FNC,Madeira,Funchal,Madeira,32.6979,-16.7745,PT,0.57,03:35:00,187232.34290416253
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LCPH,PFO,Paphos,Paphos,Paphos,34.718,32.4857,CY,0.57,04:45:00,265813.1299629428
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LKPR,PRG,Ruzyn,Prague,Ruzyn,50.1008,14.26,CZ,0.57,02:00:00,95131.48936175913
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LFBO,TLS,Toulouse-Blagnac,Toulouse-Blagnac,Toulouse-Blagnac,43.6291,1.363819,FR,0.57,01:45:00,72277.66753798292
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LFLS,GNB,Grenoble-Is?re,Grenoble/Saint-Geoirs,Grenoble-Is?re,45.3629,5.32937,FR,0.43,01:45:00,70736.00731648666
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,0.43,01:40:00,67332.2449400033
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LPPR,OPO,Francisco de S? Carneiro,Porto,Francisco de S? Carneiro,41.2481,-8.681389,PT,0.43,02:08:00,96026.6601529908
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LBSF,SOF,Sofia,Sofia,Sofia,42.696693,23.411436,BG,0.43,03:10:00,173184.29275735817
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LGAV,ATH,Eleftherios Venizelos,Athens,Eleftherios Venizelos,37.9364,23.944498,GR,0.29,03:45:00,202705.04756002518
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,EGAC,BHD,George Best Belfast City,Belfast,George Best  City,54.6181,-5.872499,GB,0.29,01:10:00,32989.31302781081
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,0.29,02:00:00,88481.97435614216
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,EKCH,CPH,Copenhagen Kastrup,Copenhagen,Kastrup,55.6179,12.656,DK,0.29,01:55:00,88537.00492162764
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,0.29,02:05:00,89821.9941911555
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LIRP,PSA,Pisa,Pisa,Pisa,43.6839,10.3927,IT,0.29,02:15:00,102952.16723869678
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LIMF,TRN,Turin,Torino,Turin,45.2008,7.64963,IT,0.29,01:55:00,81367.79264749482
+EGGD,BRS,Bristol International Airport,Bristol,England,GB,51.38270187,-2.719089985,Europe/London,LIPZ,VCE,Venice Marco Polo,Venice,Marco Polo,45.5053,12.3519,IT,0.29,02:10:00,101817.25116772587
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,7.86,01:40:00,62005.0635073996
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,5.57,01:10:00,28042.710535512873
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,EGAA,BFS,Belfast,Belfast,Belfast,54.6575,-6.215829,GB,3.43,01:15:00,39331.27600162571
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LLBG,TLV,Ben Gurion,Tel Aviv Yafo,Ben Gurion,32.0114,34.8867,IL,3.29,04:50:00,284805.5936854832
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,EGPH,EDI,Edinburgh,Edinburgh,Edinburgh,55.95,-3.372499,GB,3.0,01:15:00,39071.46060940277
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LEMG,AGP,M?laga,M?laga,M?laga,36.6749,-4.49911,ES,3.0,02:50:00,135890.91443181588
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,2.96,01:20:00,30006.137306755554
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,EPKK,KRK,John Paul II   Krak?w-Balice,Krak?w,John Paul II   -Balice,50.0777,19.7848,PL,2.86,02:25:00,112557.33038507095
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,2.86,02:50:00,126919.86802963202
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,EGPF,GLA,Glasgow,Glasgow,Glasgow,55.8719,-4.43306,GB,2.14,01:15:00,40988.88544997568
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,2.0,02:00:00,76056.36055688545
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,GCTS,TFS,Tenerife South,Tenerife Island,Tenerife South,28.0445,-16.5725,ES,2.0,04:30:00,234701.37391915283
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LEBL,BCN,Barcelona,Barcelona,Barcelona,41.2971,2.078459,ES,1.86,02:10:00,94050.19756241841
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,GCRR,ACE,Lanzarote,Lanzarote Island,Lanzarote,28.9455,-13.605199,ES,1.86,04:10:00,219058.2001049678
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LEAL,ALC,Alicante,Alicante,Alicante,38.2822,-0.558156,ES,1.71,02:35:00,119341.53385148397
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LPFR,FAO,Faro,Faro,Faro,37.0144,-7.965909,PT,1.71,02:50:00,138740.6734405915
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LCLK,LCA,Larnaca,Larnarca,Larnaca,34.8751,33.6249,CY,1.57,04:50:00,260154.6044831305
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,1.29,01:45:00,62579.41633856933
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,EGPD,ABZ,Aberdeen Dyce,Aberdeen,Dyce,57.2019,-2.197779,GB,1.14,01:30:00,47766.95482385303
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,1.14,01:50:00,75055.12713567434
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LPPR,OPO,Francisco de S? Carneiro,Porto,Francisco de S? Carneiro,41.2481,-8.681389,PT,1.14,02:25:00,105879.17394745532
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LTAI,AYT,Antalya,Antalya,Antalya,36.8987,30.8005,TR,1.0,04:20:00,233364.9384475471
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LIRN,NAP,Naples,N?poli,Naples,40.886,14.2908,IT,1.0,02:45:00,130848.22395397861
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LFLS,GNB,Grenoble-Is?re,Grenoble/Saint-Geoirs,Grenoble-Is?re,45.3629,5.32937,FR,0.86,01:40:00,66087.68609143727
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,GCFV,FUE,Fuerteventura,Fuerteventura Island,Fuerteventura,28.4527,-13.8638,ES,0.71,04:20:00,223792.9762771211
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LEMD,MAD,Adolfo Su?rez Madrid?Barajas,Madrid,Adolfo Su?rez ?Barajas,40.4936,-3.56676,ES,0.71,02:30:00,101799.66026031949
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LSZH,ZRH,Kloten,Zurich,Kloten,47.4647,8.549169,CH,0.71,01:45:00,63858.63674481652
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,GCLP,LPA,Gran Canaria,Gran Canaria Island,Gran Canaria,27.9319,-15.386599,ES,0.57,04:25:00,232182.72342010328
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,0.57,02:05:00,84899.30619509734
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,GMMX,RAK,Menara,Marrakech,Menara,31.6069,-8.036299,MA,0.43,03:40:00,184591.66696079195
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LEPA,PMI,Palma De Mallorca,Palma De Mallorca,Palma De Mallorca,39.5517,2.73881,ES,0.43,02:25:00,109850.2230842796
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LIMF,TRN,Turin,Torino,Turin,45.2008,7.64963,IT,0.43,01:50:00,74908.88481136621
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,GMAD,AGA,Al Massira,Agadir,Al Massira,30.325,-9.413069,MA,0.29,03:50:00,198004.04664432615
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LICC,CTA,Catania-Fontanarossa,Catania,Fontanarossa,37.4668,15.066399,IT,0.29,03:15:00,158508.44854242625
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LICJ,PMO,Falcone?Borsellino,Palermo,Falcone?Borsellino,38.176,13.090999,IT,0.29,03:00:00,146067.6132192111
+EGGW,LTN,London Luton Airport,London,England,GB,51.87469864,-0.368333012,Europe/London,LCPH,PFO,Paphos,Paphos,Paphos,34.718,32.4857,CY,0.29,04:30:00,255411.03784131442
+EGKK,LGW,London Gatwick Airport,London,England,GB,51.14810181,-0.190277994,Europe/London,LEBL,BCN,Barcelona,Barcelona,LEBL,41.2971,2.078459,ES,11.0,02:10:00,87591.16509556265
+EGKK,LGW,London Gatwick Airport,London,England,GB,51.14810181,-0.190277994,Europe/London,LEMG,AGP,M?laga,M?laga,LEMG,36.6749,-4.49911,ES,5.71,02:55:00,129892.43980538392
+EGKK,LGW,London Gatwick Airport,London,England,GB,51.14810181,-0.190277994,Europe/London,EGAA,BFS,Belfast,Belfast,EGAA,54.6575,-6.215829,GB,5.14,01:30:00,44443.4917366107
+EGKK,LGW,London Gatwick Airport,London,England,GB,51.14810181,-0.190277994,Europe/London,EGPH,EDI,Edinburgh,Edinburgh,EGPH,55.95,-3.372499,GB,4.43,01:30:00,45377.388410192594
+EGKK,LGW,London Gatwick Airport,London,England,GB,51.14810181,-0.190277994,Europe/London,LPFR,FAO,Faro,Faro,LPFR,37.0144,-7.965909,PT,4.14,02:55:00,133282.48572823004
+EGKK,LGW,London Gatwick Airport,London,England,GB,51.14810181,-0.190277994,Europe/London,LEAL,ALC,Alicante,Alicante,LEAL,38.2822,-0.558156,ES,4.01,02:35:00,112972.54469570363
+EGKK,LGW,London Gatwick Airport,London,England,GB,51.14810181,-0.190277994,Europe/London,LEBB,BIO,Bilbao,Bilbao,LEBB,43.3011,-2.910609,ES,3.29,02:05:00,70801.36592386411
+EGKK,LGW,London Gatwick Airport,London,England,GB,51.14810181,-0.190277994,Europe/London,EGPF,GLA,Glasgow,Glasgow,EGPF,55.8719,-4.43306,GB,3.14,01:30:00,47090.69666605083
+EGKK,LGW,London Gatwick Airport,London,England,GB,51.14810181,-0.190277994,Europe/London,LEPA,PMI,Palma De Mallorca,Palma De Mallorca,LEPA,39.5517,2.73881,ES,3.0,02:25:00,103395.64129579432
+EGKK,LGW,London Gatwick Airport,London,England,GB,51.14810181,-0.190277994,Europe/London,LEVC,VLC,Valencia,Valencia,LEVC,39.4893,-0.481624,ES,2.86,02:20:00,102378.81762024533
+EGKK,LGW,London Gatwick Airport,London,England,GB,51.14810181,-0.190277994,Europe/London,EDDM,MUC,Munich,Munich,EDDM,48.3538,11.7861,DE,2.29,01:50:00,72368.35110189136
+EGKK,LGW,London Gatwick Airport,London,England,GB,51.14810181,-0.190277994,Europe/London,LBSF,SOF,Sofia,Sofia,LBSF,42.696693,23.411436,BG,1.65,03:05:00,159254.7585020377
+EGKK,LGW,London Gatwick Airport,London,England,GB,51.14810181,-0.190277994,Europe/London,LFBO,TLS,Toulouse-Blagnac,Toulouse-Blagnac,LFBO,43.6291,1.363819,FR,1.47,01:50:00,66683.19815626675
+EGKK,LGW,London Gatwick Airport,London,England,GB,51.14810181,-0.190277994,Europe/London,LTAI,AYT,Antalya,Antalya,LTAI,36.8987,30.8005,TR,1.43,04:20:00,230126.86493373348
+EGKK,LGW,London Gatwick Airport,London,England,GB,51.14810181,-0.190277994,Europe/London,LIRP,PSA,Pisa,Pisa,LIRP,43.6839,10.3927,IT,1.29,02:10:00,90811.53400210555
+EGKK,LGW,London Gatwick Airport,London,England,GB,51.14810181,-0.190277994,Europe/London,LCPH,PFO,Paphos,Paphos,LCPH,34.718,32.4857,CY,1.14,04:35:00,252049.85431621276
+EGKK,LGW,London Gatwick Airport,London,England,GB,51.14810181,-0.190277994,Europe/London,LEAM,LEI,Almer?a,Almer?a,LEAM,36.8439,-2.3701,ES,0.71,02:45:00,126303.05913838174
+EGKK,LGW,London Gatwick Airport,London,England,GB,51.14810181,-0.190277994,Europe/London,EDDH,HAM,Hamburg,Hamburg,EDDH,53.6304,9.988229,DE,0.71,01:40:00,58866.49992870358
+EGPD,ABZ,Aberdeen Dyce Airport,Aberdeen,Scotland,GB,57.20190048,-2.197779894,Europe/London,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,2.0,01:40:00,54224.74544183157
+EGPD,ABZ,Aberdeen Dyce Airport,Aberdeen,Scotland,GB,57.20190048,-2.197779894,Europe/London,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,1.14,01:25:00,47766.95482385303
+EGPD,ABZ,Aberdeen Dyce Airport,Aberdeen,Scotland,GB,57.20190048,-2.197779894,Europe/London,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,0.14,02:25:00,106322.46596892076
+EGPF,GLA,Glasgow International Airport,Glasgow,Scotland,GB,55.87189865,-4.433060169,Europe/London,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,4.29,01:35:00,56867.04685178627
+EGPF,GLA,Glasgow International Airport,Glasgow,Scotland,GB,55.87189865,-4.433060169,Europe/London,EGAC,BHD,George Best Belfast City,Belfast,George Best  City,54.6181,-5.872499,GB,3.0,00:45:00,13186.789642375858
+EGPF,GLA,Glasgow International Airport,Glasgow,Scotland,GB,55.87189865,-4.433060169,Europe/London,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,3.0,01:10:00,40471.8547334151
+EGPF,GLA,Glasgow International Airport,Glasgow,Scotland,GB,55.87189865,-4.433060169,Europe/London,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,3.0,01:30:00,47090.69666605083
+EGPF,GLA,Glasgow International Airport,Glasgow,Scotland,GB,55.87189865,-4.433060169,Europe/London,EGAA,BFS,Belfast,Belfast,Belfast,54.6575,-6.215829,GB,2.71,00:45:00,13935.994962097742
+EGPF,GLA,Glasgow International Airport,Glasgow,Scotland,GB,55.87189865,-4.433060169,Europe/London,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,2.14,01:15:00,40988.88544997568
+EGPF,GLA,Glasgow International Airport,Glasgow,Scotland,GB,55.87189865,-4.433060169,Europe/London,GCTS,TFS,Tenerife South,Tenerife Island,Tenerife South,28.0445,-16.5725,ES,1.87,04:45:00,255936.6036798009
+EGPF,GLA,Glasgow International Airport,Glasgow,Scotland,GB,55.87189865,-4.433060169,Europe/London,LEAL,ALC,Alicante,Alicante,Alicante,38.2822,-0.558156,ES,1.71,03:05:00,156160.78406620552
+EGPF,GLA,Glasgow International Airport,Glasgow,Scotland,GB,55.87189865,-4.433060169,Europe/London,EGSS,STN,London Stansted,London,Stansted,51.885,0.234999,GB,1.53,01:20:00,42607.30996700144
+EGPF,GLA,Glasgow International Airport,Glasgow,Scotland,GB,55.87189865,-4.433060169,Europe/London,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,1.14,01:50:00,70933.41176346525
+EGPF,GLA,Glasgow International Airport,Glasgow,Scotland,GB,55.87189865,-4.433060169,Europe/London,LEMG,AGP,M?laga,M?laga,M?laga,36.6749,-4.49911,ES,1.0,03:20:00,168575.95220136963
+EGPF,GLA,Glasgow International Airport,Glasgow,Scotland,GB,55.87189865,-4.433060169,Europe/London,GCLP,LPA,Gran Canaria,Gran Canaria Island,Gran Canaria,27.9319,-15.386599,ES,0.86,04:53:00,254758.12574782743
+EGPF,GLA,Glasgow International Airport,Glasgow,Scotland,GB,55.87189865,-4.433060169,Europe/London,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,0.71,02:18:00,102603.76217516299
+EGPF,GLA,Glasgow International Airport,Glasgow,Scotland,GB,55.87189865,-4.433060169,Europe/London,LPFR,FAO,Faro,Faro,Faro,37.0144,-7.965909,PT,0.43,03:18:00,166927.6463814924
+EGPF,GLA,Glasgow International Airport,Glasgow,Scotland,GB,55.87189865,-4.433060169,Europe/London,GMAD,AGA,Al Massira,Agadir,Al Massira,30.325,-9.413069,MA,0.29,04:15:00,226351.83113469506
+EGPF,GLA,Glasgow International Airport,Glasgow,Scotland,GB,55.87189865,-4.433060169,Europe/London,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,0.29,02:05:00,97321.04132747633
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,EGSS,STN,London Stansted,London,Stansted,51.885,0.234999,GB,5.63,01:20:00,40338.34319780941
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,5.43,01:35:00,52772.80124188921
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,4.29,01:30:00,45377.388410192594
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,4.08,01:15:00,40302.56825249407
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,3.89,01:50:00,68711.90402959062
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,EGAA,BFS,Belfast,Belfast,Belfast,54.6575,-6.215829,GB,3.31,00:50:00,18238.468533247196
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,3.0,01:15:00,39071.46060940277
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,2.57,02:15:00,99990.75178137538
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,GCTS,TFS,Tenerife South,Tenerife Island,Tenerife South,28.0445,-16.5725,ES,2.29,04:50:00,258644.07949054902
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,LEAL,ALC,Alicante,Alicante,Alicante,38.2822,-0.558156,ES,1.71,03:05:00,156051.7146440867
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,GCRR,ACE,Lanzarote,Lanzarote Island,Lanzarote,28.9455,-13.605199,ES,1.43,04:40:00,245531.51352386805
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,LEMD,MAD,Adolfo Su?rez Madrid?Barajas,Madrid,Adolfo Su?rez ?Barajas,40.4936,-3.56676,ES,1.29,02:55:00,135778.62826906424
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,GCFV,FUE,Fuerteventura,Fuerteventura Island,Fuerteventura,28.4527,-13.8638,ES,1.15,04:45:00,250173.26528473615
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,1.14,02:05:00,92337.2928833815
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,EKCH,CPH,Copenhagen Kastrup,Copenhagen,Kastrup,55.6179,12.656,DK,1.14,01:50:00,79320.61681672452
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,EPKK,KRK,John Paul II   Krak?w-Balice,Krak?w,John Paul II   -Balice,50.0777,19.7848,PL,1.14,02:40:00,132389.63004187268
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,0.86,03:10:00,154532.47485279632
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,0.71,02:25:00,112651.4183212086
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.57,02:05:00,94296.06815319756
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,EDDH,HAM,Hamburg,Hamburg,Hamburg,53.6304,9.988229,DE,0.57,01:45:00,70766.07141238719
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,LFLS,GNB,Grenoble-Is?re,Grenoble/Saint-Geoirs,Grenoble-Is?re,45.3629,5.32937,FR,0.45,02:05:00,104785.65739035982
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,EDDM,MUC,Munich,Munich,Munich,48.3538,11.7861,DE,0.29,02:15:00,105326.50259734214
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,LIRN,NAP,Naples,N?poli,Naples,40.886,14.2908,IT,0.29,03:15:00,166840.1361655211
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,LCPH,PFO,Paphos,Paphos,Paphos,34.718,32.4857,CY,0.29,05:05:00,284469.79525470245
+EGPH,EDI,Edinburgh Airport,Edinburgh,Scotland,GB,55.95000076,-3.372499943,Europe/London,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,0.14,02:15:00,101271.16540343991
+EGSS,STN,London Stansted Airport,London,England,GB,51.88499832,0.234999999,Europe/London,EGPH,EDI,Edinburgh,Edinburgh,EGPH,55.95,-3.372499,GB,6.14,01:15:00,40338.34319780941
+EGSS,STN,London Stansted Airport,London,England,GB,51.88499832,0.234999999,Europe/London,EGAA,BFS,Belfast,Belfast,EGAA,54.6575,-6.215829,GB,2.15,01:15:00,41808.045342618876
+EGSS,STN,London Stansted Airport,London,England,GB,51.88499832,0.234999999,Europe/London,EGPF,GLA,Glasgow,Glasgow,EGPF,55.8719,-4.43306,GB,1.43,01:15:00,42607.30996700144
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,EKCH,CPH,Copenhagen Kastrup,Copenhagen,Kastrup,55.6179,12.656,DK,12.61,01:20:00,50163.98104355963
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,8.0,01:15:00,28894.07928609519
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,7.86,01:20:00,47020.64458279646
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,7.86,01:20:00,38570.45198938123
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,LIRF,FCO,Leonardo da Vinci?Fiumicino,Rome,Leonardo da Vinci?Fiumicino,41.8045,12.2508,IT,7.85,02:10:00,102484.4810244632
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,7.43,03:00:00,145950.00493208942
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,7.14,01:30:00,53890.2758726279
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,LIML,LIN,Linate,Milan,Linate,45.4451,9.27674,IT,6.34,01:45:00,65692.68472858782
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,5.57,01:10:00,28042.710535512873
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,EGPH,EDI,Edinburgh,Edinburgh,Edinburgh,55.95,-3.372499,GB,5.44,01:30:00,52772.80124188921
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,LEMG,AGP,M?laga,M?laga,M?laga,36.6749,-4.49911,ES,4.86,03:00:00,148786.63087151258
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,4.57,01:15:00,41523.72614616684
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,LKPR,PRG,Ruzyn,Prague,Ruzyn,50.1008,14.26,CZ,4.57,01:30:00,55853.85766475028
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,EGPF,GLA,Glasgow,Glasgow,Glasgow,55.8719,-4.43306,GB,4.29,01:35:00,56867.04685178627
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,4.29,01:45:00,62966.69725241449
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,LLBG,TLV,Ben Gurion,Tel Aviv Yafo,Ben Gurion,32.0114,34.8867,IL,4.29,04:30:00,261884.6009618177
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,LIPZ,VCE,Venice Marco Polo,Venice,Marco Polo,45.5053,12.3519,IT,4.14,01:45:00,74099.389216862
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,4.0,01:15:00,44324.094977874294
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,LEAL,ALC,Alicante,Alicante,Alicante,38.2822,-0.558156,ES,3.71,02:40:00,127400.85468649675
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,3.29,01:55:00,77334.76537231199
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,GCLP,LPA,Gran Canaria,Gran Canaria Island,Gran Canaria,27.9319,-15.386599,ES,3.0,04:45:00,251356.65183318465
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,GCTS,TFS,Tenerife South,Tenerife Island,Tenerife South,28.0445,-16.5725,ES,2.43,04:55:00,254632.37160382717
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,LIRN,NAP,Naples,N?poli,Naples,40.886,14.2908,IT,2.14,02:25:00,115482.04183404612
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,EGSS,STN,London Stansted,London,Stansted,51.885,0.234999,GB,1.86,01:05:00,24795.61725370172
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,LPFR,FAO,Faro,Faro,Faro,37.0144,-7.965909,PT,1.71,03:10:00,155648.64482430398
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,GCRR,ACE,Lanzarote,Lanzarote Island,Lanzarote,28.9455,-13.605199,ES,1.43,04:30:00,237383.61681372472
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,GMMX,RAK,Menara,Marrakech,Menara,31.6069,-8.036299,MA,1.14,03:50:00,199371.52106837914
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,GCFV,FUE,Fuerteventura,Fuerteventura Island,Fuerteventura,28.4527,-13.8638,ES,1.0,04:35:00,242137.78643383944
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,EGAA,BFS,Belfast,Belfast,Belfast,54.6575,-6.215829,GB,0.71,01:40:00,61095.94313224981
+EHAM,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,52.30860138,4.76388979,Europe/Amsterdam,LIME,BGY,Orio al Serio,Bergamo,Orio al Serio,45.6739,9.70417,IT,0.43,01:50:00,64874.16150366767
+EKCH,CPH,Copenhagen Kastrup Airport,Copenhagen,Capital-Region,DK,55.61790085,12.65600014,Europe/Copenhagen,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,13.14,01:25:00,50163.98104355963
+EKCH,CPH,Copenhagen Kastrup Airport,Copenhagen,Capital-Region,DK,55.61790085,12.65600014,Europe/Copenhagen,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,7.59,02:00:00,79440.82813231924
+EKCH,CPH,Copenhagen Kastrup Airport,Copenhagen,Capital-Region,DK,55.61790085,12.65600014,Europe/Copenhagen,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,7.44,02:05:00,77958.62493895297
+EKCH,CPH,Copenhagen Kastrup Airport,Copenhagen,Capital-Region,DK,55.61790085,12.65600014,Europe/Copenhagen,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,3.86,02:05:00,90002.06427517466
+EKCH,CPH,Copenhagen Kastrup Airport,Copenhagen,Capital-Region,DK,55.61790085,12.65600014,Europe/Copenhagen,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,3.72,02:05:00,90435.9222803621
+EKCH,CPH,Copenhagen Kastrup Airport,Copenhagen,Capital-Region,DK,55.61790085,12.65600014,Europe/Copenhagen,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,3.57,01:00:00,28959.95444902679
+EKCH,CPH,Copenhagen Kastrup Airport,Copenhagen,Capital-Region,DK,55.61790085,12.65600014,Europe/Copenhagen,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,3.43,02:00:00,78824.49034328254
+EKCH,CPH,Copenhagen Kastrup Airport,Copenhagen,Capital-Region,DK,55.61790085,12.65600014,Europe/Copenhagen,EGPH,EDI,Edinburgh,Edinburgh,Edinburgh,55.95,-3.372499,GB,1.14,01:55:00,79320.61681672452
+EKCH,CPH,Copenhagen Kastrup Airport,Copenhagen,Capital-Region,DK,55.61790085,12.65600014,Europe/Copenhagen,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.71,01:50:00,75886.60761371476
+EKCH,CPH,Copenhagen Kastrup Airport,Copenhagen,Capital-Region,DK,55.61790085,12.65600014,Europe/Copenhagen,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,0.43,02:10:00,96516.34573457146
+EKCH,CPH,Copenhagen Kastrup Airport,Copenhagen,Capital-Region,DK,55.61790085,12.65600014,Europe/Copenhagen,LFBD,BOD,Bordeaux-M?rignac,Bordeaux/M?rignac,Bordeaux-M?rignac,44.8283,-0.715556,FR,0.29,02:40:00,120694.94804954084
+EKCH,CPH,Copenhagen Kastrup Airport,Copenhagen,Capital-Region,DK,55.61790085,12.65600014,Europe/Copenhagen,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.29,02:05:00,88537.00492162764
+ELLX,LUX,Luxembourg-Findel International Airport,Luxembourg,Luxembourg,LU,49.62659836,6.211520195,Europe/Luxembourg,LPPR,OPO,Francisco de S? Carneiro,Porto,Francisco de S? Carneiro,41.2481,-8.681389,PT,5.43,02:30:00,117473.77974078376
+ELLX,LUX,Luxembourg-Findel International Airport,Luxembourg,Luxembourg,LU,49.62659836,6.211520195,Europe/Luxembourg,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,3.45,01:15:00,38141.306039758034
+ELLX,LUX,Luxembourg-Findel International Airport,Luxembourg,Luxembourg,LU,49.62659836,6.211520195,Europe/Luxembourg,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,3.43,02:55:00,135351.50430749584
+EPKK,KRK,John Paul II International Airport Krak?w-Balice Airport,Krak?w,Lesser-Poland-Voivodeship,PL,50.07770157,19.78479958,Europe/Warsaw,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,2.86,02:30:00,112557.33038507095
+EPKK,KRK,John Paul II International Airport Krak?w-Balice Airport,Krak?w,Lesser-Poland-Voivodeship,PL,50.07770157,19.78479958,Europe/Warsaw,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,1.71,02:45:00,123296.7342455791
+EPKK,KRK,John Paul II International Airport Krak?w-Balice Airport,Krak?w,Lesser-Poland-Voivodeship,PL,50.07770157,19.78479958,Europe/Warsaw,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,1.71,02:20:00,98756.15173223818
+EPKK,KRK,John Paul II International Airport Krak?w-Balice Airport,Krak?w,Lesser-Poland-Voivodeship,PL,50.07770157,19.78479958,Europe/Warsaw,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,1.57,02:35:00,111741.84038657461
+EPKK,KRK,John Paul II International Airport Krak?w-Balice Airport,Krak?w,Lesser-Poland-Voivodeship,PL,50.07770157,19.78479958,Europe/Warsaw,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,1.43,02:40:00,125544.31771747526
+EPKK,KRK,John Paul II International Airport Krak?w-Balice Airport,Krak?w,Lesser-Poland-Voivodeship,PL,50.07770157,19.78479958,Europe/Warsaw,EGPH,EDI,Edinburgh,Edinburgh,Edinburgh,55.95,-3.372499,GB,1.14,02:50:00,132389.63004187268
+ESSA,ARN,Stockholm-Arlanda Airport,Stockholm,Stockholm,SE,59.65190125,17.91860008,Europe/Stockholm,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,3.23,01:35:00,67678.70130237969
+ESSA,ARN,Stockholm-Arlanda Airport,Stockholm,Stockholm,SE,59.65190125,17.91860008,Europe/Stockholm,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,2.43,02:45:00,133109.279654708
+GCFV,FUE,Fuerteventura Airport,Fuerteventura Island,Canary-Islands,ES,28.45269966,-13.86380005,Atlantic/Canary,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,2.29,04:20:00,230997.6358183396
+GCFV,FUE,Fuerteventura Airport,Fuerteventura Island,Canary-Islands,ES,28.45269966,-13.86380005,Atlantic/Canary,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,1.71,04:10:00,218687.2265097438
+GCFV,FUE,Fuerteventura Airport,Fuerteventura Island,Canary-Islands,ES,28.45269966,-13.86380005,Atlantic/Canary,EGPH,EDI,Edinburgh,Edinburgh,Edinburgh,55.95,-3.372499,GB,1.14,04:40:00,250173.26528473615
+GCFV,FUE,Fuerteventura Airport,Fuerteventura Island,Canary-Islands,ES,28.45269966,-13.86380005,Atlantic/Canary,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,1.0,04:00:00,214191.82224833567
+GCFV,FUE,Fuerteventura Airport,Fuerteventura Island,Canary-Islands,ES,28.45269966,-13.86380005,Atlantic/Canary,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,0.71,04:35:00,242137.78643383944
+GCFV,FUE,Fuerteventura Airport,Fuerteventura Island,Canary-Islands,ES,28.45269966,-13.86380005,Atlantic/Canary,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,0.71,05:00:00,275363.7800969103
+GCFV,FUE,Fuerteventura Airport,Fuerteventura Island,Canary-Islands,ES,28.45269966,-13.86380005,Atlantic/Canary,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,0.57,04:15:00,223792.9762771211
+GCFV,FUE,Fuerteventura Airport,Fuerteventura Island,Canary-Islands,ES,28.45269966,-13.86380005,Atlantic/Canary,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,0.43,03:50:00,200584.6605411053
+GCFV,FUE,Fuerteventura Airport,Fuerteventura Island,Canary-Islands,ES,28.45269966,-13.86380005,Atlantic/Canary,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.29,04:10:00,222488.12704310278
+GCFV,FUE,Fuerteventura Airport,Fuerteventura Island,Canary-Islands,ES,28.45269966,-13.86380005,Atlantic/Canary,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,0.29,03:55:00,208222.3688995192
+GCFV,FUE,Fuerteventura Airport,Fuerteventura Island,Canary-Islands,ES,28.45269966,-13.86380005,Atlantic/Canary,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,0.29,04:00:00,217389.16907514294
+GCFV,FUE,Fuerteventura Airport,Fuerteventura Island,Canary-Islands,ES,28.45269966,-13.86380005,Atlantic/Canary,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,0.29,04:10:00,211630.27744476317
+GCFV,FUE,Fuerteventura Airport,Fuerteventura Island,Canary-Islands,ES,28.45269966,-13.86380005,Atlantic/Canary,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,0.14,02:18:00,96873.15468499144
+GCLP,LPA,Gran Canaria Airport,Gran Canaria Island,Canary-Islands,ES,27.93190002,-15.38659954,Atlantic/Canary,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,2.86,04:35:00,251356.65183318465
+GCLP,LPA,Gran Canaria Airport,Gran Canaria Island,Canary-Islands,ES,27.93190002,-15.38659954,Atlantic/Canary,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,2.29,04:15:00,227252.46745416036
+GCLP,LPA,Gran Canaria Airport,Gran Canaria Island,Canary-Islands,ES,27.93190002,-15.38659954,Atlantic/Canary,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,1.43,05:05:00,285632.5918472312
+GCLP,LPA,Gran Canaria Airport,Gran Canaria Island,Canary-Islands,ES,27.93190002,-15.38659954,Atlantic/Canary,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,1.0,02:15:00,105518.79434263527
+GCLP,LPA,Gran Canaria Airport,Gran Canaria Island,Canary-Islands,ES,27.93190002,-15.38659954,Atlantic/Canary,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.71,04:05:00,222162.11294661555
+GCLP,LPA,Gran Canaria Airport,Gran Canaria Island,Canary-Islands,ES,27.93190002,-15.38659954,Atlantic/Canary,EGPF,GLA,Glasgow,Glasgow,Glasgow,55.8719,-4.43306,GB,0.71,04:50:00,254758.12574782743
+GCLP,LPA,Gran Canaria Airport,Gran Canaria Island,Canary-Islands,ES,27.93190002,-15.38659954,Atlantic/Canary,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,0.57,04:20:00,232182.72342010328
+GCLP,LPA,Gran Canaria Airport,Gran Canaria Island,Canary-Islands,ES,27.93190002,-15.38659954,Atlantic/Canary,EGAA,BFS,Belfast,Belfast,Belfast,54.6575,-6.215829,GB,0.43,04:40:00,241741.814112546
+GCLP,LPA,Gran Canaria Airport,Gran Canaria Island,Canary-Islands,ES,27.93190002,-15.38659954,Atlantic/Canary,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.29,04:20:00,233081.43299777253
+GCLP,LPA,Gran Canaria Airport,Gran Canaria Island,Canary-Islands,ES,27.93190002,-15.38659954,Atlantic/Canary,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,0.14,04:10:00,218926.83576545076
+GCRR,ACE,Lanzarote Airport,Lanzarote Island,Canary-Islands,ES,28.94549942,-13.60519981,Atlantic/Canary,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,4.43,04:20:00,226303.23229486635
+GCRR,ACE,Lanzarote Airport,Lanzarote Island,Canary-Islands,ES,28.94549942,-13.60519981,Atlantic/Canary,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,3.57,04:05:00,213945.26216000505
+GCRR,ACE,Lanzarote Airport,Lanzarote Island,Canary-Islands,ES,28.94549942,-13.60519981,Atlantic/Canary,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,1.86,04:00:00,209481.62461082637
+GCRR,ACE,Lanzarote Airport,Lanzarote Island,Canary-Islands,ES,28.94549942,-13.60519981,Atlantic/Canary,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,1.71,04:25:00,237383.61681372472
+GCRR,ACE,Lanzarote Airport,Lanzarote Island,Canary-Islands,ES,28.94549942,-13.60519981,Atlantic/Canary,EGPH,EDI,Edinburgh,Edinburgh,Edinburgh,55.95,-3.372499,GB,1.43,04:35:00,245531.51352386805
+GCRR,ACE,Lanzarote Airport,Lanzarote Island,Canary-Islands,ES,28.94549942,-13.60519981,Atlantic/Canary,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,1.29,04:10:00,219058.2001049678
+GCRR,ACE,Lanzarote Airport,Lanzarote Island,Canary-Islands,ES,28.94549942,-13.60519981,Atlantic/Canary,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,0.71,05:00:00,270656.5526233659
+GCRR,ACE,Lanzarote Airport,Lanzarote Island,Canary-Islands,ES,28.94549942,-13.60519981,Atlantic/Canary,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,0.71,04:05:00,206880.04142646416
+GCRR,ACE,Lanzarote Airport,Lanzarote Island,Canary-Islands,ES,28.94549942,-13.60519981,Atlantic/Canary,EGAA,BFS,Belfast,Belfast,Belfast,54.6575,-6.215829,GB,0.57,04:25:00,230472.95757346047
+GCRR,ACE,Lanzarote Airport,Lanzarote Island,Canary-Islands,ES,28.94549942,-13.60519981,Atlantic/Canary,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.43,04:05:00,217814.41392471018
+GCRR,ACE,Lanzarote Airport,Lanzarote Island,Canary-Islands,ES,28.94549942,-13.60519981,Atlantic/Canary,LFBD,BOD,Bordeaux-M?rignac,Bordeaux/M?rignac,Bordeaux-M?rignac,44.8283,-0.715556,FR,0.43,03:15:00,165754.25978900574
+GCRR,ACE,Lanzarote Airport,Lanzarote Island,Canary-Islands,ES,28.94549942,-13.60519981,Atlantic/Canary,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,0.43,03:40:00,195921.43285194872
+GCRR,ACE,Lanzarote Airport,Lanzarote Island,Canary-Islands,ES,28.94549942,-13.60519981,Atlantic/Canary,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,0.43,03:55:00,212806.60392727228
+GCTS,TFS,Tenerife South Airport,Tenerife Island,Canary-Islands,ES,28.04450035,-16.57250023,Atlantic/Canary,EGCC,MAN,Manchester,Manchester,EGCC,53.3537,-2.27495,GB,7.43,04:35:00,240645.35524655605
+GCTS,TFS,Tenerife South Airport,Tenerife Island,Canary-Islands,ES,28.04450035,-16.57250023,Atlantic/Canary,EGGD,BRS,Bristol,Bristol,EGGD,51.3827,-2.719089,GB,2.71,04:15:00,224317.21850583536
+GCTS,TFS,Tenerife South Airport,Tenerife Island,Canary-Islands,ES,28.04450035,-16.57250023,Atlantic/Canary,EGPH,EDI,Edinburgh,Edinburgh,EGPH,55.95,-3.372499,GB,2.29,04:50:00,258644.07949054902
+GCTS,TFS,Tenerife South Airport,Tenerife Island,Canary-Islands,ES,28.04450035,-16.57250023,Atlantic/Canary,EGPF,GLA,Glasgow,Glasgow,EGPF,55.8719,-4.43306,GB,1.71,04:45:00,255936.6036798009
+GCTS,TFS,Tenerife South Airport,Tenerife Island,Canary-Islands,ES,28.04450035,-16.57250023,Atlantic/Canary,EGAA,BFS,Belfast,Belfast,EGAA,54.6575,-6.215829,GB,1.14,04:40:00,242738.03696549693
+GMAD,AGA,Al Massira Airport,Agadir,Souss-Massa,MA,30.32500076,-9.413069725,Africa/Casablanca,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,1.43,03:45:00,192408.09613170207
+GMAD,AGA,Al Massira Airport,Agadir,Souss-Massa,MA,30.32500076,-9.413069725,Africa/Casablanca,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,0.86,04:05:00,207178.31771841834
+GMAD,AGA,Al Massira Airport,Agadir,Souss-Massa,MA,30.32500076,-9.413069725,Africa/Casablanca,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,0.71,03:15:00,167827.86474821597
+GMAD,AGA,Al Massira Airport,Agadir,Souss-Massa,MA,30.32500076,-9.413069725,Africa/Casablanca,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,0.43,03:30:00,175338.96062316452
+GMAD,AGA,Al Massira Airport,Agadir,Souss-Massa,MA,30.32500076,-9.413069725,Africa/Casablanca,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.29,03:45:00,189853.6119078252
+GMAD,AGA,Al Massira Airport,Agadir,Souss-Massa,MA,30.32500076,-9.413069725,Africa/Casablanca,EGPF,GLA,Glasgow,Glasgow,Glasgow,55.8719,-4.43306,GB,0.29,04:15:00,226351.83113469506
+GMAD,AGA,Al Massira Airport,Agadir,Souss-Massa,MA,30.32500076,-9.413069725,Africa/Casablanca,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,0.29,03:53:00,198004.04664432615
+GMMX,RAK,Menara Airport,Marrakech,Marrakesh-Safi,MA,31.60689926,-8.036299706,Africa/Casablanca,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,4.0,03:38:00,178872.952562211
+GMMX,RAK,Menara Airport,Marrakech,Marrakesh-Safi,MA,31.60689926,-8.036299706,Africa/Casablanca,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,2.43,03:25:00,168043.8294781
+GMMX,RAK,Menara Airport,Marrakech,Marrakesh-Safi,MA,31.60689926,-8.036299706,Africa/Casablanca,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,2.29,01:35:00,63375.05804708276
+GMMX,RAK,Menara Airport,Marrakech,Marrakesh-Safi,MA,31.60689926,-8.036299706,Africa/Casablanca,LFRS,NTE,Nantes Atlantique,Nantes,Atlantique,47.1532,-1.61073,FR,2.29,02:55:00,143070.54105340573
+GMMX,RAK,Menara Airport,Marrakech,Marrakesh-Safi,MA,31.60689926,-8.036299706,Africa/Casablanca,LFBD,BOD,Bordeaux-M?rignac,Bordeaux/M?rignac,Bordeaux-M?rignac,44.8283,-0.715556,FR,2.14,02:40:00,126385.08213319273
+GMMX,RAK,Menara Airport,Marrakech,Marrakesh-Safi,MA,31.60689926,-8.036299706,Africa/Casablanca,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,1.71,03:15:00,160269.54649427725
+GMMX,RAK,Menara Airport,Marrakech,Marrakesh-Safi,MA,31.60689926,-8.036299706,Africa/Casablanca,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,1.71,03:05:00,152786.7694355467
+GMMX,RAK,Menara Airport,Marrakech,Marrakesh-Safi,MA,31.60689926,-8.036299706,Africa/Casablanca,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,1.58,03:20:00,167919.0316839214
+GMMX,RAK,Menara Airport,Marrakech,Marrakesh-Safi,MA,31.60689926,-8.036299706,Africa/Casablanca,LFBO,TLS,Toulouse-Blagnac,Toulouse-Blagnac,Toulouse-Blagnac,43.6291,1.363819,FR,1.43,02:35:00,123946.60167654697
+GMMX,RAK,Menara Airport,Marrakech,Marrakesh-Safi,MA,31.60689926,-8.036299706,Africa/Casablanca,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,1.14,03:45:00,199371.52106837914
+GMMX,RAK,Menara Airport,Marrakech,Marrakesh-Safi,MA,31.60689926,-8.036299706,Africa/Casablanca,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,1.02,02:55:00,149454.1057852425
+GMMX,RAK,Menara Airport,Marrakech,Marrakesh-Safi,MA,31.60689926,-8.036299706,Africa/Casablanca,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,1.0,03:30:00,174811.19330353622
+GMMX,RAK,Menara Airport,Marrakech,Marrakesh-Safi,MA,31.60689926,-8.036299706,Africa/Casablanca,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,1.0,03:50:00,194321.61958428044
+GMMX,RAK,Menara Airport,Marrakech,Marrakesh-Safi,MA,31.60689926,-8.036299706,Africa/Casablanca,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,0.43,03:40:00,184591.66696079195
+LBSF,SOF,Sofia Airport,Sofia,Sofia-Capital,BG,42.69669342,23.41143608,Europe/Sofia,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,1.43,03:20:00,159254.7585020377
+LBSF,SOF,Sofia Airport,Sofia,Sofia-Capital,BG,42.69669342,23.41143608,Europe/Sofia,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,0.86,03:40:00,176487.95002289425
+LBSF,SOF,Sofia Airport,Sofia,Sofia-Capital,BG,42.69669342,23.41143608,Europe/Sofia,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.43,03:35:00,173184.29275735817
+LCLK,LCA,Larnaca International Airport,Larnarca,Larnaka,CY,34.87509918,33.62490082,Asia/Nicosia,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,1.71,04:58:00,256948.09099866138
+LCLK,LCA,Larnaca International Airport,Larnarca,Larnaka,CY,34.87509918,33.62490082,Asia/Nicosia,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,1.43,05:10:00,260154.6044831305
+LCLK,LCA,Larnaca International Airport,Larnarca,Larnaka,CY,34.87509918,33.62490082,Asia/Nicosia,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,0.71,04:45:00,235898.74130589844
+LCLK,LCA,Larnaca International Airport,Larnarca,Larnaka,CY,34.87509918,33.62490082,Asia/Nicosia,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,0.29,04:05:00,198661.86057217524
+LCPH,PFO,Paphos International Airport,Paphos,Pafos,CY,34.7179985,32.4856987,Asia/Nicosia,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,1.14,05:15:00,269908.856087836
+LCPH,PFO,Paphos International Airport,Paphos,Pafos,CY,34.7179985,32.4856987,Asia/Nicosia,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,1.0,04:50:00,252049.85431621276
+LCPH,PFO,Paphos International Airport,Paphos,Pafos,CY,34.7179985,32.4856987,Asia/Nicosia,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.46,05:00:00,265813.1299629428
+LCPH,PFO,Paphos International Airport,Paphos,Pafos,CY,34.7179985,32.4856987,Asia/Nicosia,EGPH,EDI,Edinburgh,Edinburgh,Edinburgh,55.95,-3.372499,GB,0.43,05:20:00,284469.79525470245
+LCPH,PFO,Paphos International Airport,Paphos,Pafos,CY,34.7179985,32.4856987,Asia/Nicosia,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,0.29,05:00:00,255411.03784131442
+LEAL,ALC,Alicante International Airport,Alicante,Valencia,ES,38.28219986,-0.558156014,Europe/Madrid,EGCC,MAN,Manchester,Manchester,EGCC,53.3537,-2.27495,GB,5.0,02:55:00,132746.6971785759
+LEAL,ALC,Alicante International Airport,Alicante,Valencia,ES,38.28219986,-0.558156014,Europe/Madrid,EGGD,BRS,Bristol,Bristol,EGGD,51.3827,-2.719089,GB,3.0,02:35:00,115787.19169280675
+LEAL,ALC,Alicante International Airport,Alicante,Valencia,ES,38.28219986,-0.558156014,Europe/Madrid,EGPH,EDI,Edinburgh,Edinburgh,EGPH,55.95,-3.372499,GB,1.71,03:15:00,156051.7146440867
+LEAL,ALC,Alicante International Airport,Alicante,Valencia,ES,38.28219986,-0.558156014,Europe/Madrid,EGPF,GLA,Glasgow,Glasgow,EGPF,55.8719,-4.43306,GB,1.71,03:15:00,156160.78406620552
+LEAL,ALC,Alicante International Airport,Alicante,Valencia,ES,38.28219986,-0.558156014,Europe/Madrid,EGAA,BFS,Belfast,Belfast,EGAA,54.6575,-6.215829,GB,0.86,03:10:00,147722.99734999667
+LEAM,LEI,Almeria International Airport,Almeria,Andalusia,ES,36.84389877,-2.370100021,Europe/Madrid,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,0.71,02:45:00,126303.05913838174
+LEBB,BIO,Bilbao Airport,Bilbao,Basque-Country,ES,43.30110168,-2.910609961,Europe/Madrid,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,3.29,01:40:00,57260.4502598011
+LEBB,BIO,Bilbao Airport,Bilbao,Basque-Country,ES,43.30110168,-2.910609961,Europe/Madrid,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,3.14,01:50:00,70801.36592386411
+LEBB,BIO,Bilbao Airport,Bilbao,Basque-Country,ES,43.30110168,-2.910609961,Europe/Madrid,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,0.29,02:05:00,88384.68609766028
+LEBL,BCN,Barcelona International Airport,Barcelona,Catalonia,ES,41.29710007,2.078459978,Europe/Madrid,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,13.3,02:00:00,78698.60377228259
+LEBL,BCN,Barcelona International Airport,Barcelona,Catalonia,ES,41.29710007,2.078459978,Europe/Madrid,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,9.46,02:25:00,87591.16509556265
+LEBL,BCN,Barcelona International Airport,Barcelona,Catalonia,ES,41.29710007,2.078459978,Europe/Madrid,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,8.86,02:00:00,67804.04681943414
+LEBL,BCN,Barcelona International Airport,Barcelona,Catalonia,ES,41.29710007,2.078459978,Europe/Madrid,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,7.88,01:45:00,57006.8205269748
+LEBL,BCN,Barcelona International Airport,Barcelona,Catalonia,ES,41.29710007,2.078459978,Europe/Madrid,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,4.72,01:40:00,50364.31938441456
+LEBL,BCN,Barcelona International Airport,Barcelona,Catalonia,ES,41.29710007,2.078459978,Europe/Madrid,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,4.15,02:45:00,118783.58522165875
+LEBL,BCN,Barcelona International Airport,Barcelona,Catalonia,ES,41.29710007,2.078459978,Europe/Madrid,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,3.71,02:40:00,108984.62993497678
+LEBL,BCN,Barcelona International Airport,Barcelona,Catalonia,ES,41.29710007,2.078459978,Europe/Madrid,LIRN,NAP,Naples,N?poli,Naples,40.886,14.2908,IT,2.29,02:00:00,81072.34571599256
+LEBL,BCN,Barcelona International Airport,Barcelona,Catalonia,ES,41.29710007,2.078459978,Europe/Madrid,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,2.16,01:20:00,39271.25195191329
+LEBL,BCN,Barcelona International Airport,Barcelona,Catalonia,ES,41.29710007,2.078459978,Europe/Madrid,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,2.14,02:25:00,93196.96816476899
+LEBL,BCN,Barcelona International Airport,Barcelona,Catalonia,ES,41.29710007,2.078459978,Europe/Madrid,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,2.14,01:30:00,43369.93233454309
+LEBL,BCN,Barcelona International Airport,Barcelona,Catalonia,ES,41.29710007,2.078459978,Europe/Madrid,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,2.05,01:55:00,64974.52352754643
+LEBL,BCN,Barcelona International Airport,Barcelona,Catalonia,ES,41.29710007,2.078459978,Europe/Madrid,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,1.86,02:25:00,94050.19756241841
+LEMD,MAD,Madrid Barajas International Airport,Madrid,Madrid,ES,40.4936,-3.56676,Europe/Madrid,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,20.0,01:20:00,40635.16558302263
+LEMD,MAD,Madrid Barajas International Airport,Madrid,Madrid,ES,40.4936,-3.56676,Europe/Madrid,LPPR,OPO,Francisco de S? Carneiro,Porto,Francisco de S? Carneiro,41.2481,-8.681389,PT,11.0,01:15:00,34693.24589683038
+LEMD,MAD,Madrid Barajas International Airport,Madrid,Madrid,ES,40.4936,-3.56676,Europe/Madrid,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,7.51,02:05:00,83942.50355021979
+LEMD,MAD,Madrid Barajas International Airport,Madrid,Madrid,ES,40.4936,-3.56676,Europe/Madrid,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,7.29,02:25:00,95795.30538094448
+LEMD,MAD,Madrid Barajas International Airport,Madrid,Madrid,ES,40.4936,-3.56676,Europe/Madrid,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,6.43,01:55:00,79778.54333537332
+LEMD,MAD,Madrid Barajas International Airport,Madrid,Madrid,ES,40.4936,-3.56676,Europe/Madrid,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,1.29,02:15:00,95754.7290847709
+LEMD,MAD,Madrid Barajas International Airport,Madrid,Madrid,ES,40.4936,-3.56676,Europe/Madrid,EGPH,EDI,Edinburgh,Edinburgh,Edinburgh,55.95,-3.372499,GB,1.29,02:55:00,135778.62826906424
+LEMD,MAD,Madrid Barajas International Airport,Madrid,Madrid,ES,40.4936,-3.56676,Europe/Madrid,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.71,02:15:00,93728.92282480153
+LEMD,MAD,Madrid Barajas International Airport,Madrid,Madrid,ES,40.4936,-3.56676,Europe/Madrid,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,0.57,02:30:00,101799.66026031949
+LEMG,AGP,Malaga Airport,Malaga,Andalusia,ES,36.67490005,-4.499110222,Europe/Madrid,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,5.86,02:55:00,129892.43980538392
+LEMG,AGP,Malaga Airport,Malaga,Andalusia,ES,36.67490005,-4.499110222,Europe/Madrid,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,4.57,03:05:00,148786.63087151258
+LEMG,AGP,Malaga Airport,Malaga,Andalusia,ES,36.67490005,-4.499110222,Europe/Madrid,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,3.0,03:05:00,147065.45209910997
+LEMG,AGP,Malaga Airport,Malaga,Andalusia,ES,36.67490005,-4.499110222,Europe/Madrid,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,2.14,02:45:00,129585.01474748156
+LEMG,AGP,Malaga Airport,Malaga,Andalusia,ES,36.67490005,-4.499110222,Europe/Madrid,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,2.14,02:55:00,135890.91443181588
+LEMG,AGP,Malaga Airport,Malaga,Andalusia,ES,36.67490005,-4.499110222,Europe/Madrid,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,1.29,03:40:00,177146.99245587792
+LEMG,AGP,Malaga Airport,Malaga,Andalusia,ES,36.67490005,-4.499110222,Europe/Madrid,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,1.29,02:20:00,109082.06951131119
+LEMG,AGP,Malaga Airport,Malaga,Andalusia,ES,36.67490005,-4.499110222,Europe/Madrid,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,1.14,02:30:00,117477.16445584626
+LEMG,AGP,Malaga Airport,Malaga,Andalusia,ES,36.67490005,-4.499110222,Europe/Madrid,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,1.0,02:40:00,123577.28157329958
+LEMG,AGP,Malaga Airport,Malaga,Andalusia,ES,36.67490005,-4.499110222,Europe/Madrid,EGPF,GLA,Glasgow,Glasgow,Glasgow,55.8719,-4.43306,GB,1.0,03:30:00,168575.95220136963
+LEMG,AGP,Malaga Airport,Malaga,Andalusia,ES,36.67490005,-4.499110222,Europe/Madrid,EGAA,BFS,Belfast,Belfast,Belfast,54.6575,-6.215829,GB,0.71,03:15:00,158236.12931955082
+LEPA,PMI,Palma De Mallorca Airport,Palma De Mallorca,Balearic-Islands,ES,39.55170059,2.738810062,Europe/Madrid,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,3.43,02:45:00,130054.99056240146
+LEPA,PMI,Palma De Mallorca Airport,Palma De Mallorca,Balearic-Islands,ES,39.55170059,2.738810062,Europe/Madrid,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,2.86,02:30:00,103395.64129579432
+LEPA,PMI,Palma De Mallorca Airport,Palma De Mallorca,Balearic-Islands,ES,39.55170059,2.738810062,Europe/Madrid,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,1.43,01:55:00,76852.22538333027
+LEPA,PMI,Palma De Mallorca Airport,Palma De Mallorca,Balearic-Islands,ES,39.55170059,2.738810062,Europe/Madrid,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,1.14,02:50:00,124886.81915627004
+LEPA,PMI,Palma De Mallorca Airport,Palma De Mallorca,Balearic-Islands,ES,39.55170059,2.738810062,Europe/Madrid,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.71,02:25:00,109135.23442105713
+LEPA,PMI,Palma De Mallorca Airport,Palma De Mallorca,Balearic-Islands,ES,39.55170059,2.738810062,Europe/Madrid,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,0.43,02:35:00,109850.2230842796
+LEPA,PMI,Palma De Mallorca Airport,Palma De Mallorca,Balearic-Islands,ES,39.55170059,2.738810062,Europe/Madrid,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,0.29,01:45:00,62564.957864811
+LEST,SCQ,Santiago de Compostela Airport,Santiago de Compostela,Galicia,ES,42.89630127,-8.415140152,Europe/Madrid,LSGG,GVA,Geneva Cointrin,Geneva,Geneva,46.2381,6.10895,CH,0.86,02:05:00,95589.4866160635
+LEST,SCQ,Santiago de Compostela Airport,Santiago de Compostela,Galicia,ES,42.89630127,-8.415140152,Europe/Madrid,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,B?le/Mulhouse,47.5896,7.52991,FR,0.43,02:15:00,106887.58706201798
+LEVC,VLC,Valencia Airport,Valencia,Valencia,ES,39.48929977,-0.481624991,Europe/Madrid,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,3.0,01:40:00,59414.414065627534
+LEVC,VLC,Valencia Airport,Valencia,Valencia,ES,39.48929977,-0.481624991,Europe/Madrid,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,2.57,02:30:00,102378.81762024533
+LEVC,VLC,Valencia Airport,Valencia,Valencia,ES,39.48929977,-0.481624991,Europe/Madrid,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,0.57,03:10:00,141311.02698644824
+LEZL,SVQ,Sevilla Airport,Sevilla,Andalusia,ES,37.41799927,-5.893109798,Europe/Madrid,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,2.57,02:45:00,125680.6064966653
+LEZL,SVQ,Sevilla Airport,Sevilla,Andalusia,ES,37.41799927,-5.893109798,Europe/Madrid,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,0.71,02:15:00,110190.361107566
+LFBD,BOD,Bordeaux-Merignac (BA 106) Airport,Bordeaux/Merignac,Nouvelle-Aquitaine,FR,44.82830048,-0.715556026,Europe/Paris,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,4.53,01:10:00,36837.031797505
+LFBD,BOD,Bordeaux-Merignac (BA 106) Airport,Bordeaux/Merignac,Nouvelle-Aquitaine,FR,44.82830048,-0.715556026,Europe/Paris,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,2.71,01:40:00,55599.12344454121
+LFBD,BOD,Bordeaux-Merignac (BA 106) Airport,Bordeaux/Merignac,Nouvelle-Aquitaine,FR,44.82830048,-0.715556026,Europe/Paris,LFML,MRS,Marseille Provence,Marseille,Provence,43.43927,5.221424,FR,2.71,01:10:00,39453.50146320588
+LFBD,BOD,Bordeaux-Merignac (BA 106) Airport,Bordeaux/Merignac,Nouvelle-Aquitaine,FR,44.82830048,-0.715556026,Europe/Paris,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,2.14,01:20:00,43878.193171457606
+LFBD,BOD,Bordeaux-Merignac (BA 106) Airport,Bordeaux/Merignac,Nouvelle-Aquitaine,FR,44.82830048,-0.715556026,Europe/Paris,GMMX,RAK,Menara,Marrakech,Menara,31.6069,-8.036299,MA,2.14,02:35:00,126385.08213319273
+LFBD,BOD,Bordeaux-Merignac (BA 106) Airport,Bordeaux/Merignac,Nouvelle-Aquitaine,FR,44.82830048,-0.715556026,Europe/Paris,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,1.86,01:55:00,76545.40174063528
+LFBD,BOD,Bordeaux-Merignac (BA 106) Airport,Bordeaux/Merignac,Nouvelle-Aquitaine,FR,44.82830048,-0.715556026,Europe/Paris,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,1.86,01:20:00,51070.33251913922
+LFBD,BOD,Bordeaux-Merignac (BA 106) Airport,Bordeaux/Merignac,Nouvelle-Aquitaine,FR,44.82830048,-0.715556026,Europe/Paris,LFQQ,LIL,Lille-Lesquin,Lille/Lesquin,Lille-Lesquin,50.5619,3.08944,FR,1.43,01:25:00,55166.38090906262
+LFBD,BOD,Bordeaux-Merignac (BA 106) Airport,Bordeaux/Merignac,Nouvelle-Aquitaine,FR,44.82830048,-0.715556026,Europe/Paris,LPPR,OPO,Francisco de S? Carneiro,Porto,Francisco de S? Carneiro,41.2481,-8.681389,PT,1.29,01:40:00,60100.44086415371
+LFBD,BOD,Bordeaux-Merignac (BA 106) Airport,Bordeaux/Merignac,Nouvelle-Aquitaine,FR,44.82830048,-0.715556026,Europe/Paris,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.86,01:25:00,55772.12585461332
+LFBD,BOD,Bordeaux-Merignac (BA 106) Airport,Bordeaux/Merignac,Nouvelle-Aquitaine,FR,44.82830048,-0.715556026,Europe/Paris,GCTS,TFS,Tenerife South,Tenerife Island,Tenerife South,28.0445,-16.5725,ES,0.86,03:45:00,184384.6662031537
+LFBD,BOD,Bordeaux-Merignac (BA 106) Airport,Bordeaux/Merignac,Nouvelle-Aquitaine,FR,44.82830048,-0.715556026,Europe/Paris,GCRR,ACE,Lanzarote,Lanzarote Island,Lanzarote,28.9455,-13.605199,ES,0.43,03:20:00,165754.25978900574
+LFBD,BOD,Bordeaux-Merignac (BA 106) Airport,Bordeaux/Merignac,Nouvelle-Aquitaine,FR,44.82830048,-0.715556026,Europe/Paris,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,0.43,02:00:00,75435.00180256828
+LFBD,BOD,Bordeaux-Merignac (BA 106) Airport,Bordeaux/Merignac,Nouvelle-Aquitaine,FR,44.82830048,-0.715556026,Europe/Paris,EKCH,CPH,Copenhagen Kastrup,Copenhagen,Kastrup,55.6179,12.656,DK,0.29,02:35:00,120694.94804954084
+LFBD,BOD,Bordeaux-Merignac (BA 106) Airport,Bordeaux/Merignac,Nouvelle-Aquitaine,FR,44.82830048,-0.715556026,Europe/Paris,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,0.29,01:30:00,58975.17404406824
+LFBO,TLS,Toulouse-Blagnac Airport,Toulouse/Blagnac,Occitanie,FR,43.6291008,1.363819957,Europe/Paris,LFPO,ORY,Paris-Orly,Paris,Orly,48.7253,2.35944,FR,23.43,01:20:00,45159.9567072777
+LFBO,TLS,Toulouse-Blagnac Airport,Toulouse/Blagnac,Occitanie,FR,43.6291008,1.363819957,Europe/Paris,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,4.71,01:00:00,29726.295388746985
+LFBO,TLS,Toulouse-Blagnac Airport,Toulouse/Blagnac,Occitanie,FR,43.6291008,1.363819957,Europe/Paris,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,3.14,01:55:00,81448.0303989187
+LFBO,TLS,Toulouse-Blagnac Airport,Toulouse/Blagnac,Occitanie,FR,43.6291008,1.363819957,Europe/Paris,LFRS,NTE,Nantes Atlantique,Nantes,Atlantique,47.1532,-1.61073,FR,2.86,01:05:00,35993.48029670377
+LFBO,TLS,Toulouse-Blagnac Airport,Toulouse/Blagnac,Occitanie,FR,43.6291008,1.363819957,Europe/Paris,LFQQ,LIL,Lille-Lesquin,Lille/Lesquin,Lille-Lesquin,50.5619,3.08944,FR,2.57,01:35:00,61756.8466495458
+LFBO,TLS,Toulouse-Blagnac Airport,Toulouse/Blagnac,Occitanie,FR,43.6291008,1.363819957,Europe/Paris,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,1.86,01:10:00,37294.587115954644
+LFBO,TLS,Toulouse-Blagnac Airport,Toulouse/Blagnac,Occitanie,FR,43.6291008,1.363819957,Europe/Paris,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,1.57,01:50:00,66683.19815626675
+LFBO,TLS,Toulouse-Blagnac Airport,Toulouse/Blagnac,Occitanie,FR,43.6291008,1.363819957,Europe/Paris,GMMX,RAK,Menara,Marrakech,Menara,31.6069,-8.036299,MA,1.43,02:35:00,123946.60167654697
+LFBO,TLS,Toulouse-Blagnac Airport,Toulouse/Blagnac,Occitanie,FR,43.6291008,1.363819957,Europe/Paris,LFRN,RNS,Rennes-Saint-Jacques,Rennes/Saint-Jacques,Rennes-Saint-Jacques,48.0695,-1.734789,FR,1.43,01:15:00,43369.67109295188
+LFBO,TLS,Toulouse-Blagnac Airport,Toulouse/Blagnac,Occitanie,FR,43.6291008,1.363819957,Europe/Paris,LPPR,OPO,Francisco de S? Carneiro,Porto,Francisco de S? Carneiro,41.2481,-8.681389,PT,1.29,01:40:00,68504.1830928147
+LFBO,TLS,Toulouse-Blagnac Airport,Toulouse/Blagnac,Occitanie,FR,43.6291008,1.363819957,Europe/Paris,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,1.0,01:10:00,37408.8860012921
+LFBO,TLS,Toulouse-Blagnac Airport,Toulouse/Blagnac,Occitanie,FR,43.6291008,1.363819957,Europe/Paris,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.6,01:25:00,51478.91815508417
+LFBO,TLS,Toulouse-Blagnac Airport,Toulouse/Blagnac,Occitanie,FR,43.6291008,1.363819957,Europe/Paris,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.57,01:50:00,72277.66753798292
+LFBZ,BIQ,Biarritz-Anglet-Bayonne Airport,Biarritz/Anglet/Bayonne,Nouvelle-Aquitaine,FR,43.46839905,-1.52331996,Europe/Paris,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,2.86,01:35:00,54628.02077748389
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,LFBD,BOD,Bordeaux-M?rignac,Bordeaux/M?rignac,Bordeaux-M?rignac,44.8283,-0.715556,FR,4.86,01:10:00,36837.031797505
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,LFRS,NTE,Nantes Atlantique,Nantes,Atlantique,47.1532,-1.61073,FR,4.71,01:15:00,42554.41031277032
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,LFBO,TLS,Toulouse-Blagnac,Toulouse-Blagnac,Toulouse-Blagnac,43.6291,1.363819,FR,4.67,01:05:00,29726.295388746985
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,4.14,01:35:00,56723.82951184922
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,3.0,02:30:00,110721.92943414832
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,LFRB,BES,Brest Bretagne,Brest/Guipavas,Brest Bretagne,48.4479,-4.41854,FR,2.71,01:35:00,61793.99126035779
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,LPPR,OPO,Francisco de S? Carneiro,Porto,Francisco de S? Carneiro,41.2481,-8.681389,PT,2.43,02:10:00,96223.30740386076
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,LFRN,RNS,Rennes-Saint-Jacques,Rennes/Saint-Jacques,Rennes-Saint-Jacques,48.0695,-1.734789,FR,2.43,01:20:00,45931.12336152286
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,LIRF,FCO,Leonardo da Vinci?Fiumicino,Rome,Leonardo da Vinci?Fiumicino,41.8045,12.2508,IT,2.14,01:30:00,57053.87743331231
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,GMMX,RAK,Menara,Marrakech,Menara,31.6069,-8.036299,MA,1.71,03:03:00,152786.7694355467
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,LEBL,BCN,Barcelona,Barcelona,Barcelona,41.2971,2.078459,ES,1.57,01:20:00,43369.93233454309
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,1.43,01:40:00,62579.41633856933
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,LIPZ,VCE,Venice Marco Polo,Venice,Marco Polo,45.5053,12.3519,IT,1.14,01:20:00,44768.04477413643
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,GMAD,AGA,Al Massira,Agadir,Al Massira,30.325,-9.413069,MA,0.71,03:15:00,167827.86474821597
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,LPFR,FAO,Faro,Faro,Faro,37.0144,-7.965909,PT,0.57,02:30:00,115012.17903396495
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,GCFV,FUE,Fuerteventura,Fuerteventura Island,Fuerteventura,28.4527,-13.8638,ES,0.57,03:50:00,200584.6605411053
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,EGAA,BFS,Belfast,Belfast,Belfast,54.6575,-6.215829,GB,0.43,02:20:00,100876.41618895183
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.43,01:45:00,67332.2449400033
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,LPMA,FNC,Madeira,Funchal,Madeira,32.6979,-16.7745,PT,0.43,03:35:00,186859.47121192812
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,GCRR,ACE,Lanzarote,Lanzarote Island,Lanzarote,28.9455,-13.605199,ES,0.43,03:55:00,195921.43285194872
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,EKCH,CPH,Copenhagen Kastrup,Copenhagen,Kastrup,55.6179,12.656,DK,0.29,02:10:00,96516.34573457146
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,0.29,02:00:00,79057.48992407859
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,LIRN,NAP,Naples,N?poli,Naples,40.886,14.2908,IT,0.29,01:45:00,72601.72897151018
+LFLL,LYS,Lyon Saint-Exupery Airport,Lyon,Auvergne-Rhone-Alpes,FR,45.72639847,5.090829849,Europe/Paris,EGPH,EDI,Edinburgh,Edinburgh,Edinburgh,55.95,-3.372499,GB,0.14,02:15:00,101271.16540343991
+LFLS,GNB,Grenoble-Isere Airport,Grenoble/Saint-Geoirs,Auvergne-Rhone-Alpes,FR,45.36289978,5.329370022,Europe/Paris,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,1.71,01:40:00,60219.29740014823
+LFLS,GNB,Grenoble-Isere Airport,Grenoble/Saint-Geoirs,Auvergne-Rhone-Alpes,FR,45.36289978,5.329370022,Europe/Paris,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,0.57,01:43:00,66087.68609143727
+LFLS,GNB,Grenoble-Isere Airport,Grenoble/Saint-Geoirs,Auvergne-Rhone-Alpes,FR,45.36289978,5.329370022,Europe/Paris,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.43,01:55:00,70736.00731648666
+LFML,MRS,Marseille Provence Airport,Marseille,Provence-Alpes-Cote-d'Azur,FR,43.43927192,5.221424103,Europe/Paris,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,3.43,02:20:00,103485.69428422702
+LFML,MRS,Marseille Provence Airport,Marseille,Provence-Alpes-Cote-d'Azur,FR,43.43927192,5.221424103,Europe/Paris,LFBD,BOD,Bordeaux-M?rignac,Bordeaux/M?rignac,Bordeaux-M?rignac,44.8283,-0.715556,FR,2.71,01:10:00,39453.50146320588
+LFML,MRS,Marseille Provence Airport,Marseille,Provence-Alpes-Cote-d'Azur,FR,43.43927192,5.221424103,Europe/Paris,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,1.0,01:50:00,74981.65957626884
+LFML,MRS,Marseille Provence Airport,Marseille,Provence-Alpes-Cote-d'Azur,FR,43.43927192,5.221424103,Europe/Paris,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.29,01:25:00,39123.02915925976
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,LFPO,ORY,Paris-Orly,Paris,Orly,48.7253,2.35944,FR,23.07,01:30:00,53423.90146419421
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,8.29,01:35:00,54895.4289986902
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,4.14,01:00:00,23675.40062290949
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,3.3,02:00:00,77334.76537231199
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,LIRF,FCO,Leonardo da Vinci?Fiumicino,Rome,Leonardo da Vinci?Fiumicino,41.8045,12.2508,IT,3.14,01:15:00,36402.76486554688
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,2.57,02:00:00,79143.20366730947
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,2.43,02:35:00,116218.44864283515
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,LEBL,BCN,Barcelona,Barcelona,Barcelona,41.2971,2.078459,ES,2.29,01:25:00,39271.25195191329
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,LFQQ,LIL,Lille-Lesquin,Lille/Lesquin,Lille-Lesquin,50.5619,3.08944,FR,2.29,01:40:00,65458.73098588853
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,LFRS,NTE,Nantes Atlantique,Nantes,Atlantique,47.1532,-1.61073,FR,2.14,01:35:00,62569.06986157939
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,LFBD,BOD,Bordeaux-M?rignac,Bordeaux/M?rignac,Bordeaux-M?rignac,44.8283,-0.715556,FR,1.86,01:25:00,51070.33251913922
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,LFBO,TLS,Toulouse-Blagnac,Toulouse-Blagnac,Toulouse-Blagnac,43.6291,1.363819,FR,1.86,01:10:00,37294.587115954644
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,1.57,01:15:00,34571.48076063855
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,LIRN,NAP,Naples,N?poli,Naples,40.886,14.2908,IT,1.29,01:25:00,52108.00846334177
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,GMMX,RAK,Menara,Marrakech,Menara,31.6069,-8.036299,MA,1.14,03:00:00,149454.1057852425
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,1.07,02:05:00,84899.30619509734
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,LPPR,OPO,Francisco de S? Carneiro,Porto,Francisco de S? Carneiro,41.2481,-8.681389,PT,1.0,02:20:00,105277.56701981467
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,LFRN,RNS,Rennes-Saint-Jacques,Rennes/Saint-Jacques,Rennes-Saint-Jacques,48.0695,-1.734789,FR,0.86,01:50:00,67125.00830454835
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,LIPZ,VCE,Venice Marco Polo,Venice,Marco Polo,45.5053,12.3519,IT,0.57,01:10:00,36063.077121242975
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,0.43,02:05:00,84878.10684065266
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.29,02:10:00,89821.9941911555
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,0.29,02:25:00,101410.7096072711
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,LLBG,TLV,Ben Gurion,Tel Aviv Yafo,Ben Gurion,32.0114,34.8867,IL,0.29,03:45:00,216392.48555063907
+LFMN,NCE,Nice-Cote d'Azur Airport,Nice,Provence-Alpes-Cote-d'Azur,FR,43.65840149,7.215869904,Europe/Paris,GCTS,TFS,Tenerife South,Tenerife Island,Tenerife South,28.0445,-16.5725,ES,0.14,04:10:00,216672.4609495376
+LFMT,MPL,Montpellier-Mediterranee Airport,Montpellier/Mediterranee,Occitanie,FR,43.57619858,3.963010073,Europe/Paris,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,1.0,01:55:00,70943.22675351278
+LFMT,MPL,Montpellier-Mediterranee Airport,Montpellier/Mediterranee,Occitanie,FR,43.57619858,3.963010073,Europe/Paris,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.29,01:15:00,41527.18042076671
+LFOB,BVA,Paris Beauvais Tille Airport,Beauvais/Tille,Hauts-de-France,FR,49.45439911,2.112780094,Europe/Paris,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,1.86,02:30:00,117361.2563598643
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,9.16,01:35:00,54895.4289986902
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,LIML,LIN,Linate,Milan,Linate,45.4451,9.27674,IT,9.14,01:30:00,50971.362729274064
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,9.05,01:30:00,47342.79585092671
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,LEBL,BCN,Barcelona,Barcelona,Barcelona,41.2971,2.078459,ES,9.0,01:45:00,67804.04681943414
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,EKCH,CPH,Copenhagen Kastrup,Copenhagen,Kastrup,55.6179,12.656,DK,8.43,01:50:00,79440.82813231924
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,LEMD,MAD,Adolfo Su?rez Madrid?Barajas,Madrid,Adolfo Su?rez ?Barajas,40.4936,-3.56676,ES,8.14,02:10:00,83942.50355021979
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,7.0,02:35:00,116201.42209286292
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,6.71,01:45:00,67758.92045916826
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,6.43,01:30:00,46515.522010328474
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,LIPZ,VCE,Venice Marco Polo,Venice,Marco Polo,45.5053,12.3519,IT,6.14,01:40:00,66140.90482370452
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,LLBG,TLV,Ben Gurion,Tel Aviv Yafo,Ben Gurion,32.0114,34.8867,IL,4.6,04:25:00,259775.96601628166
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,EGPH,EDI,Edinburgh,Edinburgh,Edinburgh,55.95,-3.372499,GB,4.29,01:50:00,68711.90402959062
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,3.43,01:05:00,24330.696331378866
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,LFBZ,BIQ,Biarritz-Anglet-Bayonne,Biarritz/Anglet/Bayonne,Biarritz-Anglet-Bayonne,43.4684,-1.523319,FR,3.29,01:30:00,54628.02077748389
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,GMMX,RAK,Menara,Marrakech,Menara,31.6069,-8.036299,MA,3.25,03:20:00,168043.8294781
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,LIRN,NAP,Naples,N?poli,Naples,40.886,14.2908,IT,2.86,02:15:00,101994.90729269442
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,LPPR,OPO,Francisco de S? Carneiro,Porto,Francisco de S? Carneiro,41.2481,-8.681389,PT,2.43,02:15:00,97372.56051533161
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,2.29,01:15:00,30006.137306755554
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,1.86,01:20:00,36276.87771521785
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,EPKK,KRK,John Paul II   Krak?w-Balice,Krak?w,John Paul II   -Balice,50.0777,19.7848,PL,1.57,02:10:00,98756.15173223818
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,EGPF,GLA,Glasgow,Glasgow,Glasgow,55.8719,-4.43306,GB,1.14,01:50:00,70933.41176346525
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,EGAA,BFS,Belfast,Belfast,Belfast,54.6575,-6.215829,GB,0.86,01:45:00,68751.28620118841
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,LIME,BGY,Orio al Serio,Bergamo,Orio al Serio,45.6739,9.70417,IT,0.71,01:35:00,51772.92428888604
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,LPFR,FAO,Faro,Faro,Faro,37.0144,-7.965909,PT,0.71,02:45:00,124934.33152098395
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,LCLK,LCA,Larnaca,Larnarca,Larnaca,34.8751,33.6249,CY,0.6,04:25:00,235898.74130589844
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,LICC,CTA,Catania-Fontanarossa,Catania,Fontanarossa,37.4668,15.066399,IT,0.57,02:40:00,128945.93337572504
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,GCRR,ACE,Lanzarote,Lanzarote Island,Lanzarote,28.9455,-13.605199,ES,0.43,04:05:00,206880.04142646416
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,GCTS,TFS,Tenerife South,Tenerife Island,Tenerife South,28.0445,-16.5725,ES,0.43,04:25:00,224802.6229069221
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,GCFV,FUE,Fuerteventura,Fuerteventura Island,Fuerteventura,28.4527,-13.8638,ES,0.29,04:10:00,211630.27744476317
+LFPG,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,49.01279831,2.549999952,Europe/Paris,LICJ,PMO,Falcone?Borsellino,Palermo,Falcone?Borsellino,38.176,13.090999,IT,0.29,02:30:00,116244.10269801172
+LFPO,ORY,Paris-Orly Airport,Paris,Ile-de-France,FR,48.72529984,2.359440088,Europe/Paris,LFBO,TLS,Toulouse-Blagnac,Toulouse-Blagnac,LFBO,43.6291,1.363819,FR,23.57,01:15:00,45159.9567072777
+LFPO,ORY,Paris-Orly Airport,Paris,Ile-de-France,FR,48.72529984,2.359440088,Europe/Paris,LPFR,FAO,Faro,Faro,LPFR,37.0144,-7.965909,PT,2.0,02:40:00,122247.52829362475
+LFPO,ORY,Paris-Orly Airport,Paris,Ile-de-France,FR,48.72529984,2.359440088,Europe/Paris,EGGD,BRS,Bristol,Bristol,EGGD,51.3827,-2.719089,GB,1.6,01:20:00,37009.75113121089
+LFPO,ORY,Paris-Orly Airport,Paris,Ile-de-France,FR,48.72529984,2.359440088,Europe/Paris,LIRP,PSA,Pisa,Pisa,LIRP,43.6839,10.3927,IT,0.71,01:40:00,65955.20498699752
+LFQQ,LIL,Lille-Lesquin Airport,Lille/Lesquin,Hauts-de-France,FR,50.56190109,3.089440107,Europe/Paris,LFBO,TLS,Toulouse-Blagnac,Toulouse-Blagnac,LFBO,43.6291,1.363819,FR,2.57,01:30:00,61756.8466495458
+LFRB,BES,Brest Bretagne Airport,Brest/Guipavas,Brittany,FR,48.44789886,-4.418540001,Europe/Paris,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,2.71,01:30:00,61793.99126035779
+LFRN,RNS,Rennes-Saint-Jacques Airport,Rennes/Saint-Jacques,Brittany,FR,48.06949997,-1.734789968,Europe/Paris,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,2.43,01:15:00,45931.12336152286
+LFRN,RNS,Rennes-Saint-Jacques Airport,Rennes/Saint-Jacques,Brittany,FR,48.06949997,-1.734789968,Europe/Paris,LFBO,TLS,Toulouse-Blagnac,Toulouse-Blagnac,Toulouse-Blagnac,43.6291,1.363819,FR,1.43,01:15:00,43369.67109295188
+LFRN,RNS,Rennes-Saint-Jacques Airport,Rennes/Saint-Jacques,Brittany,FR,48.06949997,-1.734789968,Europe/Paris,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,0.86,01:50:00,67125.00830454835
+LFRN,RNS,Rennes-Saint-Jacques Airport,Rennes/Saint-Jacques,Brittany,FR,48.06949997,-1.734789968,Europe/Paris,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,0.43,01:25:00,49642.42155488504
+LFRN,RNS,Rennes-Saint-Jacques Airport,Rennes/Saint-Jacques,Brittany,FR,48.06949997,-1.734789968,Europe/Paris,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,0.43,02:00:00,94169.60102499042
+LFRN,RNS,Rennes-Saint-Jacques Airport,Rennes/Saint-Jacques,Brittany,FR,48.06949997,-1.734789968,Europe/Paris,LPPR,OPO,Francisco de S? Carneiro,Porto,Francisco de S? Carneiro,41.2481,-8.681389,PT,0.43,01:50:00,73963.8672691196
+LFRN,RNS,Rennes-Saint-Jacques Airport,Rennes/Saint-Jacques,Brittany,FR,48.06949997,-1.734789968,Europe/Paris,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,0.29,01:10:00,28449.639430822775
+LFRS,NTE,Nantes Atlantique Airport,Nantes,Pays-de-la-Loire,FR,47.15319824,-1.610730052,Europe/Paris,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,4.86,01:15:00,42554.41031277032
+LFRS,NTE,Nantes Atlantique Airport,Nantes,Pays-de-la-Loire,FR,47.15319824,-1.610730052,Europe/Paris,LFBO,TLS,Toulouse-Blagnac,Toulouse-Blagnac,Toulouse-Blagnac,43.6291,1.363819,FR,2.71,01:05:00,35993.48029670377
+LFRS,NTE,Nantes Atlantique Airport,Nantes,Pays-de-la-Loire,FR,47.15319824,-1.610730052,Europe/Paris,GMMX,RAK,Menara,Marrakech,Menara,31.6069,-8.036299,MA,2.0,02:55:00,143070.54105340573
+LFRS,NTE,Nantes Atlantique Airport,Nantes,Pays-de-la-Loire,FR,47.15319824,-1.610730052,Europe/Paris,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,1.86,01:35:00,62569.06986157939
+LFRS,NTE,Nantes Atlantique Airport,Nantes,Pays-de-la-Loire,FR,47.15319824,-1.610730052,Europe/Paris,LPPR,OPO,Francisco de S? Carneiro,Porto,Francisco de S? Carneiro,41.2481,-8.681389,PT,1.3,01:40:00,68356.56894197364
+LFRS,NTE,Nantes Atlantique Airport,Nantes,Pays-de-la-Loire,FR,47.15319824,-1.610730052,Europe/Paris,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,1.29,01:20:00,47312.490742739385
+LFRS,NTE,Nantes Atlantique Airport,Nantes,Pays-de-la-Loire,FR,47.15319824,-1.610730052,Europe/Paris,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,1.29,02:05:00,87943.8049269063
+LFRS,NTE,Nantes Atlantique Airport,Nantes,Pays-de-la-Loire,FR,47.15319824,-1.610730052,Europe/Paris,LIRF,FCO,Leonardo da Vinci?Fiumicino,Rome,Leonardo da Vinci?Fiumicino,41.8045,12.2508,IT,1.0,02:10:00,98767.83250010638
+LFRS,NTE,Nantes Atlantique Airport,Nantes,Pays-de-la-Loire,FR,47.15319824,-1.610730052,Europe/Paris,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,0.86,01:20:00,36038.50714924384
+LFRS,NTE,Nantes Atlantique Airport,Nantes,Pays-de-la-Loire,FR,47.15319824,-1.610730052,Europe/Paris,GCTS,TFS,Tenerife South,Tenerife Island,Tenerife South,28.0445,-16.5725,ES,0.86,04:00:00,196627.67738678397
+LFRS,NTE,Nantes Atlantique Airport,Nantes,Pays-de-la-Loire,FR,47.15319824,-1.610730052,Europe/Paris,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,0.43,01:35:00,64176.984459361396
+LFRS,NTE,Nantes Atlantique Airport,Nantes,Pays-de-la-Loire,FR,47.15319824,-1.610730052,Europe/Paris,LPFR,FAO,Faro,Faro,Faro,37.0144,-7.965909,PT,0.36,02:10:00,98104.5855431867
+LFRS,NTE,Nantes Atlantique Airport,Nantes,Pays-de-la-Loire,FR,47.15319824,-1.610730052,Europe/Paris,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.14,01:25:00,54641.76501711753
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,3.86,01:30:00,44324.094977874294
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LEBL,BCN,Barcelona,Barcelona,Barcelona,41.2971,2.078459,ES,2.29,01:45:00,64974.52352754643
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,2.14,01:35:00,54173.83067317201
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LPPR,OPO,Francisco de S? Carneiro,Porto,Francisco de S? Carneiro,41.2481,-8.681389,PT,2.0,02:35:00,115872.55972724514
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,1.59,01:15:00,34571.48076063855
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,1.57,01:35:00,53846.21111973476
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LIRF,FCO,Leonardo da Vinci?Fiumicino,Rome,Leonardo da Vinci?Fiumicino,41.8045,12.2508,IT,1.43,01:35:00,58736.48388396491
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,EDDH,HAM,Hamburg,Hamburg,Hamburg,53.6304,9.988229,DE,1.29,01:30:00,54828.746668338754
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LEPA,PMI,Palma De Mallorca,Palma De Mallorca,Palma De Mallorca,39.5517,2.73881,ES,1.29,01:50:00,76852.22538333027
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LEAL,ALC,Alicante,Alicante,Alicante,38.2822,-0.558156,ES,1.0,02:15:00,96792.40780270244
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,1.0,02:55:00,131575.77741648114
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LEMG,AGP,M?laga,M?laga,M?laga,36.6749,-4.49911,ES,1.0,02:40:00,123577.28157329958
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,GMMX,RAK,Menara,Marrakech,Menara,31.6069,-8.036299,MA,1.0,03:25:00,174811.19330353622
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LFBD,BOD,Bordeaux-M?rignac,Bordeaux/M?rignac,Bordeaux-M?rignac,44.8283,-0.715556,FR,0.86,01:30:00,55772.12585461332
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,EKCH,CPH,Copenhagen Kastrup,Copenhagen,Kastrup,55.6179,12.656,DK,0.71,01:50:00,75886.60761371476
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LEMD,MAD,Adolfo Su?rez Madrid?Barajas,Madrid,Adolfo Su?rez ?Barajas,40.4936,-3.56676,ES,0.71,02:20:00,93728.92282480153
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.57,01:45:00,67384.80814175401
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,EGPH,EDI,Edinburgh,Edinburgh,Edinburgh,55.95,-3.372499,GB,0.57,02:15:00,94296.06815319756
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LPFR,FAO,Faro,Faro,Faro,37.0144,-7.965909,PT,0.57,02:50:00,136645.21061975448
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,0.57,01:55:00,74641.8717426751
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LFBO,TLS,Toulouse-Blagnac,Toulouse-Blagnac,Toulouse-Blagnac,43.6291,1.363819,FR,0.57,01:25:00,51478.91815508417
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LIPZ,VCE,Venice Marco Polo,Venice,Marco Polo,45.5053,12.3519,IT,0.57,01:10:00,34466.638644887935
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LIBR,BDS,Brindisi ? Salento,Brindisi,? Salento,40.6576,17.947,IT,0.43,02:00:00,89527.93371088868
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,GCLP,LPA,Gran Canaria,Gran Canaria Island,Gran Canaria,27.9319,-15.386599,ES,0.43,04:30:00,233081.43299777253
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,GCRR,ACE,Lanzarote,Lanzarote Island,Lanzarote,28.9455,-13.605199,ES,0.43,04:15:00,217814.41392471018
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LFRS,NTE,Nantes Atlantique,Nantes,Atlantique,47.1532,-1.61073,FR,0.43,01:35:00,54641.76501711753
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LIRN,NAP,Naples,N?poli,Naples,40.886,14.2908,IT,0.43,01:45:00,72624.42528688745
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LKPR,PRG,Ruzyn,Prague,Ruzyn,50.1008,14.26,CZ,0.43,01:25:00,44804.13939212597
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LEST,SCQ,Santiago de Compostela,Santiago de Compostela,Santiago de Compostela,42.8963,-8.41514,ES,0.43,02:25:00,106887.58706201798
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LLBG,TLV,Ben Gurion,Tel Aviv Yafo,Ben Gurion,32.0114,34.8867,IL,0.43,04:05:00,228046.63089194655
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,GCTS,TFS,Tenerife South,Tenerife Island,Tenerife South,28.0445,-16.5725,ES,0.43,04:35:00,237805.96519914668
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,GMAD,AGA,Al Massira,Agadir,Al Massira,30.325,-9.413069,MA,0.29,03:45:00,189853.6119078252
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LGAV,ATH,Eleftherios Venizelos,Athens,Eleftherios Venizelos,37.9364,23.944498,GR,0.29,02:45:00,135323.40264828075
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LICC,CTA,Catania-Fontanarossa,Catania,Fontanarossa,37.4668,15.066399,IT,0.29,02:10:00,101295.71910615567
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,GCFV,FUE,Fuerteventura,Fuerteventura Island,Fuerteventura,28.4527,-13.8638,ES,0.29,04:15:00,222488.12704310278
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LFML,MRS,Marseille Provence,Marseille,Provence,43.43927,5.221424,FR,0.29,01:25:00,39123.02915925976
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LFMT,MPL,Montpellier-M?diterran?e,Montpellier/M?diterran?e,Montpellier-M?diterran?e,43.5762,3.96301,FR,0.29,01:15:00,41527.18042076671
+LFSB,BSL,EuroAirport Basel-Mulhouse-Freiburg Airport,Bale/Mulhouse,Grand Est,FR,47.58959961,7.529910088,Europe/Paris,LICJ,PMO,Falcone?Borsellino,Palermo,Falcone?Borsellino,38.176,13.090999,IT,0.29,02:05:00,90014.20828320719
+LGAV,ATH,Eleftherios Venizelos International Airport,Athens,Attica,GR,37.93640137,23.94449997,Europe/Athens,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,3.86,02:35:00,120278.82578488934
+LGAV,ATH,Eleftherios Venizelos International Airport,Athens,Attica,GR,37.93640137,23.94449997,Europe/Athens,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,2.57,03:55:00,189327.2564011476
+LGAV,ATH,Eleftherios Venizelos International Airport,Athens,Attica,GR,37.93640137,23.94449997,Europe/Athens,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,1.14,04:05:00,208593.75222944855
+LGAV,ATH,Eleftherios Venizelos International Airport,Athens,Attica,GR,37.93640137,23.94449997,Europe/Athens,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.29,03:00:00,135323.40264828075
+LGAV,ATH,Eleftherios Venizelos International Airport,Athens,Attica,GR,37.93640137,23.94449997,Europe/Athens,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.29,03:55:00,202705.04756002518
+LIBR,BDS,Brindisi / Casale Airport,Brindisi,Apulia,IT,40.6576004,17.9470005,Europe/Rome,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,2.86,01:45:00,73508.87550357693
+LIBR,BDS,Brindisi / Casale Airport,Brindisi,Apulia,IT,40.6576004,17.9470005,Europe/Rome,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.43,02:00:00,89527.93371088868
+LIBR,BDS,Brindisi / Casale Airport,Brindisi,Apulia,IT,40.6576004,17.9470005,Europe/Rome,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,0.43,02:00:00,90018.57961862958
+LICC,CTA,Catania / Fontanarossa Airport,Catania,Sicily,IT,37.46680069,15.06639957,Europe/Rome,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,8.93,02:00:00,82858.27883704289
+LICC,CTA,Catania / Fontanarossa Airport,Catania,Sicily,IT,37.46680069,15.06639957,Europe/Rome,LIRN,NAP,Naples,N?poli,Naples,40.886,14.2908,IT,2.3,01:05:00,30451.482788973917
+LICC,CTA,Catania / Fontanarossa Airport,Catania,Sicily,IT,37.46680069,15.06639957,Europe/Rome,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,0.86,03:20:00,153216.92616548116
+LICC,CTA,Catania / Fontanarossa Airport,Catania,Sicily,IT,37.46680069,15.06639957,Europe/Rome,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,0.57,02:55:00,131126.68439842423
+LICC,CTA,Catania / Fontanarossa Airport,Catania,Sicily,IT,37.46680069,15.06639957,Europe/Rome,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,0.57,02:55:00,128945.93337572504
+LICC,CTA,Catania / Fontanarossa Airport,Catania,Sicily,IT,37.46680069,15.06639957,Europe/Rome,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.29,02:20:00,101295.71910615567
+LICC,CTA,Catania / Fontanarossa Airport,Catania,Sicily,IT,37.46680069,15.06639957,Europe/Rome,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,0.29,02:15:00,96698.06741487992
+LICC,CTA,Catania / Fontanarossa Airport,Catania,Sicily,IT,37.46680069,15.06639957,Europe/Rome,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,0.29,03:25:00,158508.44854242625
+LICJ,PMO,Palermo / Punta Raisi Airport,Palermo,Sicily,IT,38.17599869,13.0909996,Europe/Rome,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,6.14,01:40:00,71361.47304884883
+LICJ,PMO,Palermo / Punta Raisi Airport,Palermo,Sicily,IT,38.17599869,13.0909996,Europe/Rome,LIRN,NAP,Naples,N?poli,Naples,40.886,14.2908,IT,2.29,00:55:00,25126.852602710856
+LICJ,PMO,Palermo / Punta Raisi Airport,Palermo,Sicily,IT,38.17599869,13.0909996,Europe/Rome,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.29,02:15:00,90014.20828320719
+LICJ,PMO,Palermo / Punta Raisi Airport,Palermo,Sicily,IT,38.17599869,13.0909996,Europe/Rome,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,0.29,03:05:00,146067.6132192111
+LICJ,PMO,Palermo / Punta Raisi Airport,Palermo,Sicily,IT,38.17599869,13.0909996,Europe/Rome,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,0.29,02:40:00,116244.10269801172
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,LICC,CTA,Catania-Fontanarossa,Catania,Fontanarossa,37.4668,15.066399,IT,9.29,01:55:00,82858.27883704289
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,8.57,01:30:00,47342.79585092671
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,LEBL,BCN,Barcelona,Barcelona,Barcelona,41.2971,2.078459,ES,8.29,01:35:00,57006.8205269748
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,LIRN,NAP,Naples,N?poli,Naples,40.886,14.2908,IT,6.86,01:25:00,54810.53660005854
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,6.57,02:50:00,130726.18386349741
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,6.0,01:55:00,71125.81885521443
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,LICJ,PMO,Falcone?Borsellino,Palermo,Falcone?Borsellino,38.176,13.090999,IT,5.86,01:40:00,71361.47304884883
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,LGAV,ATH,Eleftherios Venizelos,Athens,Eleftherios Venizelos,37.9364,23.944498,GR,4.43,02:30:00,120278.82578488934
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,4.0,01:55:00,62966.69725241449
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,LLBG,TLV,Ben Gurion,Tel Aviv Yafo,Ben Gurion,32.0114,34.8867,IL,3.72,03:45:00,214017.6543596845
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,EKCH,CPH,Copenhagen Kastrup,Copenhagen,Kastrup,55.6179,12.656,DK,3.71,02:05:00,90435.9222803621
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,ELLX,LUX,Luxembourg-Findel,Luxembourg,Findel,49.6266,6.21152,LU,3.14,01:20:00,38141.306039758034
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,EGSS,STN,London Stansted,London,Stansted,51.885,0.234999,GB,2.88,02:00:00,73745.40063874415
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,LIBR,BDS,Brindisi ? Salento,Brindisi,? Salento,40.6576,17.947,IT,2.57,01:45:00,73508.87550357693
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,2.43,02:10:00,92372.47155024779
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,LKPR,PRG,Ruzyn,Prague,Ruzyn,50.1008,14.26,CZ,2.43,01:30:00,51067.55497384043
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,LPPR,OPO,Francisco de S? Carneiro,Porto,Francisco de S? Carneiro,41.2481,-8.681389,PT,2.14,02:40:00,117514.70442931828
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,LFPO,ORY,Paris-Orly,Paris,Orly,48.7253,2.35944,FR,1.94,01:30,46807.018491989584
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,GMMX,RAK,Menara,Marrakech,Menara,31.6069,-8.036299,MA,1.71,03:20:00,167919.0316839214
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,GCTS,TFS,Tenerife South,Tenerife Island,Tenerife South,28.0445,-16.5725,ES,1.44,04:35:00,233872.43811959834
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,1.43,02:00:00,76056.36055688545
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,LEMG,AGP,M?laga,M?laga,M?laga,36.6749,-4.49911,ES,1.14,02:35:00,117477.16445584626
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,EGPH,EDI,Edinburgh,Edinburgh,Edinburgh,55.95,-3.372499,GB,0.71,02:35:00,112651.4183212086
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,LFRS,NTE,Nantes Atlantique,Nantes,Atlantique,47.1532,-1.61073,FR,0.43,01:45:00,64176.984459361396
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,LFBD,BOD,Bordeaux-M?rignac,Bordeaux/M?rignac,Bordeaux-M?rignac,44.8283,-0.715556,FR,0.29,01:35:00,58975.17404406824
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,GCFV,FUE,Fuerteventura,Fuerteventura Island,Fuerteventura,28.4527,-13.8638,ES,0.29,04:10:00,217389.16907514294
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,LPMA,FNC,Madeira,Funchal,Madeira,32.6979,-16.7745,PT,0.29,04:05:00,206387.81902311294
+LIMC,MXP,Malpensa International Airport,Milan,Lombardy,IT,45.63059998,8.728110313,Europe/Rome,GCRR,ACE,Lanzarote,Lanzarote Island,Lanzarote,28.9455,-13.605199,ES,0.29,04:10:00,212806.60392727228
+LIME,BGY,Bergamo / Orio Al Serio Airport,Bergamo,Lombardy,IT,45.6739006,9.704170227,Europe/Rome,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,2.86,02:55:00,136494.43795725235
+LIME,BGY,Bergamo / Orio Al Serio Airport,Bergamo,Lombardy,IT,45.6739006,9.704170227,Europe/Rome,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,0.71,01:55:00,75127.90493189711
+LIME,BGY,Bergamo / Orio Al Serio Airport,Bergamo,Lombardy,IT,45.6739006,9.704170227,Europe/Rome,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,0.71,01:35:00,51772.92428888604
+LIME,BGY,Bergamo / Orio Al Serio Airport,Bergamo,Lombardy,IT,45.6739006,9.704170227,Europe/Rome,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,0.43,02:05:00,64874.16150366767
+LIMF,TRN,Torino / Caselle International Airport,Torino,Piedmont,IT,45.20080185,7.64963007,Europe/Rome,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,4.14,01:55:00,69571.89484848635
+LIMF,TRN,Torino / Caselle International Airport,Torino,Piedmont,IT,45.20080185,7.64963007,Europe/Rome,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,0.43,02:10:00,91396.4979267188
+LIMF,TRN,Torino / Caselle International Airport,Torino,Piedmont,IT,45.20080185,7.64963007,Europe/Rome,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.29,02:05:00,81367.79264749482
+LIMF,TRN,Torino / Caselle International Airport,Torino,Piedmont,IT,45.20080185,7.64963007,Europe/Rome,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,0.29,01:50:00,74908.88481136621
+LIML,LIN,Linate Airport,Milan,Lombardy,IT,45.44509888,9.276740074,Europe/Rome,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,9.71,01:30:00,50971.362729274064
+LIML,LIN,Linate Airport,Milan,Lombardy,IT,45.44509888,9.276740074,Europe/Rome,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,6.71,01:55:00,65692.68472858782
+LIML,LIN,Linate Airport,Milan,Lombardy,IT,45.44509888,9.276740074,Europe/Rome,LFPO,ORY,Paris-Orly,Paris,Orly,48.7253,2.35944,FR,6.15,01:25:00,50483.97338165775
+LIML,LIN,Linate Airport,Milan,Lombardy,IT,45.44509888,9.276740074,Europe/Rome,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,2.86,01:50:00,65479.9499941486
+LIML,LIN,Linate Airport,Milan,Lombardy,IT,45.44509888,9.276740074,Europe/Rome,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,1.0,01:50:00,74652.52311241925
+LIPZ,VCE,Venezia / Tessera -  Marco Polo Airport,Venezia,Veneto,IT,45.50529861,12.3519001,Europe/Rome,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,5.86,01:55:00,66140.90482370452
+LIPZ,VCE,Venezia / Tessera -  Marco Polo Airport,Venezia,Veneto,IT,45.50529861,12.3519001,Europe/Rome,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,4.14,02:00:00,74099.389216862
+LIPZ,VCE,Venezia / Tessera -  Marco Polo Airport,Venezia,Veneto,IT,45.50529861,12.3519001,Europe/Rome,LFPO,ORY,Paris-Orly,Paris,Orly,48.7253,2.35944,FR,3.0,01:45:00,66180.15098781507
+LIPZ,VCE,Venezia / Tessera -  Marco Polo Airport,Venezia,Veneto,IT,45.50529861,12.3519001,Europe/Rome,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,2.86,02:15:00,88444.70496870023
+LIPZ,VCE,Venezia / Tessera -  Marco Polo Airport,Venezia,Veneto,IT,45.50529861,12.3519001,Europe/Rome,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,1.14,01:25:00,44768.04477413643
+LIPZ,VCE,Venezia / Tessera -  Marco Polo Airport,Venezia,Veneto,IT,45.50529861,12.3519001,Europe/Rome,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,0.86,02:30:00,108181.40486521657
+LIPZ,VCE,Venezia / Tessera -  Marco Polo Airport,Venezia,Veneto,IT,45.50529861,12.3519001,Europe/Rome,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,0.71,01:45:00,60604.39907350005
+LIPZ,VCE,Venezia / Tessera -  Marco Polo Airport,Venezia,Veneto,IT,45.50529861,12.3519001,Europe/Rome,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.57,01:15:00,34466.638644887935
+LIPZ,VCE,Venezia / Tessera -  Marco Polo Airport,Venezia,Veneto,IT,45.50529861,12.3519001,Europe/Rome,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,0.57,01:20:00,36063.077121242975
+LIPZ,VCE,Venezia / Tessera -  Marco Polo Airport,Venezia,Veneto,IT,45.50529861,12.3519001,Europe/Rome,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.29,02:20:00,101817.25116772587
+LIPZ,VCE,Venezia / Tessera -  Marco Polo Airport,Venezia,Veneto,IT,45.50529861,12.3519001,Europe/Rome,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,0.29,01:20:00,38818.71141521844
+LIRF,FCO,Leonardo Da Vinci (Fiumicino) International Airport,Rome,Latium,IT,41.80450058,12.25080013,Europe/Rome,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,8.86,02:35:00,102484.4810244632
+LIRF,FCO,Leonardo Da Vinci (Fiumicino) International Airport,Rome,Latium,IT,41.80450058,12.25080013,Europe/Rome,LFPO,ORY,Paris-Orly,Paris,Orly,48.7253,2.35944,FR,8.43,02:10:00,86197.25553311121
+LIRF,FCO,Leonardo Da Vinci (Fiumicino) International Airport,Rome,Latium,IT,41.80450058,12.25080013,Europe/Rome,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,5.86,02:40:00,111189.30572823466
+LIRF,FCO,Leonardo Da Vinci (Fiumicino) International Airport,Rome,Latium,IT,41.80450058,12.25080013,Europe/Rome,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,3.57,01:15:00,36402.76486554688
+LIRF,FCO,Leonardo Da Vinci (Fiumicino) International Airport,Rome,Latium,IT,41.80450058,12.25080013,Europe/Rome,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,3.43,01:30:00,54994.751766056725
+LIRF,FCO,Leonardo Da Vinci (Fiumicino) International Airport,Rome,Latium,IT,41.80450058,12.25080013,Europe/Rome,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,2.14,01:35:00,57053.87743331231
+LIRF,FCO,Leonardo Da Vinci (Fiumicino) International Airport,Rome,Latium,IT,41.80450058,12.25080013,Europe/Rome,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,1.86,02:10:00,93022.67811090656
+LIRF,FCO,Leonardo Da Vinci (Fiumicino) International Airport,Rome,Latium,IT,41.80450058,12.25080013,Europe/Rome,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,1.43,01:40:00,58736.48388396491
+LIRF,FCO,Leonardo Da Vinci (Fiumicino) International Airport,Rome,Latium,IT,41.80450058,12.25080013,Europe/Rome,LFRS,NTE,Nantes Atlantique,Nantes,Atlantique,47.1532,-1.61073,FR,1.14,02:10:00,98767.83250010638
+LIRF,FCO,Leonardo Da Vinci (Fiumicino) International Airport,Rome,Latium,IT,41.80450058,12.25080013,Europe/Rome,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.86,02:50:00,123206.97101123437
+LIRN,NAP,Napoli / Capodichino International Airport,Napoli,Campania,IT,40.88600159,14.29080009,Europe/Rome,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,6.12,01:30:00,54810.53660005854
+LIRN,NAP,Napoli / Capodichino International Airport,Napoli,Campania,IT,40.88600159,14.29080009,Europe/Rome,LFPO,ORY,Paris-Orly,Paris,Orly,48.7253,2.35944,FR,3.14,02:20:00,101255.83327387566
+LIRN,NAP,Napoli / Capodichino International Airport,Napoli,Campania,IT,40.88600159,14.29080009,Europe/Rome,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,3.0,02:25:00,101994.90729269442
+LIRN,NAP,Napoli / Capodichino International Airport,Napoli,Campania,IT,40.88600159,14.29080009,Europe/Rome,LEBL,BCN,Barcelona,Barcelona,Barcelona,41.2971,2.078459,ES,2.43,02:00:00,81072.34571599256
+LIRN,NAP,Napoli / Capodichino International Airport,Napoli,Campania,IT,40.88600159,14.29080009,Europe/Rome,LICC,CTA,Catania-Fontanarossa,Catania,Fontanarossa,37.4668,15.066399,IT,2.43,01:05:00,30451.482788973917
+LIRN,NAP,Napoli / Capodichino International Airport,Napoli,Campania,IT,40.88600159,14.29080009,Europe/Rome,LICJ,PMO,Falcone?Borsellino,Palermo,Falcone?Borsellino,38.176,13.090999,IT,2.29,01:00:00,25126.852602710856
+LIRN,NAP,Napoli / Capodichino International Airport,Napoli,Campania,IT,40.88600159,14.29080009,Europe/Rome,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,2.14,02:50:00,125928.25146450324
+LIRN,NAP,Napoli / Capodichino International Airport,Napoli,Campania,IT,40.88600159,14.29080009,Europe/Rome,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,2.0,02:40:00,115482.04183404612
+LIRN,NAP,Napoli / Capodichino International Airport,Napoli,Campania,IT,40.88600159,14.29080009,Europe/Rome,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,1.29,01:50:00,70173.9096303267
+LIRN,NAP,Napoli / Capodichino International Airport,Napoli,Campania,IT,40.88600159,14.29080009,Europe/Rome,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,1.29,01:30:00,52108.00846334177
+LIRN,NAP,Napoli / Capodichino International Airport,Napoli,Campania,IT,40.88600159,14.29080009,Europe/Rome,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,0.86,02:20:00,100894.23083493252
+LIRN,NAP,Napoli / Capodichino International Airport,Napoli,Campania,IT,40.88600159,14.29080009,Europe/Rome,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,0.71,02:55:00,130848.22395397861
+LIRN,NAP,Napoli / Capodichino International Airport,Napoli,Campania,IT,40.88600159,14.29080009,Europe/Rome,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.43,01:50:00,72624.42528688745
+LIRN,NAP,Napoli / Capodichino International Airport,Napoli,Campania,IT,40.88600159,14.29080009,Europe/Rome,EGPH,EDI,Edinburgh,Edinburgh,Edinburgh,55.95,-3.372499,GB,0.29,03:30:00,166840.1361655211
+LIRN,NAP,Napoli / Capodichino International Airport,Napoli,Campania,IT,40.88600159,14.29080009,Europe/Rome,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,0.29,01:50:00,72601.72897151018
+LIRP,PSA,Pisa / San Giusto - Galileo Galilei International Airport,Pisa,Tuscany,IT,43.68389893,10.3927002,Europe/Rome,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,1.29,02:15:00,90811.53400210555
+LIRP,PSA,Pisa / San Giusto - Galileo Galilei International Airport,Pisa,Tuscany,IT,43.68389893,10.3927002,Europe/Rome,LFPO,ORY,Paris-Orly,Paris,Orly,48.7253,2.35944,FR,0.71,01:45:00,65955.20498699752
+LIRP,PSA,Pisa / San Giusto - Galileo Galilei International Airport,Pisa,Tuscany,IT,43.68389893,10.3927002,Europe/Rome,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,0.57,02:30:00,112276.9158725282
+LIRP,PSA,Pisa / San Giusto - Galileo Galilei International Airport,Pisa,Tuscany,IT,43.68389893,10.3927002,Europe/Rome,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.29,02:20:00,102952.16723869678
+LKPR,PRG,Ruzyne International Airport,Prague,Praha,CZ,50.10079956,14.26000023,Europe/Prague,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,4.57,01:35:00,55853.85766475028
+LKPR,PRG,Ruzyne International Airport,Prague,Praha,CZ,50.10079956,14.26000023,Europe/Prague,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,2.57,01:30:00,51067.55497384043
+LKPR,PRG,Ruzyne International Airport,Prague,Praha,CZ,50.10079956,14.26000023,Europe/Prague,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,2.14,02:15:00,94424.30963306091
+LKPR,PRG,Ruzyne International Airport,Prague,Praha,CZ,50.10079956,14.26000023,Europe/Prague,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,1.14,02:05:00,81170.01345292333
+LKPR,PRG,Ruzyne International Airport,Prague,Praha,CZ,50.10079956,14.26000023,Europe/Prague,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.57,02:15:00,95131.48936175913
+LKPR,PRG,Ruzyne International Airport,Prague,Praha,CZ,50.10079956,14.26000023,Europe/Prague,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,0.57,02:00:00,58643.686830249375
+LKPR,PRG,Ruzyne International Airport,Prague,Praha,CZ,50.10079956,14.26000023,Europe/Prague,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.43,01:20:00,44804.13939212597
+LKPR,PRG,Ruzyne International Airport,Prague,Praha,CZ,50.10079956,14.26000023,Europe/Prague,LPPR,OPO,Francisco de S? Carneiro,Porto,Francisco de S? Carneiro,41.2481,-8.681389,PT,0.29,03:20:00,160254.4895565518
+LLBG,TLV,Ben Gurion International Airport,Tel Aviv,Central District,IL,32.01139832,34.88669968,Asia/Jerusalem,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,4.86,05:00:00,259775.96601628166
+LLBG,TLV,Ben Gurion International Airport,Tel Aviv,Central District,IL,32.01139832,34.88669968,Asia/Jerusalem,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,4.29,05:05:00,261884.6009618177
+LLBG,TLV,Ben Gurion International Airport,Tel Aviv,Central District,IL,32.01139832,34.88669968,Asia/Jerusalem,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,3.71,04:10:00,214017.6543596845
+LLBG,TLV,Ben Gurion International Airport,Tel Aviv,Central District,IL,32.01139832,34.88669968,Asia/Jerusalem,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,3.17,05:30:00,284805.5936854832
+LLBG,TLV,Ben Gurion International Airport,Tel Aviv,Central District,IL,32.01139832,34.88669968,Asia/Jerusalem,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,2.72,04:25:00,224836.69167515115
+LLBG,TLV,Ben Gurion International Airport,Tel Aviv,Central District,IL,32.01139832,34.88669968,Asia/Jerusalem,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,1.14,04:40:00,230856.0189257379
+LLBG,TLV,Ben Gurion International Airport,Tel Aviv,Central District,IL,32.01139832,34.88669968,Asia/Jerusalem,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,0.86,05:35:00,281370.1565049158
+LLBG,TLV,Ben Gurion International Airport,Tel Aviv,Central District,IL,32.01139832,34.88669968,Asia/Jerusalem,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.43,04:25:00,228046.63089194655
+LLBG,TLV,Ben Gurion International Airport,Tel Aviv,Central District,IL,32.01139832,34.88669968,Asia/Jerusalem,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,0.43,05:45:00,299383.9763178283
+LLBG,TLV,Ben Gurion International Airport,Tel Aviv,Central District,IL,32.01139832,34.88669968,Asia/Jerusalem,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,0.29,04:15:00,216392.48555063907
+LMML,MLA,Luqa Airport,Luqa,Luqa,MT,35.857498,14.4775,Europe/Malta,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,3.0,03:15:00,163023.72108256377
+LMML,MLA,Luqa Airport,Luqa,Luqa,MT,35.857498,14.4775,Europe/Malta,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,1.0,03:40:00,185074.29413092672
+LPFR,FAO,Faro Airport,Faro,Faro,PT,37.01440048,-7.965909958,Europe/Lisbon,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,4.86,02:55:00,133282.48572823004
+LPFR,FAO,Faro Airport,Faro,Faro,PT,37.01440048,-7.965909958,Europe/Lisbon,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,3.43,,17496.128217948804
+LPFR,FAO,Faro Airport,Faro,Faro,PT,37.01440048,-7.965909958,Europe/Lisbon,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,1.86,03:05:00,147623.45048358096
+LPFR,FAO,Faro Airport,Faro,Faro,PT,37.01440048,-7.965909958,Europe/Lisbon,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,1.71,03:00:00,155648.64482430398
+LPFR,FAO,Faro Airport,Faro,Faro,PT,37.01440048,-7.965909958,Europe/Lisbon,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,1.71,02:40:00,130320.75702357086
+LPFR,FAO,Faro Airport,Faro,Faro,PT,37.01440048,-7.965909958,Europe/Lisbon,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,1.71,02:55:00,138740.6734405915
+LPFR,FAO,Faro Airport,Faro,Faro,PT,37.01440048,-7.965909958,Europe/Lisbon,LFPO,ORY,Paris-Orly,Paris,Orly,48.7253,2.35944,FR,1.71,02:35:00,122247.52829362475
+LPFR,FAO,Faro Airport,Faro,Faro,PT,37.01440048,-7.965909958,Europe/Lisbon,EGPF,GLA,Glasgow,Glasgow,Glasgow,55.8719,-4.43306,GB,0.71,03:20:00,166927.6463814924
+LPFR,FAO,Faro Airport,Faro,Faro,PT,37.01440048,-7.965909958,Europe/Lisbon,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,0.71,02:45:00,124934.33152098395
+LPFR,FAO,Faro Airport,Faro,Faro,PT,37.01440048,-7.965909958,Europe/Lisbon,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,0.57,02:50:00,136645.21061975448
+LPFR,FAO,Faro Airport,Faro,Faro,PT,37.01440048,-7.965909958,Europe/Lisbon,EGAA,BFS,Belfast,Belfast,Belfast,54.6575,-6.215829,GB,0.29,03:05:00,155278.08464193385
+LPFR,FAO,Faro Airport,Faro,Faro,PT,37.01440048,-7.965909958,Europe/Lisbon,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,0.29,02:25:00,115012.17903396495
+LPFR,FAO,Faro Airport,Faro,Faro,PT,37.01440048,-7.965909958,Europe/Lisbon,LFRS,NTE,Nantes Atlantique,Nantes,Atlantique,47.1532,-1.61073,FR,0.29,02:10:00,98104.5855431867
+LPMA,FNC,Madeira Airport,Funchal,Madeira,PT,32.69789886,-16.77449989,Europe/Lisbon,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,12.0,01:40:00,76252.9295506051
+LPMA,FNC,Madeira Airport,Funchal,Madeira,PT,32.69789886,-16.77449989,Europe/Lisbon,LPPR,OPO,Francisco de S? Carneiro,Porto,Francisco de S? Carneiro,41.2481,-8.681389,PT,5.43,02:00:00,94032.28388783417
+LPMA,FNC,Madeira Airport,Funchal,Madeira,PT,32.69789886,-16.77449989,Europe/Lisbon,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,2.15,03:45:00,193991.19532555508
+LPMA,FNC,Madeira Airport,Funchal,Madeira,PT,32.69789886,-16.77449989,Europe/Lisbon,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,1.29,03:55:00,203013.63449779397
+LPMA,FNC,Madeira Airport,Funchal,Madeira,PT,32.69789886,-16.77449989,Europe/Lisbon,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,0.57,04:35:00,258131.90887533303
+LPMA,FNC,Madeira Airport,Funchal,Madeira,PT,32.69789886,-16.77449989,Europe/Lisbon,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.57,03:30:00,187232.34290416253
+LPMA,FNC,Madeira Airport,Funchal,Madeira,PT,32.69789886,-16.77449989,Europe/Lisbon,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,0.43,03:30:00,186859.47121192812
+LPMA,FNC,Madeira Airport,Funchal,Madeira,PT,32.69789886,-16.77449989,Europe/Lisbon,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,0.29,04:00:00,206387.81902311294
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,LEMD,MAD,Adolfo Su?rez Madrid?Barajas,Madrid,Adolfo Su?rez ?Barajas,40.4936,-3.56676,ES,10.45,01:20:00,34693.24589683038
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,9.44,00:55,21854.17002138019
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,LPMA,FNC,Madeira,Funchal,Madeira,32.6979,-16.7745,PT,6.71,02:00:00,94032.28388783417
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,5.43,02:10:00,103596.56793638028
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,ELLX,LUX,Luxembourg-Findel,Luxembourg,Findel,49.6266,6.21152,LU,5.43,02:25:00,117473.77974078376
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,LSZH,ZRH,Kloten,Zurich,Kloten,47.4647,8.549169,CH,3.43,02:25:00,121106.81046495747
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,2.81,02:15:00,97372.56051533161
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,2.43,02:15:00,101031.24859733158
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,2.14,02:05:00,96223.30740386076
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,1.86,02:25:00,115872.55972724514
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,1.57,02:35:00,117514.70442931828
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,LFRS,NTE,Nantes Atlantique,Nantes,Atlantique,47.1532,-1.61073,FR,1.29,01:35:00,68356.56894197364
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,LFBO,TLS,Toulouse-Blagnac,Toulouse-Blagnac,Toulouse-Blagnac,43.6291,1.363819,FR,1.29,01:40:00,68504.1830928147
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,LFBD,BOD,Bordeaux-M?rignac,Bordeaux/M?rignac,Bordeaux-M?rignac,44.8283,-0.715556,FR,1.15,01:35:00,60100.44086415371
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,1.0,02:10:00,105277.56701981467
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,0.86,02:25:00,105879.17394745532
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,0.71,02:30:00,112889.2211847401
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,0.43,02:05:00,96026.6601529908
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,LFRN,RNS,Rennes-Saint-Jacques,Rennes/Saint-Jacques,Rennes-Saint-Jacques,48.0695,-1.734789,FR,0.43,01:55:00,73963.8672691196
+LPPR,OPO,Francisco de Sa Carneiro Airport,Porto,Porto,PT,41.24810028,-8.681389809,Europe/Lisbon,LKPR,PRG,Ruzyn,Prague,Ruzyn,50.1008,14.26,CZ,0.29,03:15:00,160254.4895565518
+LPPS,PXO,Porto Santo Airport,Vila Baleira,Madeira,PT,33.07339859,-16.35000038,Europe/Lisbon,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,0.29,01:35:00,71706.4645228053
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LEMD,MAD,Adolfo Su?rez Madrid?Barajas,Madrid,Adolfo Su?rez ?Barajas,40.4936,-3.56676,ES,19.0,01:20:00,40635.16558302263
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LPMA,FNC,Madeira,Funchal,Madeira,32.6979,-16.7745,PT,12.0,01:45:00,76252.9295506051
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LEBL,BCN,Barcelona,Barcelona,Barcelona,41.2971,2.078459,ES,10.57,01:50:00,78698.60377228259
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,7.71,03:00:00,145950.00493208942
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LIMC,MXP,Malpensa,Milan,Malpensa,45.6306,8.72811,IT,6.58,02:40:00,130726.18386349741
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,6.43,02:25:00,118338.49959897183
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LFPG,CDG,Charles de Gaulle,Paris,Charles de Gaulle,49.0128,2.549999,FR,6.01,02:30:00,116201.42209286292
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LSZH,ZRH,Kloten,Zurich,Kloten,47.4647,8.549169,CH,6.0,02:45:00,136368.47852326985
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,4.29,02:40:00,121840.66107626364
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,ELLX,LUX,Luxembourg-Findel,Luxembourg,Findel,49.6266,6.21152,LU,3.43,02:45:00,135351.50430749584
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LFML,MRS,Marseille Provence,Marseille,Provence,43.43927,5.221424,FR,3.43,02:15:00,103485.69428422702
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LEBB,BIO,Bilbao,Bilbao,Bilbao,43.3011,-2.910609,ES,3.14,01:50:00,57260.4502598011
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LFLL,LYS,Lyon Saint-Exup?ry,Lyon,Saint-Exup?ry,45.7264,5.090829,FR,3.01,02:20:00,110721.92943414832
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LEVC,VLC,Valencia,Valencia,Valencia,39.4893,-0.481624,ES,3.0,01:30:00,59414.414065627534
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,2.86,02:45:00,126919.86802963202
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,2.86,02:55:00,134503.20442769743
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LIME,BGY,Orio al Serio,Bergamo,Orio al Serio,45.6739,9.70417,IT,2.86,02:50:00,136494.43795725235
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LFBO,TLS,Toulouse-Blagnac,Toulouse-Blagnac,Toulouse-Blagnac,43.6291,1.363819,FR,2.72,01:50:00,81448.0303989187
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,2.44,02:30:00,116218.44864283515
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,GMMX,RAK,Menara,Marrakech,Menara,31.6069,-8.036299,MA,2.29,01:35:00,63375.05804708276
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LFBD,BOD,Bordeaux-M?rignac,Bordeaux/M?rignac,Bordeaux-M?rignac,44.8283,-0.715556,FR,1.87,01:50:00,76545.40174063528
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LFRS,NTE,Nantes Atlantique,Nantes,Atlantique,47.1532,-1.61073,FR,1.87,02:00:00,87943.8049269063
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LFOB,BVA,Paris Beauvais Till?,Beauvais/Till?,Paris Beauvais Till?,49.4544,2.11278,FR,1.86,02:30:00,117361.2563598643
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,1.14,02:35:00,117500.06266389813
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LFSB,BSL,Euro Basel-Mulhouse-Freiburg,B?le/Mulhouse,Euro Basel-Mulhouse-Freiburg,47.5896,7.52991,FR,1.0,02:45:00,131575.77741648114
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,GCLP,LPA,Gran Canaria,Gran Canaria Island,Gran Canaria,27.9319,-15.386599,ES,1.0,02:20:00,105518.79434263527
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,GCTS,TFS,Tenerife South,Tenerife Island,Tenerife South,28.0445,-16.5725,ES,1.0,02:30:00,108697.8102684163
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,EGPH,EDI,Edinburgh,Edinburgh,Edinburgh,55.95,-3.372499,GB,0.86,03:15:00,154532.47485279632
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LFRN,RNS,Rennes-Saint-Jacques,Rennes/Saint-Jacques,Rennes-Saint-Jacques,48.0695,-1.734789,FR,0.43,02:15:00,94169.60102499042
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,GCFV,FUE,Fuerteventura,Fuerteventura Island,Fuerteventura,28.4527,-13.8638,ES,0.29,02:20:00,96873.15468499144
+LPPT,LIS,Lisbon Portela Airport,Lisbon,Lisbon,PT,38.78129959,-9.135919571,Europe/Lisbon,LPPS,PXO,Porto Santo,Vila Baleira,Porto Santo,33.0734,-16.35,PT,0.29,01:45:00,71706.4645228053
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,11.43,01:35:00,56551.315796332274
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,EHAM,AMS,Amsterdam Schiphol,Amsterdam,Schiphol,52.3086,4.763889,NL,7.14,01:40:00,53890.2758726279
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,7.0,01:45:00,62005.0635073996
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,6.57,02:35:00,118338.49959897183
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LEMD,MAD,Adolfo Su?rez Madrid?Barajas,Madrid,Adolfo Su?rez ?Barajas,40.4936,-3.56676,ES,6.0,02:05:00,79778.54333537332
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LPPR,OPO,Francisco de S? Carneiro,Porto,Francisco de S? Carneiro,41.2481,-8.681389,PT,5.71,02:20:00,103596.56793638028
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,5.0,01:55:00,78521.17367963846
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LEBL,BCN,Barcelona,Barcelona,Barcelona,41.2971,2.078459,ES,4.86,01:25:00,50364.31938441456
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LFMN,NCE,Nice-C?te d'Azur,Nice,C?te d'Azur,43.6584,7.215869,FR,4.29,01:00:00,23675.40062290949
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,EGGD,BRS,Bristol,Bristol,Bristol,51.3827,-2.719089,GB,4.14,01:45:00,68228.08773372912
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,EKCH,CPH,Copenhagen Kastrup,Copenhagen,Kastrup,55.6179,12.656,DK,4.14,02:00:00,90002.06427517466
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LIRF,FCO,Leonardo da Vinci?Fiumicino,Rome,Leonardo da Vinci?Fiumicino,41.8045,12.2508,IT,2.72,01:30:00,54994.751766056725
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,EGPH,EDI,Edinburgh,Edinburgh,Edinburgh,55.95,-3.372499,GB,2.57,02:15:00,99990.75178137538
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LFPO,ORY,Paris-Orly,Paris,Orly,48.7253,2.35944,FR,2.29,01:10:00,31228.21085337208
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,ESSA,ARN,Stockholm-Arlanda,Stockholm,Arlanda,59.6519,17.9186,SE,2.29,02:45:00,133109.279654708
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LFBD,BOD,Bordeaux-M?rignac,Bordeaux/M?rignac,Bordeaux-M?rignac,44.8283,-0.715556,FR,2.14,01:15:00,43878.193171457606
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LFRS,NTE,Nantes Atlantique,Nantes,Atlantique,47.1532,-1.61073,FR,2.0,01:25:00,47312.490742739385
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,GMMX,RAK,Menara,Marrakech,Menara,31.6069,-8.036299,MA,1.71,03:05:00,160269.54649427725
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,1.57,01:45:00,68474.47172629165
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LEMG,AGP,M?laga,M?laga,M?laga,36.6749,-4.49911,ES,1.29,02:20:00,109082.06951131119
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LIRN,NAP,Naples,N?poli,Naples,40.886,14.2908,IT,1.29,01:40:00,70173.9096303267
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LLBG,TLV,Ben Gurion,Tel Aviv Yafo,Ben Gurion,32.0114,34.8867,IL,1.14,04:05:00,230856.0189257379
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LEAL,ALC,Alicante,Alicante,Alicante,38.2822,-0.558156,ES,1.0,02:00:00,82166.04012829662
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LFBO,TLS,Toulouse-Blagnac,Toulouse-Blagnac,Toulouse-Blagnac,43.6291,1.363819,FR,1.0,01:10:00,37408.8860012921
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,EGAA,BFS,Belfast,Belfast,Belfast,54.6575,-6.215829,GB,0.86,02:20:00,100991.37702127594
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LEST,SCQ,Santiago de Compostela,Santiago de Compostela,Santiago de Compostela,42.8963,-8.41514,ES,0.86,02:15:00,95589.4866160635
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,EGHI,SOU,Southampton,Southampton,Southampton,50.9503,-1.356799,GB,0.86,01:40:00,59997.64757155992
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,EGPF,GLA,Glasgow,Glasgow,Glasgow,55.8719,-4.43306,GB,0.71,02:20:00,102603.76217516299
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LYBE,BEG,Belgrade Nikola Tesla,Belgrade,Nikola Tesla,44.8184,20.3091,RS,0.57,01:55:00,88394.35450864311
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LFQQ,LIL,Lille-Lesquin,Lille/Lesquin,Lille-Lesquin,50.5619,3.08944,FR,0.57,01:15:00,41880.169942315806
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LKPR,PRG,Ruzyn,Prague,Ruzyn,50.1008,14.26,CZ,0.57,01:40:00,58643.686830249375
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LEZL,SVQ,Sevilla,Seville,Sevilla,37.418,-5.893109,ES,0.57,02:20:00,110190.361107566
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,GCTS,TFS,Tenerife South,Tenerife Island,Tenerife South,28.0445,-16.5725,ES,0.57,04:15:00,223793.322686158
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,GMAD,AGA,Al Massira,Agadir,Al Massira,30.325,-9.413069,MA,0.43,03:30:00,175338.96062316452
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LFRN,RNS,Rennes-Saint-Jacques,Rennes/Saint-Jacques,Rennes-Saint-Jacques,48.0695,-1.734789,FR,0.43,01:33:00,49642.42155488504
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LIBR,BDS,Brindisi ? Salento,Brindisi,? Salento,40.6576,17.947,IT,0.29,02:00:00,90018.57961862958
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LICC,CTA,Catania-Fontanarossa,Catania,Fontanarossa,37.4668,15.066399,IT,0.29,02:00:00,96698.06741487992
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,GCFV,FUE,Fuerteventura,Fuerteventura Island,Fuerteventura,28.4527,-13.8638,ES,0.29,04:00:00,208222.3688995192
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LEPA,PMI,Palma De Mallorca,Palma De Mallorca,Palma De Mallorca,39.5517,2.73881,ES,0.29,01:35:00,62564.957864811
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,LIPZ,VCE,Venice Marco Polo,Venice,Marco Polo,45.5053,12.3519,IT,0.29,01:15:00,38818.71141521844
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,EGPD,ABZ,Aberdeen Dyce,Aberdeen,Dyce,57.2019,-2.197779,GB,0.14,02:25:00,106322.46596892076
+LSGG,GVA,Geneva Cointrin International Airport,Geneva,Geneva,CH,46.23809814,6.108950138,Europe/Zurich,GCLP,LPA,Gran Canaria,Gran Canaria Island,Gran Canaria,27.9319,-15.386599,ES,0.14,04:10:00,218926.83576545076
+LSZH,ZRH,Zurich Airport,Zurich,Zurich,CH,47.46469879,8.54916954,Europe/Zurich,EDDB,BER,Berlin Brandenburg,Berlin,Brandenburg,52.35139,13.493889,DE,9.43,01:25:00,51365.898624211644
+LSZH,ZRH,Zurich Airport,Zurich,Zurich,CH,47.46469879,8.54916954,Europe/Zurich,LPPT,LIS,Lisbon Portela,Lisbon,Portela,38.7813,-9.135919,PT,6.43,02:55:00,136368.47852326985
+LSZH,ZRH,Zurich Airport,Zurich,Zurich,CH,47.46469879,8.54916954,Europe/Zurich,LPPR,OPO,Francisco de S? Carneiro,Porto,Francisco de S? Carneiro,41.2481,-8.681389,PT,3.57,02:38:00,121106.81046495747
+LSZH,ZRH,Zurich Airport,Zurich,Zurich,CH,47.46469879,8.54916954,Europe/Zurich,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,1.86,01:50:00,63858.63674481652
+LSZH,ZRH,Zurich Airport,Zurich,Zurich,CH,47.46469879,8.54916954,Europe/Zurich,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,1.71,01:45:00,59674.16121328994
+LTAI,AYT,Antalya International Airport,Antalya,Antalya,TR,36.89870071,30.80050087,Europe/Istanbul,EGCC,MAN,Manchester,Manchester,Manchester,53.3537,-2.27495,GB,1.71,04:45:00,247710.83585397454
+LTAI,AYT,Antalya International Airport,Antalya,Antalya,TR,36.89870071,30.80050087,Europe/Istanbul,EGKK,LGW,London Gatwick,London,Gatwick,51.1481,-0.190277,GB,1.14,04:30:00,230126.86493373348
+LTAI,AYT,Antalya International Airport,Antalya,Antalya,TR,36.89870071,30.80050087,Europe/Istanbul,EGGW,LTN,London Luton,London,Luton,51.8747,-0.368333,GB,1.0,04:30:00,233364.9384475471
+LYBE,BEG,Belgrade Nikola Tesla Airport,Belgrad,,RS,44.81840134,20.3090992,Europe/Belgrade,LSGG,GVA,Geneva Cointrin,Geneva,Cointrin,46.2381,6.10895,CH,0.57,02:05:00,88394.35450864311
