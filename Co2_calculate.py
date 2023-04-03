@@ -109,4 +109,3 @@ print(df_edges.head())
 to create the new csv file for the eurocontrol edges
 df_edges.to_csv("edge_eurocontrol.csv", index=False)
 """
-""""""
