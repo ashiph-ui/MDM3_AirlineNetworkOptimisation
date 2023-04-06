@@ -16,52 +16,61 @@ def passenger_flow(airport_df, flight_df):
     '''
     # get number of inbound flights 
     df = airport_df.copy()
-    inbound = flight_df['origin_airport_icao'].value_counts().to_list()
-    # get number of outbound flights
-    outbound = flight_df['destination_airport_icao'].value_counts().to_list()
-    # get the list of airports that are not in the list of inbound flights
-    pass_inbound = inbound * 186
+    df['num_outbound_flights'] = flight_df['origin_airport_icao'].value_counts().to_list()
+    # get number of inbound flights
+    df['num_inbound_flights'] = flight_df['destination_airport_icao'].value_counts().to_list()
+    # Compute the number of departing passengers 
+    df['passenger_outbound'] = df['num_outbound_flights'].apply(lambda x: x*186)
     # Compute the number of arriving passengers 
-    pass_outbound = outbound * 186
+    df['passenger_inbound'] = df['num_inbound_flights'].apply(lambda x: x*186)
     # Compute the total number of passengers  
-    pass_total = pass_inbound + pass_outbound
-    
-    return inbound, outbound, pass_inbound, pass_outbound, pass_total
+    df['pass_total'] = df['passenger_inbound'] + df['passenger_outbound']
+    df['supplies_pass'] = df['passenger_inbound'] - df['passenger_outbound'] 
+   
+    return df
 
-new_airport_df = passenger_flow(airports_df, flights_df)
+new_df = passenger_flow(airports_df, flights_df)
 
 # call the min cost flow solver 
 smcf = min_cost_flow.SimpleMinCostFlow()
 
 src = []
 dst = []
-capacity = np.ones(num_arcs) *180
+capacity = np.ones(num_arcs, dtype=int) * 5000
 cost = []
 supplies = np.zeros(num_nodes)
-origin_airport_icao = new_airport_df['icao'].to_list()
-print(origin_airport_icao)
-# inverse the sign of the supply for the origin airports
-supplies[origin_airport_icao] = -new_airport_df['departing_passengers'].to_list()
-destination_airport_icao = new_airport_df['icao'].to_list()
-supplies[destination_airport_icao] = new_airport_df['arriving_passengers'].to_list()
+# get indices of origin airports
+airports = list(range(0, num_nodes))
+supplies[airports]= new_df['supplies_pass'].to_list()
+supplies = [int(i) for i in supplies]
+
 for i in range(num_arcs):
     # Add an arc for the flight i
     src.append(airports_df[airports_df['icao']==flights_df.iloc[i]['origin_airport_icao']].index.values[0])
     dst.append(airports_df[airports_df['icao']==flights_df.iloc[i]['destination_airport_icao']].index.values[0])
-    cost.append(flights_df.iloc[i]['co2'])
+    cost.append(int(flights_df.iloc[i]['co2']))
    
-# Add constraint and capacity for each arc.
-all_arcs = smcf.add_arcs_with_capacity_and_unit_cost(src, dst, capacity, cost)
 
-# Define the flow conservation constraints for each airport
-# Add supply for each nodes. (not yet implemented)
-smcf.set_nodes_supplies(np.arange(0, len(supplies)), supplies)
+for i in range(num_arcs):
+    smcf.add_arc_with_capacity_and_unit_cost(src[i], dst[i],
+                                             capacity[i], cost[i])
+# Add node supplies.
+for i in range(len(supplies)):
+    smcf.set_node_supply(i, supplies[i])
+
 # Define any additional constraints, such as minimum or maximum delay times
 status = smcf.solve()
 
-# Solve the problem and print the optimal solution
-if status != smcf.OPTIMAL:
-        print('There was an issue with the min cost flow input.')
-        print(f'Status: {status}')
-        exit(1)
-print(f'Minimum cost: {smcf.optimal_cost()}')
+if status == smcf.OPTIMAL:
+    print('Total cost = ', smcf.optimal_cost())
+    print()
+    print(smcf.num_arcs())
+    for arc in range(smcf.num_arcs()):
+        # Can ignore arcs leading out of source or into sink.
+
+
+        print('Worker %d assigned to task %d.  Cost = %d' %
+                (smcf.tail(arc), smcf.head(arc), smcf.unit_cost(arc)))
+else:
+    print('There was an issue with the min cost flow input.')
+    print(f'Status: {status}')
