@@ -1,4 +1,4 @@
-Column1,icao,Total Time Delayed,iata,name,city,subd,country,elevation,lat,lon,tz,lid,Time_delayed_scale,base
+index,icao,Total Time Delayed,iata,name,city,subd,country,elevation,lat,lon,tz,lid,Time_delayed_scale,base
 0,EHAM,207875,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,-11,52.30860138,4.76388979,Europe/Amsterdam,,5.317802262,1
 1,LFPG,204649,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,392,49.01279831,2.549999952,Europe/Paris,,5.311009627,1
 2,LEMD,175979,MAD,Madrid Barajas International Airport,Madrid,Madrid,ES,2001,40.4936,-3.56676,Europe/Madrid,,5.245460845,0
@@ -47,7 +47,7 @@ Column1,icao,Total Time Delayed,iata,name,city,subd,country,elevation,lat,lon,tz
 45,GCRR,31288,ACE,Lanzarote Airport,Lanzarote Island,Canary-Islands,ES,46,28.94549942,-13.60519981,Atlantic/Canary,,4.495377803,0
 46,EGGD,30132,BRS,Bristol International Airport,Bristol,England,GB,622,51.38270187,-2.719089985,Europe/London,,4.479027959,1
 47,LPFR,29651,FAO,Faro Airport,Faro,Faro,PT,24,37.01440048,-7.965909958,Europe/Lisbon,,4.472039345,1
-48,EPKK,28708,KRK,John Paul II International Airport Kraków-Balice Airport,Kraków,Lesser-Poland-Voivodeship,PL,791,50.07770157,19.78479958,Europe/Warsaw,,4.458002938,0
+48,EPKK,28708,KRK,John Paul II International Airport Krakï¿½w-Balice Airport,Krakï¿½w,Lesser-Poland-Voivodeship,PL,791,50.07770157,19.78479958,Europe/Warsaw,,4.458002938,0
 49,LGIR,28322,HER,Heraklion International Nikos Kazantzakis Airport,Heraklion,Crete,GR,115,35.33969879,25.18029976,Europe/Athens,,4.452123918,0
 50,LICJ,27808,PMO,Palermo / Punta Raisi Airport,Palermo,Sicily,IT,65,38.17599869,13.0909996,Europe/Rome,,4.444169755,0
 51,LFBD,27505,BOD,Bordeaux-Merignac (BA 106) Airport,Bordeaux/Merignac,Nouvelle-Aquitaine,FR,162,44.82830048,-0.715556026,Europe/Paris,,4.439411649,1
