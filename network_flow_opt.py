@@ -66,9 +66,7 @@ if status == smcf.OPTIMAL:
     print()
     print(smcf.num_arcs())
     for arc in range(smcf.num_arcs()):
-        # Can ignore arcs leading out of source or into sink.
-
-
+  
         print('Worker %d assigned to task %d.  Cost = %d' %
                 (smcf.tail(arc), smcf.head(arc), smcf.unit_cost(arc)))
 else:
