@@ -30,7 +30,7 @@ copy_paste_csv("edge_list_final.csv", "edge_eurocontrol.csv")
 """
 
 # Read the data for finding coordinates
-df_nodes: pd.DataFrame = pd.read_csv("node_eurocontrol")
+df_nodes: pd.DataFrame = pd.read_csv("node_eurocontrol_w_bases.csv")
 icaos: np.ndarray = df_nodes["icao"].to_numpy()
 lats: np.ndarray = df_nodes["lat"].to_numpy()
 lons: np.ndarray = df_nodes["lon"].to_numpy()
@@ -43,7 +43,7 @@ for icao, lat, lon in zip(icaos, lats, lons):
     icao_coord[icao]: tuple = (lat, lon)
 
 # Read the data for finding the different flights
-df_edges: pd.DataFrame = pd.read_csv("edge_list_final.csv")
+df_edges: pd.DataFrame = pd.read_csv("edge_eurocontrol_minute.csv")
 origin_airport_icao: np.ndarray = df_edges["origin_airport_icao"].to_numpy()
 dest_airport_icao: np.ndarray = df_edges["destination_airport_icao"].to_numpy()
 
@@ -104,7 +104,7 @@ for count, (origin, destination) in enumerate(
 # add the co2 column to the dataframe
 df_edges["co2"] = co2_array
 df_edges["distance(km)"] = dist_array
-print(df_edges.head())
+# print(df_edges.head())
 """
 to create the new csv file for the eurocontrol edges
 df_edges.to_csv("edge_eurocontrol.csv", index=False)

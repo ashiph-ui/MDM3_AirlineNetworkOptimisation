@@ -3,7 +3,7 @@ import pandas as pd
 import numpy as np
 
 # Load nodes and edges from csv file
-airports_df = pd.read_csv('node_eurocontrol_w_bases.csv', encoding='cp1252', index_col='index')
+airports_df = pd.read_csv('node_eurocontrol_w_bases.csv', encoding='cp1252', index_col='NodeID')
 flights_df = pd.read_csv('edge_eurocontrol_minute.csv', encoding='cp1252')
 # append number of nodes and flights (arcs)
 num_nodes = len(airports_df)
@@ -26,10 +26,12 @@ def passenger_flow(airport_df, flight_df):
     # Compute the total number of passengers  
     df['pass_total'] = df['passenger_inbound'] + df['passenger_outbound']
     df['supplies_pass'] = df['passenger_inbound'] - df['passenger_outbound'] 
+    df['num_flights'] = df['num_inbound_flights'] + df['num_outbound_flights']
    
     return df
 
 new_df = passenger_flow(airports_df, flights_df)
+num_flights = new_df['num_outbound_flights'].to_list()
 
 # call the min cost flow solver 
 smcf = min_cost_flow.SimpleMinCostFlow()
@@ -58,17 +60,17 @@ for i in range(num_arcs):
 for i in range(len(supplies)):
     smcf.set_node_supply(i, supplies[i])
 
-# Define any additional constraints, such as minimum or maximum delay times
-status = smcf.solve()
+# # Define any additional constraints, such as minimum or maximum delay times
+# status = smcf.solve()
 
-if status == smcf.OPTIMAL:
-    print('Total cost = ', smcf.optimal_cost())
-    print()
-    print(smcf.num_arcs())
-    for arc in range(smcf.num_arcs()):
+# if status == smcf.OPTIMAL:
+#     print('Total cost = ', smcf.optimal_cost())
+#     print()
+#     print(smcf.num_arcs())
+#     for arc in range(smcf.num_arcs()):
   
-        print('Worker %d assigned to task %d.  Cost = %d' %
-                (smcf.tail(arc), smcf.head(arc), smcf.unit_cost(arc)))
-else:
-    print('There was an issue with the min cost flow input.')
-    print(f'Status: {status}')
+#         print('Worker %d assigned to task %d.  Cost = %d' %
+#                 (smcf.tail(arc), smcf.head(arc), smcf.unit_cost(arc)))
+# else:
+#     print('There was an issue with the min cost flow input.')
+#     print(f'Status: {status}')
