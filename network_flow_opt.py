@@ -31,7 +31,11 @@ def passenger_flow(airport_df, flight_df):
     return df
 
 new_df = passenger_flow(airports_df, flights_df)
-num_flights = new_df['num_outbound_flights'].to_list()
+num_flights = {}
+# get a dictionary of the airport and its corresponding number of flights
+for i in range(len(new_df)):
+    num_flights[new_df.iloc[i]['icao']] = new_df.iloc[i]['num_outbound_flights']
+
 
 # call the min cost flow solver 
 smcf = min_cost_flow.SimpleMinCostFlow()
