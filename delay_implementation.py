@@ -2,6 +2,7 @@ from ortools.constraint_solver import pywrapcp
 from ortools.constraint_solver import routing_enums_pb2
 from Co2_calculate import *
 from network_flow_opt import *
+from make_network import *
 
 import pandas as pd
 import numpy as np
@@ -27,9 +28,33 @@ def create_networkx_graph(edge_df, weight: str):
 G_time = create_networkx_graph(edge_df, 'flight_time_mn')
 G_distance = create_networkx_graph(df_edges, 'distance(km)')
 
+# get list of tuples of origin and destination airports
+def get_from_and_to(data):
+    from_to = []
+    origin = data['origin_airport_icao']
+    destination = data['destination_airport_icao']
+    for i in range(len(origin)):
+        from_to.append((origin[i], destination[i]))
+    return from_to
+
+from_to = get_from_and_to(edge_df)
+
+# use from_to to make a dictionary of destinations for each origin
+def get_destinations(from_to):
+    destinations = {}
+    for i in range(len(from_to)):
+        if from_to[i][0] in destinations:
+            destinations[from_to[i][0]].append(from_to[i][1])
+        else:
+            destinations[from_to[i][0]] = [from_to[i][1]]
+    return destinations
+
+# Dictionary of destinations for each origin airport
+destinations = get_destinations(from_to)
+
 shortest_path_time = dict(nx.all_pairs_dijkstra_path_length(G_time))
 shortest_path_distance = dict(nx.all_pairs_dijkstra_path_length(G_distance))
-print(shortest_path_distance)
+# print(shortest_path_distance)
 def travel_time_matrix(G):
     # Create the travel time matrix
     travel_time = 0
@@ -42,7 +67,10 @@ def travel_time_matrix(G):
                     travel_time = shortest_path_time[origin][dest]
                 except KeyError:
                     travel_time = np.inf
-            travel_time_matrix[i][j] = travel_time
+            if origin in destinations and dest in destinations[origin]:
+                travel_time_matrix[i][j] = travel_time
+            else:
+                travel_time_matrix[i][j] = np.inf
             
     return travel_time_matrix
 
@@ -58,11 +86,16 @@ def distance_matrix(G):
                     distance = shortest_path_distance[origin][dest]
                 except KeyError:
                     distance = np.inf
-            distance_matrix[i][j] = distance
+            if origin in destinations and dest in destinations[origin]:
+                distance_matrix[i][j] = distance
+            else:
+                distance_matrix[i][j] = np.inf
+            
     return distance_matrix
 
 travel = travel_time_matrix(G_time)
 distance = distance_matrix(G_distance)
+
 
  # list of start nodes correponding to each plane leaving a base, using data form node df 
 
@@ -86,13 +119,13 @@ def calculate_planes_needed(aircraft_range):
     num_planes = {}
     for base in bases_index:
         flights = num_flights[base]
-        print(flights)
+        # print(flights)
         distance_node = sum(distance[base])
-        print(distance_node)
+        # print(distance_node)
         num_planes[base] = int(round(flights * distance_node / (aircraft_range * 24 * 0.8)))
     return num_planes
 num_planes = calculate_planes_needed(6300)
-print(num_planes)
+# print(num_planes)
 # get the start and end nodes for each plane using calculated number of planes per base
 bases = []
 
@@ -126,10 +159,10 @@ def print_solution(data, manager, routing, solution):
                 previous_index, index, vehicle_id)
         plan_output += '{}\n'.format(manager.IndexToNode(index))
         plan_output += 'Distance of the route: {}m\n'.format(route_distance)
-        print(plan_output)
+        # print(plan_output)
         max_route_distance = max(route_distance, max_route_distance)
         solutions[vehicle_id] = vehicle_solution
-    print('Maximum of the route distances: {}m'.format(max_route_distance))
+    # print('Maximum of the route distances: {}m'.format(max_route_distance))
     return solutions
 
 """Solve the CVRP problem."""

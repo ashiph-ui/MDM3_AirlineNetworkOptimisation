@@ -50,9 +50,10 @@ def get_from_and_to(data):
 
 
 if __name__ == '__main__':
-    data = pd.read_csv('MDM3_AirlineNetworkOptimisation\edge_list_final.csv', sep=',')
+    print("Getting From and To...")
+    # data = pd.read_csv('MDM3_AirlineNetworkOptimisation\edge_list_final.csv', sep=',')
 
-    G = makeNet(data)
+    # G = makeNet(data)
     # Analysis of the graph: Measure of centrality
     # print('Degree centrality: ', degree_centrality(G))
     # print('Closeness centrality: ', closeness_centrality(G))
@@ -69,4 +70,4 @@ if __name__ == '__main__':
     # plot_centrality(deg_centrality, close_centrality, betw_centrality, eigen_centrality)
     # highest_centrality(deg_centrality, close_centrality, betw_centrality, eigen_centrality)
     
-    from_to = get_from_and_to(data)
+    # from_to = get_from_and_to(data)
