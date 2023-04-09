@@ -1,4 +1,4 @@
-index,icao,Total Time Delayed,iata,name,city,subd,country,elevation,lat,lon,tz,lid,Time_delayed_scale,base
+NodeID,icao,Total Time Delayed,iata,name,city,subd,country,elevation,lat,lon,tz,lid,Time_delayed_scale,base
 0,EHAM,207875,AMS,Amsterdam Airport Schiphol,Amsterdam,North Holland,NL,-11,52.30860138,4.76388979,Europe/Amsterdam,,5.317802262,1
 1,LFPG,204649,CDG,Charles de Gaulle International Airport,Paris,Ile-de-France,FR,392,49.01279831,2.549999952,Europe/Paris,,5.311009627,1
 2,LEMD,175979,MAD,Madrid Barajas International Airport,Madrid,Madrid,ES,2001,40.4936,-3.56676,Europe/Madrid,,5.245460845,0
