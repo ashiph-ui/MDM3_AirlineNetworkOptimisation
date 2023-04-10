@@ -76,7 +76,7 @@ for _, node in base_nodes.iterrows():
     bases_index[node['icao']] = node['NodeID']
 node_list = list(node_df['icao'].unique())
 
-def distance_matrix(G):
+def matrix_opt(G):
     # Create the distance matrix
     n_nodes = len(G.nodes)
     distance_matrix = [[0]*n_nodes for i in range(n_nodes)]
@@ -84,12 +84,24 @@ def distance_matrix(G):
         i = node_list.index(u)
         j = node_list.index(v)
         distance_matrix[i][j] = weight
-     
     return distance_matrix
 
+def distance_matrix_full(G):
+    # Create the distance matrix
+    n_nodes = len(G.nodes)
+    distance_matrix = [[0]*n_nodes for i in range(n_nodes)]
+    for i, origin in enumerate(sorted(G.nodes)):
+        for j, dest in enumerate(sorted(G.nodes)):
+            if i!=j:
+                try:
+                    distance_matrix[i][j] = int(shortest_path_distance[origin][dest])
+                except KeyError:
+                    distance_matrix[i][j] = 0
+    return distance_matrix
 
-travel = travel_time_matrix(G_time)
-distance = distance_matrix(G_distance)
+travel = matrix_opt(G_time)
+distance_opt =matrix_opt(G_distance)
+distance_full = distance_matrix_full(G_distance)
 
  # list of start nodes correponding to each plane leaving a base, using data form node df 
 
@@ -99,16 +111,15 @@ distance = distance_matrix(G_distance)
 
 # get total distance of all flights
 total_distance = df_edges['distance(km)'].sum()
-
+print(len(travel[0]))
 def calculate_planes_needed(aircraft_range):
     num_planes = {}
     for key, value in bases_index.items():
-       
         flights = num_flights[key]
-        distance_node = sum(distance[value])
-     
+        distance_node = sum(distance_opt[value])
         num_planes[key] = int(round(flights * distance_node / (aircraft_range *24* 0.8)))
     return num_planes
+
 num_planes = calculate_planes_needed(6300)
 
 # get the start and end nodes for each plane using calculated number of planes per base
@@ -127,14 +138,13 @@ def create_data_model(matrix):
     data['num_vehicles'] = len(bases)
     data['bases_index'] = bases_index
     data['flights'] = num_flights
-    data['start'] = bases
-    data['end'] = bases
+    data['starts'] = bases
+    data['ends'] = bases
     return data
 
 def print_solution(data, manager, routing, solution):
     """Prints solution on console."""
     max_route_distance = 0
-    
     solutions = {}
     for vehicle_id in range(data['num_vehicles']):
         index = routing.Start(vehicle_id)
@@ -150,19 +160,19 @@ def print_solution(data, manager, routing, solution):
                 previous_index, index, vehicle_id)
         plan_output += '{}\n'.format(manager.IndexToNode(index))
         plan_output += 'Distance of the route: {}m\n'.format(route_distance)
-        # print(plan_output)
+        print(plan_output)
         max_route_distance = max(route_distance, max_route_distance)
         solutions[vehicle_id] = vehicle_solution
-    # print('Maximum of the route distances: {}m'.format(max_route_distance))
+    print('Maximum of the route distances: {}m'.format(max_route_distance))
     return solutions
 
 """Solve the CVRP problem."""
 # Instantiate the data problem.
-data = create_data_model(distance) 
+data = create_data_model(distance_full) 
 
 # Create the routing index manager.
 manager = pywrapcp.RoutingIndexManager(len(data['distance_matrix']),
-                                       data['num_vehicles'], data['start'],data['end'])
+                                       data['num_vehicles'], data['starts'], data['ends'])
 
 # Create Routing Model.
 routing = pywrapcp.RoutingModel(manager)
@@ -186,7 +196,7 @@ dimension_name = 'Distance'
 routing.AddDimension(
     transit_callback_index,
     0,  # no slack
-    6300,  # vehicle maximum travel distance
+    7000,  # vehicle maximum travel distance
     True,  # start cumul to zero
     dimension_name)
 distance_dimension = routing.GetDimensionOrDie(dimension_name)
@@ -195,9 +205,10 @@ distance_dimension.SetGlobalSpanCostCoefficient(100)
 
 # Setting first solution heuristic.
 search_parameters = pywrapcp.DefaultRoutingSearchParameters()
-search_parameters.first_solution_strategy = (
-    routing_enums_pb2.FirstSolutionStrategy.PATH_CHEAPEST_ARC)
-
+search_parameters.local_search_metaheuristic = (
+    routing_enums_pb2.LocalSearchMetaheuristic.GUIDED_LOCAL_SEARCH)
+search_parameters.time_limit.seconds = 30
+search_parameters.log_search = True
 # Solve the problem.
 solution = routing.SolveWithParameters(search_parameters)
 
