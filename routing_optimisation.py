@@ -122,6 +122,14 @@ def calculate_planes_needed(aircraft_range):
 
 num_planes = calculate_planes_needed(6300)
 
+# create a list of the origin and destination airports index for each flight from edge_df
+def get_flights_list():
+    flights = []
+    for index, row in df_edges.iterrows():
+        flights.append((row['origin_airport_icao'], row['destination_airport_icao']))
+    return flights
+pickups = get_flights_list()
+print(pickups)
 # get the start and end nodes for each plane using calculated number of planes per base
 def get_bases_list(num_planes):
     bases = []
@@ -136,8 +144,9 @@ def create_data_model(matrix):
     data = {}
     data['distance_matrix'] = matrix
     data['num_vehicles'] = len(bases)
-    data['bases_index'] = bases_index
-    data['flights'] = num_flights
+    data['demands'] = supplies
+    data['vehicle_capacities'] = [186] * len(bases)
+    data['pickups_deliveries'] = pickups
     data['starts'] = bases
     data['ends'] = bases
     return data
@@ -187,6 +196,21 @@ def distance_callback(from_index, to_index):
     return data['distance_matrix'][from_node][to_node]
 
 transit_callback_index = routing.RegisterTransitCallback(distance_callback)
+def demand_callback(from_index):
+    """Returns the demand of the node."""
+    # Convert from routing variable Index to demands NodeIndex.
+    from_node = manager.IndexToNode(from_index)
+    return data['demands'][from_node]
+
+demand_callback_index = routing.RegisterUnaryTransitCallback(
+    demand_callback)
+
+routing.AddDimensionWithVehicleCapacity(
+    demand_callback_index,
+    0,  # null capacity slack
+    data['vehicle_capacities'],  # vehicle maximum capacities
+    True,  # start cumul to zero
+    'Capacity')
 
 # Define cost of each arc.
 routing.SetArcCostEvaluatorOfAllVehicles(transit_callback_index)
