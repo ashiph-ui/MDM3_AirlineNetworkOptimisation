@@ -73,10 +73,10 @@ for p in all_planes:
     for r in all_routes:
         model.Add(sum(x[p, r, t] for t in all_time_slots) <= 1)
 
-for p in all_planes:
-    model.Add(sum(x[p, r, t] for r in all_routes for t in all_time_slots) >= 1)
-    # Ensure that the last route ends at the starting node
-    model.Add(sum(x[p, r, time_slots-1] for r in all_routes) * y[p, 0] == 1)
+# for p in all_planes:
+#     model.Add(sum(x[p, r, t] for r in all_routes for t in all_time_slots) >= 1)
+#     # Ensure that the last route ends at the starting node
+#     model.Add(sum(x[p, r, time_slots-1] for r in all_routes) * y[p, 0] == 1)
 
 # CONSTRAINTS TO ADD: 
 # 1. Route = edge(i,j) so route can only be used if j at time t-1 is the same as i at time t
