@@ -65,13 +65,17 @@ for p in all_planes:
     for r in all_routes:
         for t in all_time_slots:
             (i, j) = edges[r]
-            if not (i, j) in edges:
+            if not (i, j) in edges and i == locations.index(j) and j == locations.index(i):
                 model.Add(x[p, r, t] == 0)
 
 # plane p can use route r at most once
 for p in all_planes:
     for r in all_routes:
         model.Add(sum(x[p, r, t] for t in all_time_slots) <= 1)
+
+# all planes must start at t = 0
+for p in all_planes:
+    model.Add(sum(x[p, r, 0] for r in all_routes) == 1)
 
 # for p in all_planes:
 #     model.Add(sum(x[p, r, t] for r in all_routes for t in all_time_slots) >= 1)
