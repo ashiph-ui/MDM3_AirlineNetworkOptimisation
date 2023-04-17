@@ -6,7 +6,7 @@ import networkx as nx
 from ortools.sat.python import cp_model
 
 locations = ["loc1", "loc2", "loc3", "loc4", "loc5"]
-edges = [("loc1", "loc2"), ("loc2", "loc3"), ("loc3", "loc4"), ("loc4", "loc5"), ("loc5", "loc1")]
+edges = [("loc1", "loc2"), ("loc2", "loc3"), ("loc3", "loc4"), ("loc4", "loc5")]
 
 
 num_of_planes = 2
@@ -50,7 +50,7 @@ for p in all_planes:
 
 # Each plane can only be used 5 times - plane can only be used 5 times
 for p in all_planes:
-    model.Add(sum(x[p, r, t] for r in all_routes for t in all_time_slots) <= 3)
+    model.Add(sum(x[p, r, t] for r in all_routes for t in all_time_slots) <= 6)
 
 # Each route must be used at least once - route must be used at least once
 for r in all_routes:
@@ -73,9 +73,42 @@ for p in all_planes:
     for r in all_routes:
         model.Add(sum(x[p, r, t] for t in all_time_slots) <= 1)
 
-# all planes must start at t = 0
+# These next two constraints work but could not do without online sources - need to understand them better
+# How can we convert this to math notation for presentation
+
+# next route must start at the same node as the previous route ended
 for p in all_planes:
-    model.Add(sum(x[p, r, 0] for r in all_routes) == 1)
+    for r in range(num_of_routes-1):  # iterate over all routes except the last one
+        (i, j) = edges[r]
+        (i_next, j_next) = edges[r+1]
+        for t in range(time_slots-1):  # iterate over all time slots except the last one
+            model.Add(x[p, r, t] == x[p, r+1, t+1]).OnlyEnforceIf(x[p, r, t]).OnlyEnforceIf(x[p, r+1, t+1])
+
+for p in all_planes:
+    for i in range(num_of_routes - 1):
+        # Get the start and end times of the current edge and the next edge
+        start_time_i = model.NewIntVar(0, time_slots, f'start_time_{p}_{i}')
+        end_time_i = model.NewIntVar(0, time_slots, f'end_time_{p}_{i}')
+        start_time_j = model.NewIntVar(0, time_slots, f'start_time_{p}_{i+1}')
+        end_time_j = model.NewIntVar(0, time_slots, f'end_time_{p}_{i+1}')
+        
+        # Define the start and end times of the current edge
+        model.Add(start_time_i == sum(t * x[p, i, t] for t in all_time_slots))
+        model.Add(end_time_i == sum(t * x[p, i, t] for t in all_time_slots))
+        
+        # Define the start and end times of the next edge
+        model.Add(start_time_j == sum(t * x[p, i+1, t] for t in all_time_slots))
+        model.Add(end_time_j == sum(t * x[p, i+1, t] for t in all_time_slots))
+        
+        # Add the constraint that the start time of the next edge must be greater than or equal to the end time of the previous edge
+        model.Add(start_time_j >= end_time_i)
+
+
+
+
+# all planes must start at t = 0
+# for p in all_planes:
+#     model.Add(sum(x[p, r, 0] for r in all_routes) == 1)
 
 # for p in all_planes:
 #     model.Add(sum(x[p, r, t] for r in all_routes for t in all_time_slots) >= 1)
@@ -93,13 +126,15 @@ solver = cp_model.CpSolver()
 status = solver.Solve(model)
 
 # Print the solution
-if status == cp_model.OPTIMAL or status == cp_model.FEASIBLE:
+if status == cp_model.OPTIMAL:
     for p in all_planes:
         for r in all_routes:
             for t in all_time_slots:
                 if solver.Value(x[p, r, t]) == 1:
                     # for route print appropriate edge
                     print("Plane", p, "uses route", edges[r], "at time", t)
+else:
+    print("No solution found.")
 
 
                     
