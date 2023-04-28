@@ -53,7 +53,6 @@ for j in range(len(new_df)):
             for flight in outgoing_flights:
                 flight.SetCoefficient(1, incoming_flights)
 
-
 # Solve the model
 solver.Solve()
 
