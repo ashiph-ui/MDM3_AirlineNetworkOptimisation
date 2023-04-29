@@ -5,13 +5,35 @@ import matplotlib.pyplot as plt
 import networkx as nx
 from ortools.sat.python import cp_model
 
-locations = ["loc1", "loc2", "loc3", "loc4", "loc5"]
-edges = [("loc1", "loc2"), ("loc2", "loc3"), ("loc3", "loc4"), ("loc4", "loc5")]
+# Load nodes and edges from csv file
+airports_df = pd.read_csv('MDM3_AirlineNetworkOptimisation\\node_eurocontrol_w_bases.csv', encoding='cp1252', index_col='NodeID')
+flights_df = pd.read_csv('MDM3_AirlineNetworkOptimisation\\edge_eurocontrol_minute.csv', encoding='cp1252')
+# append number of nodes and flights (arcs)
+num_nodes = len(airports_df)
+num_arcs = len(flights_df)
 
+locations = airports_df['icao'].unique()
 
-num_of_planes = 2
+origin = airports_df['icao']
+dest = airports_df['iata']
+
+# print(len(list(zip(origin, dest))))
+edges = list(zip(origin, dest))
+
+num_of_planes = 77
 num_of_routes = len(edges)
-time_slots = 10
+time_slots = 25
+
+
+
+
+
+# locations = ["loc1", "loc2", "loc3", "loc4", "loc5"]
+# edges = [("loc1", "loc2"), ("loc2", "loc3"), ("loc3", "loc4"), ("loc4", "loc5")]
+
+# num_of_planes = 2
+# num_of_routes = len(edges)
+# time_slots = 10
 
 all_planes = range(num_of_planes)
 all_routes = range(num_of_routes)
@@ -48,9 +70,9 @@ for p in all_planes:
 for p in all_planes:
     model.Add(sum(x[p, r, t] for r in all_routes for t in all_time_slots) >= 1)
 
-# Each plane can only be used 5 times - plane can only be used 5 times
-for p in all_planes:
-    model.Add(sum(x[p, r, t] for r in all_routes for t in all_time_slots) <= 6)
+# # Each plane can only be used 6 times - plane can only be used 5 times
+# for p in all_planes:
+#     model.Add(sum(x[p, r, t] for r in all_routes for t in all_time_slots) <= 6)
 
 # Each route must be used at least once - route must be used at least once
 for r in all_routes:
